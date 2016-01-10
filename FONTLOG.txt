@@ -1,0 +1,54 @@
+FONTLOG for the Brawler font
+
+This file provides detailed information on the Brawler font Software.
+
+This information should be distributed along with the 
+Brawler fonts and any derivative works.
+
+Basic Font Information
+
+Brawler is a compact typeface with sharp features and a sturdy character, designed for comfortable reading in small sizes. It was initially planned as a typeface for newspapers and tabloids. Thus, the design concept was shaped by the demands of low quality printing media and the aesthetic preferences of periodical publications.
+
+
+Brawler is a Unicode typeface family that supports 
+languages that use the Latin script and its variants, and 
+could be expanded to support other scripts.
+
+More specifically, this release supports the following Unicode
+ranges: Latin-1
+
+To contribute to the project contact Alexei Vanyashin at 
+a (at) cyreal.org
+
+There are four .VBF Source files:
+1. Brawler-Regular-OTF.vbf (Merged and optimized file with Postscript outlines)
+2. Brawler-Regular-TTF.vbf (Manually hinted file with TrueType outlines)
+3. Brawler-Bold-OTF.vbf (Merged and optimized file with Postscript outlines)
+4. Brawler-Bold-TTF.vbf (Manually hinted file with TrueType outlines)
+
+ChangeLog
+
+15 December 2011 (v.1.001) Oleg Frolov
+— Initial release
+
+11 December 2013 (v.1.000 Bold) Haley Fiege
+— Initial release of Bold version
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and description (D). 
+This list is in alphabetical order.
+
+N: Haley Fiege
+E: haley@bighuman.com
+W: kingdomofawesome.com
+D: Designer
+
+N: Oleg Frolov
+E: olegf73@gmail.com
+W: www.cyreal.org
+D: Designer
+
+N: Alexei Vanyashin
+E: a (at) cyreal.org
+W: www.cyreal.org
+D: Mastering

@@ -3,3 +3,5 @@ Brawler is a compact typeface with sharp features and a sturdy character, design
 Brawler is a Unicode typeface family that supports 
 languages that use the Latin script and its variants, and 
 could be expanded to support other scripts.
+
+![Brawler Font](src/sample.png)

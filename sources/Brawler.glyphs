@@ -384,6 +384,8 @@ nodes = (
 width = 668;
 }
 );
+leftKerningGroup = A;
+rightKerningGroup = A;
 unicode = 0041;
 },
 {
@@ -512,6 +514,8 @@ nodes = (
 width = 668;
 }
 );
+leftKerningGroup = A;
+rightKerningGroup = A;
 unicode = 00C1;
 },
 {
@@ -650,6 +654,8 @@ nodes = (
 width = 668;
 }
 );
+leftKerningGroup = A;
+rightKerningGroup = A;
 unicode = 00C2;
 },
 {
@@ -816,6 +822,8 @@ nodes = (
 width = 668;
 }
 );
+leftKerningGroup = A;
+rightKerningGroup = A;
 unicode = 00C4;
 },
 {
@@ -944,6 +952,8 @@ nodes = (
 width = 668;
 }
 );
+leftKerningGroup = A;
+rightKerningGroup = A;
 unicode = 00C0;
 },
 {
@@ -1137,6 +1147,8 @@ nodes = (
 width = 668;
 }
 );
+leftKerningGroup = A;
+rightKerningGroup = A;
 unicode = 00C5;
 },
 {
@@ -1328,6 +1340,8 @@ nodes = (
 width = 668;
 }
 );
+leftKerningGroup = A;
+rightKerningGroup = A;
 unicode = 00C3;
 },
 {
@@ -1581,6 +1595,8 @@ nodes = (
 width = 934;
 }
 );
+leftKerningGroup = A;
+rightKerningGroup = E;
 unicode = 00C6;
 },
 {
@@ -1896,6 +1912,8 @@ nodes = (
 width = 636;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = B;
 unicode = 0042;
 },
 {
@@ -2110,6 +2128,8 @@ nodes = (
 width = 659;
 }
 );
+leftKerningGroup = O;
+rightKerningGroup = C;
 unicode = 0043;
 },
 {
@@ -2294,6 +2314,8 @@ nodes = (
 width = 661;
 }
 );
+leftKerningGroup = O;
+rightKerningGroup = C;
 unicode = 00C7;
 },
 {
@@ -2496,6 +2518,8 @@ nodes = (
 width = 725;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = O;
 unicode = 0044;
 },
 {
@@ -2738,6 +2762,8 @@ nodes = (
 width = 725;
 }
 );
+leftKerningGroup = Hbar;
+rightKerningGroup = E;
 unicode = 00D0;
 },
 {
@@ -2952,6 +2978,8 @@ nodes = (
 width = 611;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = E;
 unicode = 0045;
 },
 {
@@ -3087,6 +3115,8 @@ nodes = (
 width = 611;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = E;
 unicode = 00C9;
 },
 {
@@ -3232,6 +3262,8 @@ nodes = (
 width = 611;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = E;
 unicode = 00CA;
 },
 {
@@ -3405,6 +3437,8 @@ nodes = (
 width = 611;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = E;
 unicode = 00CB;
 },
 {
@@ -3540,6 +3574,8 @@ nodes = (
 width = 611;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = E;
 unicode = 00C8;
 },
 {
@@ -3720,6 +3756,8 @@ nodes = (
 width = 577;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = F;
 unicode = 0046;
 },
 {
@@ -3966,6 +4004,8 @@ nodes = (
 width = 713;
 }
 );
+leftKerningGroup = O;
+rightKerningGroup = C;
 unicode = 0047;
 },
 {
@@ -4213,6 +4253,8 @@ nodes = (
 width = 802;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = I;
 unicode = 0048;
 },
 {
@@ -4349,6 +4391,8 @@ nodes = (
 width = 362;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = I;
 unicode = 0049;
 },
 {
@@ -4460,6 +4504,8 @@ nodes = (
 width = 362;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = I;
 unicode = 00CD;
 },
 {
@@ -4581,6 +4627,8 @@ nodes = (
 width = 362;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = I;
 unicode = 00CE;
 },
 {
@@ -4730,6 +4778,8 @@ nodes = (
 width = 362;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = I;
 unicode = 00CF;
 },
 {
@@ -4841,6 +4891,8 @@ nodes = (
 width = 362;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = I;
 unicode = 00CC;
 },
 {
@@ -5033,6 +5085,8 @@ nodes = (
 width = 483;
 }
 );
+leftKerningGroup = J;
+rightKerningGroup = U;
 unicode = 004A;
 },
 {
@@ -5241,6 +5295,8 @@ nodes = (
 width = 687;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = K;
 unicode = 004B;
 },
 {
@@ -5382,6 +5438,8 @@ nodes = (
 width = 562;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = L;
 unicode = 004C;
 },
 {
@@ -5572,6 +5630,8 @@ nodes = (
 width = 952;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = I;
 unicode = 004D;
 },
 {
@@ -5748,6 +5808,8 @@ nodes = (
 width = 782;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = I;
 unicode = 004E;
 },
 {
@@ -5940,6 +6002,8 @@ nodes = (
 width = 782;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = I;
 unicode = 00D1;
 },
 {
@@ -6166,6 +6230,8 @@ nodes = (
 width = 765;
 }
 );
+leftKerningGroup = O;
+rightKerningGroup = O;
 unicode = 004F;
 },
 {
@@ -6318,6 +6384,8 @@ nodes = (
 width = 765;
 }
 );
+leftKerningGroup = O;
+rightKerningGroup = O;
 unicode = 00D3;
 },
 {
@@ -6480,6 +6548,8 @@ nodes = (
 width = 765;
 }
 );
+leftKerningGroup = O;
+rightKerningGroup = O;
 unicode = 00D4;
 },
 {
@@ -6670,6 +6740,8 @@ nodes = (
 width = 765;
 }
 );
+leftKerningGroup = O;
+rightKerningGroup = O;
 unicode = 00D6;
 },
 {
@@ -6822,6 +6894,8 @@ nodes = (
 width = 765;
 }
 );
+leftKerningGroup = O;
+rightKerningGroup = O;
 unicode = 00D2;
 },
 {
@@ -7144,6 +7218,8 @@ nodes = (
 width = 764;
 }
 );
+leftKerningGroup = O;
+rightKerningGroup = O;
 unicode = 00D8;
 },
 {
@@ -7359,6 +7435,8 @@ nodes = (
 width = 765;
 }
 );
+leftKerningGroup = O;
+rightKerningGroup = O;
 unicode = 00D5;
 },
 {
@@ -7680,6 +7758,8 @@ nodes = (
 width = 966;
 }
 );
+leftKerningGroup = O;
+rightKerningGroup = E;
 unicode = 0152;
 },
 {
@@ -7912,6 +7992,8 @@ nodes = (
 width = 599;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = P;
 unicode = 0050;
 },
 {
@@ -8166,6 +8248,8 @@ nodes = (
 width = 579;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = P;
 unicode = 00DE;
 },
 {
@@ -8428,6 +8512,8 @@ nodes = (
 width = 766;
 }
 );
+leftKerningGroup = O;
+rightKerningGroup = O;
 unicode = 0051;
 },
 {
@@ -8690,6 +8776,8 @@ nodes = (
 width = 663;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = R;
 unicode = 0052;
 },
 {
@@ -8982,6 +9070,8 @@ nodes = (
 width = 545;
 }
 );
+leftKerningGroup = S;
+rightKerningGroup = S;
 unicode = 0053;
 },
 {
@@ -9151,6 +9241,8 @@ nodes = (
 width = 627;
 }
 );
+leftKerningGroup = T;
+rightKerningGroup = T;
 unicode = 0054;
 },
 {
@@ -9351,6 +9443,8 @@ nodes = (
 width = 749;
 }
 );
+leftKerningGroup = U;
+rightKerningGroup = U;
 unicode = 0055;
 },
 {
@@ -9492,6 +9586,8 @@ nodes = (
 width = 749;
 }
 );
+leftKerningGroup = U;
+rightKerningGroup = U;
 unicode = 00DA;
 },
 {
@@ -9643,6 +9739,8 @@ nodes = (
 width = 749;
 }
 );
+leftKerningGroup = U;
+rightKerningGroup = U;
 unicode = 00DB;
 },
 {
@@ -9822,6 +9920,8 @@ nodes = (
 width = 749;
 }
 );
+leftKerningGroup = U;
+rightKerningGroup = U;
 unicode = 00DC;
 },
 {
@@ -9963,6 +10063,8 @@ nodes = (
 width = 749;
 }
 );
+leftKerningGroup = U;
+rightKerningGroup = U;
 unicode = 00D9;
 },
 {
@@ -10102,6 +10204,8 @@ nodes = (
 width = 661;
 }
 );
+leftKerningGroup = V;
+rightKerningGroup = V;
 unicode = 0056;
 },
 {
@@ -10292,6 +10396,8 @@ nodes = (
 width = 1021;
 }
 );
+leftKerningGroup = V;
+rightKerningGroup = V;
 unicode = 0057;
 },
 {
@@ -10485,6 +10591,8 @@ nodes = (
 width = 664;
 }
 );
+leftKerningGroup = X;
+rightKerningGroup = X;
 unicode = 0058;
 },
 {
@@ -10657,6 +10765,8 @@ nodes = (
 width = 637;
 }
 );
+leftKerningGroup = Y;
+rightKerningGroup = Y;
 unicode = 0059;
 },
 {
@@ -10785,6 +10895,8 @@ nodes = (
 width = 637;
 }
 );
+leftKerningGroup = Y;
+rightKerningGroup = Y;
 unicode = 00DD;
 },
 {
@@ -10913,6 +11025,8 @@ nodes = (
 width = 597;
 }
 );
+leftKerningGroup = Z;
+rightKerningGroup = Z;
 unicode = 005A;
 },
 {
@@ -11240,6 +11354,8 @@ nodes = (
 width = 526;
 }
 );
+leftKerningGroup = a;
+rightKerningGroup = n;
 unicode = 0061;
 },
 {
@@ -11446,6 +11562,8 @@ nodes = (
 width = 526;
 }
 );
+leftKerningGroup = a;
+rightKerningGroup = n;
 unicode = 00E1;
 },
 {
@@ -11662,6 +11780,8 @@ nodes = (
 width = 526;
 }
 );
+leftKerningGroup = a;
+rightKerningGroup = n;
 unicode = 00E2;
 },
 {
@@ -11906,6 +12026,8 @@ nodes = (
 width = 526;
 }
 );
+leftKerningGroup = a;
+rightKerningGroup = n;
 unicode = 00E4;
 },
 {
@@ -12112,6 +12234,8 @@ nodes = (
 width = 526;
 }
 );
+leftKerningGroup = a;
+rightKerningGroup = n;
 unicode = 00E0;
 },
 {
@@ -12386,6 +12510,8 @@ nodes = (
 width = 526;
 }
 );
+leftKerningGroup = a;
+rightKerningGroup = n;
 unicode = 00E5;
 },
 {
@@ -12655,6 +12781,8 @@ nodes = (
 width = 526;
 }
 );
+leftKerningGroup = a;
+rightKerningGroup = n;
 unicode = 00E3;
 },
 {
@@ -13121,6 +13249,8 @@ nodes = (
 width = 816;
 }
 );
+leftKerningGroup = a;
+rightKerningGroup = e;
 unicode = 00E6;
 },
 {
@@ -13353,6 +13483,8 @@ nodes = (
 width = 579;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = o;
 unicode = 0062;
 },
 {
@@ -13554,6 +13686,8 @@ nodes = (
 width = 517;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = c;
 unicode = 0063;
 },
 {
@@ -13731,6 +13865,8 @@ nodes = (
 width = 517;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = c;
 unicode = 00E7;
 },
 {
@@ -14001,6 +14137,8 @@ nodes = (
 width = 599;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = d;
 unicode = 0064;
 },
 {
@@ -14365,6 +14503,8 @@ nodes = (
 width = 581;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = o;
 unicode = 00F0;
 },
 {
@@ -14601,6 +14741,8 @@ nodes = (
 width = 535;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = e;
 unicode = 0065;
 },
 {
@@ -14757,6 +14899,8 @@ nodes = (
 width = 535;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = e;
 unicode = 00E9;
 },
 {
@@ -14922,6 +15066,8 @@ nodes = (
 width = 535;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = e;
 unicode = 00EA;
 },
 {
@@ -15116,6 +15262,8 @@ nodes = (
 width = 535;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = e;
 unicode = 00EB;
 },
 {
@@ -15272,6 +15420,8 @@ nodes = (
 width = 535;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = e;
 unicode = 00E8;
 },
 {
@@ -15481,6 +15631,8 @@ nodes = (
 width = 370;
 }
 );
+leftKerningGroup = f;
+rightKerningGroup = f;
 unicode = 0066;
 },
 {
@@ -15982,6 +16134,8 @@ nodes = (
 width = 568;
 }
 );
+leftKerningGroup = g;
+rightKerningGroup = g;
 unicode = 0067;
 },
 {
@@ -16200,6 +16354,8 @@ nodes = (
 width = 610;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = n;
 unicode = 0068;
 },
 {
@@ -16380,6 +16536,8 @@ nodes = (
 width = 305;
 }
 );
+leftKerningGroup = idotless;
+rightKerningGroup = idotless;
 unicode = 0069;
 },
 {
@@ -16498,6 +16656,8 @@ nodes = (
 width = 305;
 }
 );
+leftKerningGroup = idotless;
+rightKerningGroup = idotless;
 unicode = 0131;
 },
 {
@@ -16625,6 +16785,8 @@ nodes = (
 width = 305;
 }
 );
+leftKerningGroup = idotless;
+rightKerningGroup = idotless;
 unicode = 00ED;
 },
 {
@@ -16762,6 +16924,8 @@ nodes = (
 width = 305;
 }
 );
+leftKerningGroup = idotless;
+rightKerningGroup = idotless;
 unicode = 00EE;
 },
 {
@@ -16927,6 +17091,8 @@ nodes = (
 width = 305;
 }
 );
+leftKerningGroup = idotless;
+rightKerningGroup = idotless;
 unicode = 00EF;
 },
 {
@@ -17054,6 +17220,8 @@ nodes = (
 width = 305;
 }
 );
+leftKerningGroup = idotless;
+rightKerningGroup = idotless;
 unicode = 00EC;
 },
 {
@@ -17278,6 +17446,8 @@ nodes = (
 width = 273;
 }
 );
+leftKerningGroup = jdotless;
+rightKerningGroup = jdotless;
 unicode = 006A;
 },
 {
@@ -17464,6 +17634,8 @@ nodes = (
 width = 587;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = k;
 unicode = 006B;
 },
 {
@@ -17576,6 +17748,8 @@ nodes = (
 width = 292;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = l;
 unicode = 006C;
 },
 {
@@ -17875,6 +18049,8 @@ nodes = (
 width = 923;
 }
 );
+leftKerningGroup = n;
+rightKerningGroup = n;
 unicode = 006D;
 },
 {
@@ -18093,6 +18269,8 @@ nodes = (
 width = 625;
 }
 );
+leftKerningGroup = n;
+rightKerningGroup = n;
 unicode = 006E;
 },
 {
@@ -18299,6 +18477,8 @@ nodes = (
 width = 625;
 }
 );
+leftKerningGroup = n;
+rightKerningGroup = n;
 unicode = 00F1;
 },
 {
@@ -18525,6 +18705,8 @@ nodes = (
 width = 593;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = o;
 unicode = 006F;
 },
 {
@@ -18676,6 +18858,8 @@ nodes = (
 width = 593;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = o;
 unicode = 00F3;
 },
 {
@@ -18837,6 +19021,8 @@ nodes = (
 width = 593;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = o;
 unicode = 00F4;
 },
 {
@@ -19026,6 +19212,8 @@ nodes = (
 width = 593;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = o;
 unicode = 00F6;
 },
 {
@@ -19177,6 +19365,8 @@ nodes = (
 width = 593;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = o;
 unicode = 00F2;
 },
 {
@@ -19497,6 +19687,8 @@ nodes = (
 width = 592;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = o;
 unicode = 00F8;
 },
 {
@@ -19711,6 +19903,8 @@ nodes = (
 width = 593;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = o;
 unicode = 00F5;
 },
 {
@@ -20105,6 +20299,8 @@ nodes = (
 width = 935;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = e;
 unicode = 0153;
 },
 {
@@ -20373,6 +20569,8 @@ nodes = (
 width = 595;
 }
 );
+leftKerningGroup = n;
+rightKerningGroup = o;
 unicode = 0070;
 },
 {
@@ -20641,6 +20839,8 @@ nodes = (
 width = 575;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = o;
 unicode = 00FE;
 },
 {
@@ -20891,6 +21091,8 @@ nodes = (
 width = 568;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = q;
 unicode = 0071;
 },
 {
@@ -21073,6 +21275,8 @@ nodes = (
 width = 448;
 }
 );
+leftKerningGroup = n;
+rightKerningGroup = r;
 unicode = 0072;
 },
 {
@@ -21326,6 +21530,8 @@ nodes = (
 width = 456;
 }
 );
+leftKerningGroup = s;
+rightKerningGroup = s;
 unicode = 0073;
 },
 {
@@ -21673,6 +21879,8 @@ nodes = (
 width = 670;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = germandbls;
 unicode = 00DF;
 },
 {
@@ -21859,6 +22067,8 @@ nodes = (
 width = 377;
 }
 );
+leftKerningGroup = t;
+rightKerningGroup = t;
 unicode = 0074;
 },
 {
@@ -22077,6 +22287,8 @@ nodes = (
 width = 608;
 }
 );
+leftKerningGroup = u;
+rightKerningGroup = u;
 unicode = 0075;
 },
 {
@@ -22228,6 +22440,8 @@ nodes = (
 width = 607;
 }
 );
+leftKerningGroup = u;
+rightKerningGroup = u;
 unicode = 00FA;
 },
 {
@@ -22389,6 +22603,8 @@ nodes = (
 width = 607;
 }
 );
+leftKerningGroup = u;
+rightKerningGroup = u;
 unicode = 00FB;
 },
 {
@@ -22578,6 +22794,8 @@ nodes = (
 width = 607;
 }
 );
+leftKerningGroup = u;
+rightKerningGroup = u;
 unicode = 00FC;
 },
 {
@@ -22729,6 +22947,8 @@ nodes = (
 width = 607;
 }
 );
+leftKerningGroup = u;
+rightKerningGroup = u;
 unicode = 00F9;
 },
 {
@@ -22868,6 +23088,8 @@ nodes = (
 width = 553;
 }
 );
+leftKerningGroup = v;
+rightKerningGroup = v;
 unicode = 0076;
 },
 {
@@ -23058,6 +23280,8 @@ nodes = (
 width = 804;
 }
 );
+leftKerningGroup = v;
+rightKerningGroup = v;
 unicode = 0077;
 },
 {
@@ -23247,6 +23471,8 @@ nodes = (
 width = 570;
 }
 );
+leftKerningGroup = x;
+rightKerningGroup = x;
 unicode = 0078;
 },
 {
@@ -23466,6 +23692,8 @@ nodes = (
 width = 544;
 }
 );
+leftKerningGroup = y;
+rightKerningGroup = y;
 unicode = 0079;
 },
 {
@@ -23614,6 +23842,8 @@ nodes = (
 width = 544;
 }
 );
+leftKerningGroup = y;
+rightKerningGroup = y;
 unicode = 00FD;
 },
 {
@@ -23798,6 +24028,8 @@ nodes = (
 width = 544;
 }
 );
+leftKerningGroup = y;
+rightKerningGroup = y;
 unicode = 00FF;
 },
 {
@@ -23926,6 +24158,8 @@ nodes = (
 width = 502;
 }
 );
+leftKerningGroup = z;
+rightKerningGroup = z;
 unicode = 007A;
 },
 {
@@ -24227,6 +24461,8 @@ nodes = (
 width = 387;
 }
 );
+leftKerningGroup = ordfeminine;
+rightKerningGroup = ordfeminine;
 unicode = 00AA;
 },
 {
@@ -24449,6 +24685,8 @@ nodes = (
 width = 420;
 }
 );
+leftKerningGroup = ordfeminine;
+rightKerningGroup = ordfeminine;
 unicode = 00BA;
 },
 {
@@ -24699,6 +24937,8 @@ nodes = (
 width = 592;
 }
 );
+leftKerningGroup = zero;
+rightKerningGroup = zero;
 unicode = 0030;
 },
 {
@@ -24827,6 +25067,8 @@ nodes = (
 width = 556;
 }
 );
+leftKerningGroup = one;
+rightKerningGroup = one;
 unicode = 0031;
 },
 {
@@ -25053,6 +25295,8 @@ nodes = (
 width = 579;
 }
 );
+leftKerningGroup = two;
+rightKerningGroup = two;
 unicode = 0032;
 },
 {
@@ -25348,6 +25592,8 @@ nodes = (
 width = 592;
 }
 );
+leftKerningGroup = three;
+rightKerningGroup = three;
 unicode = 0033;
 },
 {
@@ -25523,6 +25769,8 @@ nodes = (
 width = 577;
 }
 );
+leftKerningGroup = four;
+rightKerningGroup = four;
 unicode = 0034;
 },
 {
@@ -25784,6 +26032,8 @@ nodes = (
 width = 575;
 }
 );
+leftKerningGroup = five;
+rightKerningGroup = five;
 unicode = 0035;
 },
 {
@@ -26034,6 +26284,8 @@ nodes = (
 width = 584;
 }
 );
+leftKerningGroup = six;
+rightKerningGroup = six;
 unicode = 0036;
 },
 {
@@ -26167,6 +26419,8 @@ nodes = (
 width = 485;
 }
 );
+leftKerningGroup = seven;
+rightKerningGroup = seven;
 unicode = 0037;
 },
 {
@@ -26543,6 +26797,8 @@ nodes = (
 width = 584;
 }
 );
+leftKerningGroup = eight;
+rightKerningGroup = eight;
 unicode = 0038;
 },
 {
@@ -26799,6 +27055,8 @@ nodes = (
 width = 584;
 }
 );
+leftKerningGroup = nine;
+rightKerningGroup = nine;
 unicode = 0039;
 },
 {
@@ -26923,6 +27181,8 @@ nodes = (
 width = 290;
 }
 );
+leftKerningGroup = onesuperior;
+rightKerningGroup = onesuperior;
 unicode = 00B9;
 },
 {
@@ -27128,6 +27388,8 @@ nodes = (
 width = 366;
 }
 );
+leftKerningGroup = twosuperior;
+rightKerningGroup = twosuperior;
 unicode = 00B2;
 },
 {
@@ -27408,6 +27670,8 @@ nodes = (
 width = 366;
 }
 );
+leftKerningGroup = threesuperior;
+rightKerningGroup = threesuperior;
 unicode = 00B3;
 },
 {
@@ -27578,6 +27842,8 @@ nodes = (
 width = 364;
 }
 );
+leftKerningGroup = foursuperior;
+rightKerningGroup = foursuperior;
 unicode = 2074;
 },
 {
@@ -27663,6 +27929,8 @@ nodes = (
 width = 375;
 }
 );
+leftKerningGroup = fraction;
+rightKerningGroup = fraction;
 unicode = 2044;
 },
 {
@@ -27998,6 +28266,8 @@ nodes = (
 width = 814;
 }
 );
+leftKerningGroup = onehalf;
+rightKerningGroup = onehalf;
 unicode = 00BD;
 },
 {
@@ -28292,6 +28562,8 @@ nodes = (
 width = 768;
 }
 );
+leftKerningGroup = onehalf;
+rightKerningGroup = onehalf;
 unicode = 00BC;
 },
 {
@@ -28783,6 +29055,8 @@ nodes = (
 width = 808;
 }
 );
+leftKerningGroup = onehalf;
+rightKerningGroup = onehalf;
 unicode = 00BE;
 },
 {
@@ -29012,6 +29286,8 @@ nodes = (
 width = 496;
 }
 );
+leftKerningGroup = asterisk;
+rightKerningGroup = asterisk;
 unicode = 002A;
 },
 {
@@ -29099,6 +29375,8 @@ nodes = (
 width = 583;
 }
 );
+leftKerningGroup = backslash;
+rightKerningGroup = backslash;
 unicode = 005C;
 },
 {
@@ -29208,6 +29486,8 @@ nodes = (
 width = 242;
 }
 );
+leftKerningGroup = hyphen;
+rightKerningGroup = hyphen;
 unicode = 00B7;
 },
 {
@@ -29341,6 +29621,8 @@ nodes = (
 width = 403;
 }
 );
+leftKerningGroup = hyphen;
+rightKerningGroup = hyphen;
 unicode = 2022;
 },
 {
@@ -29510,6 +29792,8 @@ nodes = (
 width = 268;
 }
 );
+leftKerningGroup = colon;
+rightKerningGroup = colon;
 unicode = 003A;
 },
 {
@@ -29645,6 +29929,8 @@ nodes = (
 width = 277;
 }
 );
+leftKerningGroup = period;
+rightKerningGroup = period;
 unicode = 002C;
 },
 {
@@ -29683,7 +29969,9 @@ layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
 width = 786;
 }
 );
+leftKerningGroup = period;
 leftMetricsKey = period;
+rightKerningGroup = period;
 rightMetricsKey = period;
 unicode = 2026;
 },
@@ -29853,6 +30141,8 @@ nodes = (
 width = 365;
 }
 );
+leftKerningGroup = exclam;
+rightKerningGroup = exclam;
 unicode = 0021;
 },
 {
@@ -30023,6 +30313,8 @@ nodes = (
 width = 248;
 }
 );
+leftKerningGroup = exclam;
+rightKerningGroup = exclam;
 unicode = 00A1;
 },
 {
@@ -30258,6 +30550,8 @@ nodes = (
 width = 842;
 }
 );
+leftKerningGroup = numbersign;
+rightKerningGroup = numbersign;
 unicode = 0023;
 },
 {
@@ -30367,6 +30661,8 @@ nodes = (
 width = 285;
 }
 );
+leftKerningGroup = period;
+rightKerningGroup = period;
 unicode = 002E;
 },
 {
@@ -30659,6 +30955,8 @@ nodes = (
 width = 432;
 }
 );
+leftKerningGroup = quesion;
+rightKerningGroup = question;
 unicode = 003F;
 },
 {
@@ -30951,6 +31249,8 @@ nodes = (
 width = 432;
 }
 );
+leftKerningGroup = questiondown;
+rightKerningGroup = questiondown;
 unicode = 00BF;
 },
 {
@@ -31112,6 +31412,8 @@ nodes = (
 width = 330;
 }
 );
+leftKerningGroup = quotesingle;
+rightKerningGroup = quotesingle;
 unicode = 0022;
 },
 {
@@ -31217,6 +31519,8 @@ nodes = (
 width = 190;
 }
 );
+leftKerningGroup = quotesingle;
+rightKerningGroup = quotesingle;
 unicode = 0027;
 },
 {
@@ -31412,6 +31716,8 @@ nodes = (
 width = 271;
 }
 );
+leftKerningGroup = colon;
+rightKerningGroup = colon;
 unicode = 003B;
 },
 {
@@ -31499,6 +31805,8 @@ nodes = (
 width = 598;
 }
 );
+leftKerningGroup = slash;
+rightKerningGroup = slash;
 unicode = 002F;
 },
 {
@@ -31576,6 +31884,8 @@ nodes = (
 width = 767;
 }
 );
+leftKerningGroup = period;
+rightKerningGroup = period;
 unicode = 005F;
 },
 {
@@ -31815,6 +32125,8 @@ nodes = (
 width = 315;
 }
 );
+leftKerningGroup = parenleft;
+rightKerningGroup = parenleft;
 unicode = 007B;
 },
 {
@@ -32054,6 +32366,8 @@ nodes = (
 width = 315;
 }
 );
+leftKerningGroup = parenright;
+rightKerningGroup = parenright;
 unicode = 007D;
 },
 {
@@ -32161,6 +32475,8 @@ nodes = (
 width = 271;
 }
 );
+leftKerningGroup = parenleft;
+rightKerningGroup = parenleft;
 unicode = 005B;
 },
 {
@@ -32268,6 +32584,8 @@ nodes = (
 width = 271;
 }
 );
+leftKerningGroup = parenright;
+rightKerningGroup = parenright;
 unicode = 005D;
 },
 {
@@ -32414,6 +32732,8 @@ nodes = (
 width = 365;
 }
 );
+leftKerningGroup = parenleft;
+rightKerningGroup = parenleft;
 unicode = 0028;
 },
 {
@@ -32560,6 +32880,8 @@ nodes = (
 width = 365;
 }
 );
+leftKerningGroup = parenright;
+rightKerningGroup = parenright;
 unicode = 0029;
 },
 {
@@ -32637,6 +32959,8 @@ nodes = (
 width = 1172;
 }
 );
+leftKerningGroup = hyphen;
+rightKerningGroup = hyphen;
 unicode = 2014;
 },
 {
@@ -32714,6 +33038,8 @@ nodes = (
 width = 702;
 }
 );
+leftKerningGroup = hyphen;
+rightKerningGroup = hyphen;
 unicode = 2013;
 },
 {
@@ -32794,6 +33120,8 @@ nodes = (
 width = 344;
 }
 );
+leftKerningGroup = hyphen;
+rightKerningGroup = hyphen;
 unicode = 002D;
 },
 {
@@ -32871,6 +33199,8 @@ nodes = (
 width = 367;
 }
 );
+leftKerningGroup = softhyphen;
+rightKerningGroup = softhyphen;
 unicode = 00AD;
 },
 {
@@ -33156,6 +33486,8 @@ nodes = (
 width = 508;
 }
 );
+leftKerningGroup = guilsinglleft;
+rightKerningGroup = guilsinglleft;
 unicode = 00AB;
 },
 {
@@ -33453,6 +33785,8 @@ nodes = (
 width = 508;
 }
 );
+leftKerningGroup = guilsinglright;
+rightKerningGroup = guilsinglright;
 unicode = 00BB;
 },
 {
@@ -33620,6 +33954,8 @@ nodes = (
 width = 314;
 }
 );
+leftKerningGroup = guilsinglleft;
+rightKerningGroup = guilsinglleft;
 unicode = 2039;
 },
 {
@@ -33793,6 +34129,8 @@ nodes = (
 width = 314;
 }
 );
+leftKerningGroup = guilsinglright;
+rightKerningGroup = guilsinglright;
 unicode = 203A;
 },
 {
@@ -34014,6 +34352,8 @@ nodes = (
 width = 442;
 }
 );
+leftKerningGroup = period;
+rightKerningGroup = period;
 unicode = 201E;
 },
 {
@@ -34237,6 +34577,8 @@ nodes = (
 width = 438;
 }
 );
+leftKerningGroup = quoteleft;
+rightKerningGroup = quoteleft;
 unicode = 201C;
 },
 {
@@ -34458,6 +34800,8 @@ nodes = (
 width = 436;
 }
 );
+leftKerningGroup = quoteright;
+rightKerningGroup = quoteright;
 unicode = 201D;
 },
 {
@@ -34595,6 +34939,8 @@ nodes = (
 width = 221;
 }
 );
+leftKerningGroup = quoteleft;
+rightKerningGroup = quoteleft;
 unicode = 2018;
 },
 {
@@ -34730,6 +35076,8 @@ nodes = (
 width = 224;
 }
 );
+leftKerningGroup = quoteright;
+rightKerningGroup = quoteright;
 unicode = 2019;
 },
 {
@@ -34865,6 +35213,8 @@ nodes = (
 width = 229;
 }
 );
+leftKerningGroup = period;
+rightKerningGroup = period;
 unicode = 201A;
 },
 {
@@ -34879,6 +35229,8 @@ layerId = UUID0;
 width = 246;
 }
 );
+leftKerningGroup = space;
+rightKerningGroup = space;
 unicode = 0020;
 },
 {
@@ -34893,6 +35245,8 @@ layerId = UUID0;
 width = 246;
 }
 );
+leftKerningGroup = space;
+rightKerningGroup = space;
 unicode = 00A0;
 },
 {
@@ -34907,6 +35261,8 @@ layerId = UUID0;
 width = 246;
 }
 );
+leftKerningGroup = CR;
+rightKerningGroup = CR;
 unicode = 000D;
 },
 {
@@ -35799,6 +36155,8 @@ nodes = (
 width = 527;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = c;
 unicode = 00A2;
 },
 {
@@ -36113,6 +36471,8 @@ nodes = (
 width = 559;
 }
 );
+leftKerningGroup = currency;
+rightKerningGroup = currency;
 unicode = 00A4;
 },
 {
@@ -36485,6 +36845,8 @@ nodes = (
 width = 555;
 }
 );
+leftKerningGroup = S;
+rightKerningGroup = S;
 unicode = 0024;
 },
 {
@@ -36769,6 +37131,8 @@ nodes = (
 width = 709;
 }
 );
+leftKerningGroup = O;
+rightKerningGroup = C;
 unicode = 20AC;
 },
 {
@@ -37053,6 +37417,8 @@ nodes = (
 width = 590;
 }
 );
+leftKerningGroup = sterling;
+rightKerningGroup = sterling;
 unicode = 00A3;
 },
 {
@@ -37295,6 +37661,8 @@ nodes = (
 width = 697;
 }
 );
+leftKerningGroup = Y;
+rightKerningGroup = Y;
 unicode = 00A5;
 },
 {
@@ -37319,6 +37687,8 @@ layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
 width = 598;
 }
 );
+leftKerningGroup = slash;
+rightKerningGroup = slash;
 unicode = 2215;
 },
 {
@@ -37449,6 +37819,8 @@ nodes = (
 width = 658;
 }
 );
+leftKerningGroup = plus;
+rightKerningGroup = plus;
 unicode = 002B;
 },
 {
@@ -37526,6 +37898,8 @@ nodes = (
 width = 610;
 }
 );
+leftKerningGroup = plus;
+rightKerningGroup = plus;
 unicode = 2212;
 },
 {
@@ -37643,6 +38017,8 @@ nodes = (
 width = 591;
 }
 );
+leftKerningGroup = plus;
+rightKerningGroup = plus;
 unicode = 00D7;
 },
 {
@@ -37860,6 +38236,8 @@ nodes = (
 width = 719;
 }
 );
+leftKerningGroup = plus;
+rightKerningGroup = plus;
 unicode = 00F7;
 },
 {
@@ -37981,6 +38359,8 @@ nodes = (
 width = 734;
 }
 );
+leftKerningGroup = plus;
+rightKerningGroup = plus;
 unicode = 003D;
 },
 {
@@ -38078,6 +38458,8 @@ nodes = (
 width = 694;
 }
 );
+leftKerningGroup = plus;
+rightKerningGroup = plus;
 unicode = 003E;
 },
 {
@@ -38175,6 +38557,8 @@ nodes = (
 width = 694;
 }
 );
+leftKerningGroup = plus;
+rightKerningGroup = plus;
 unicode = 003C;
 },
 {
@@ -38337,6 +38721,8 @@ nodes = (
 width = 625;
 }
 );
+leftKerningGroup = plus;
+rightKerningGroup = plus;
 unicode = 00B1;
 },
 {
@@ -38542,6 +38928,8 @@ nodes = (
 width = 602;
 }
 );
+leftKerningGroup = plus;
+rightKerningGroup = plus;
 unicode = 007E;
 },
 {
@@ -38636,6 +39024,8 @@ nodes = (
 width = 717;
 }
 );
+leftKerningGroup = plus;
+rightKerningGroup = plus;
 unicode = 00AC;
 },
 {
@@ -38852,6 +39242,8 @@ nodes = (
 width = 622;
 }
 );
+leftKerningGroup = u;
+rightKerningGroup = micro;
 unicode = 00B5;
 },
 {
@@ -39318,6 +39710,8 @@ nodes = (
 width = 701;
 }
 );
+leftKerningGroup = percent;
+rightKerningGroup = percent;
 unicode = 0025;
 },
 {
@@ -39801,6 +40195,8 @@ nodes = (
 width = 861;
 }
 );
+leftKerningGroup = at;
+rightKerningGroup = at;
 unicode = 0040;
 },
 {
@@ -40177,6 +40573,8 @@ nodes = (
 width = 749;
 }
 );
+leftKerningGroup = ampersand;
+rightKerningGroup = ampersand;
 unicode = 0026;
 },
 {
@@ -40314,6 +40712,8 @@ nodes = (
 width = 524;
 }
 );
+leftKerningGroup = paragraph;
+rightKerningGroup = I;
 unicode = 00B6;
 },
 {
@@ -40735,6 +41135,8 @@ nodes = (
 width = 502;
 }
 );
+leftKerningGroup = section;
+rightKerningGroup = section;
 unicode = 00A7;
 },
 {
@@ -41141,6 +41543,8 @@ nodes = (
 width = 854;
 }
 );
+leftKerningGroup = O;
+rightKerningGroup = O;
 unicode = 00A9;
 },
 {
@@ -41579,6 +41983,8 @@ nodes = (
 width = 854;
 }
 );
+leftKerningGroup = O;
+rightKerningGroup = O;
 unicode = 00AE;
 },
 {
@@ -41789,6 +42195,8 @@ nodes = (
 width = 355;
 }
 );
+leftKerningGroup = ordfeminine;
+rightKerningGroup = ordfeminine;
 unicode = 00B0;
 },
 {
@@ -41879,6 +42287,8 @@ nodes = (
 width = 233;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = I;
 unicode = 007C;
 },
 {
@@ -42003,6 +42413,8 @@ nodes = (
 width = 245;
 }
 );
+leftKerningGroup = I;
+rightKerningGroup = I;
 unicode = 00A6;
 },
 {
@@ -42100,6 +42512,8 @@ nodes = (
 width = 992;
 }
 );
+leftKerningGroup = asterisk;
+rightKerningGroup = asterisk;
 unicode = 005E;
 },
 {
@@ -43275,6 +43689,8 @@ nodes = (
 width = 212;
 }
 );
+leftKerningGroup = acute;
+rightKerningGroup = acute;
 unicode = 00B4;
 },
 {
@@ -43607,6 +44023,8 @@ nodes = (
 width = 319;
 }
 );
+leftKerningGroup = cedilla;
+rightKerningGroup = cedilla;
 unicode = 00B8;
 },
 {
@@ -43712,6 +44130,8 @@ nodes = (
 width = 523;
 }
 );
+leftKerningGroup = circumflex;
+rightKerningGroup = circumflex;
 unicode = 02C6;
 },
 {
@@ -43881,6 +44301,8 @@ nodes = (
 width = 372;
 }
 );
+leftKerningGroup = dieresis;
+rightKerningGroup = dieresis;
 unicode = 00A8;
 },
 {
@@ -44031,6 +44453,8 @@ nodes = (
 width = 527;
 }
 );
+leftKerningGroup = grave;
+rightKerningGroup = grave;
 unicode = 0060;
 },
 {
@@ -44170,6 +44594,8 @@ nodes = (
 width = 524;
 }
 );
+leftKerningGroup = macron;
+rightKerningGroup = macron;
 unicode = 00AF;
 },
 {
@@ -44436,6 +44862,8 @@ nodes = (
 width = 504;
 }
 );
+leftKerningGroup = ring;
+rightKerningGroup = ring;
 unicode = 02DA;
 },
 {
@@ -44633,6 +45061,8 @@ nodes = (
 width = 833;
 }
 );
+leftKerningGroup = tilde;
+rightKerningGroup = tilde;
 unicode = 02DC;
 },
 {
@@ -44647,6 +45077,8 @@ layerId = UUID0;
 width = 0;
 }
 );
+leftKerningGroup = NULL;
+rightKerningGroup = NULL;
 unicode = 0000;
 },
 {
@@ -45838,6 +46270,7 @@ UUID0 = 1;
 name = Regular;
 },
 {
+exports = 0;
 interpolationWeight = 700;
 instanceInterpolations = {
 "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183" = 1;

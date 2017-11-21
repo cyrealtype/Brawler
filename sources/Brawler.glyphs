@@ -1,6 +1,6 @@
 {
 .appVersion = "1075";
-copyright = "Copyright (c) 2011 by Oleg Frolov | Cyreal. All rights reserved. Copyright (c) 2013 Haley Fiege (haley@kingdomofawesome.com)";
+copyright = "Copyright 2011 The Brawler Project Authors (https://github.com/cyrealtype/Brawler)";
 customParameters = (
 {
 name = licenseURL;
@@ -41,7 +41,7 @@ value = CYRE;
 }
 );
 date = "2017-11-21 14:42:06 +0000";
-designer = "Oleg Frolov,  Haley Fiege";
+designer = "Oleg Frolov, Haley Fiege";
 designerURL = "http://cyreal.org";
 disablesAutomaticAlignment = 1;
 familyName = Brawler;
@@ -51646,7 +51646,7 @@ two = -12;
 };
 };
 keyboardIncrement = 0;
-manufacturer = "Oleg Frolov,  Haley Fiege";
+manufacturer = "Oleg Frolov, Haley Fiege";
 manufacturerURL = "http://cyreal.org";
 unitsPerEm = 1000;
 versionMajor = 1;

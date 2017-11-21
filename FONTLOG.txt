@@ -17,16 +17,19 @@ could be expanded to support other scripts.
 More specifically, this release supports the following Unicode
 ranges: Latin-1
 
-To contribute to the project contact Alexei Vanyashin at 
-a (at) cyreal.org
+To contribute to the project post an issue on git tracker https://github.com/cyrealtype/Brawler
 
-There are four .VBF Source files:
-1. Brawler-Regular-OTF.vbf (Merged and optimized file with Postscript outlines)
-2. Brawler-Regular-TTF.vbf (Manually hinted file with TrueType outlines)
-3. Brawler-Bold-OTF.vbf (Merged and optimized file with Postscript outlines)
-4. Brawler-Bold-TTF.vbf (Manually hinted file with TrueType outlines)
+Source file:
+sources/Brawler.glyphs
 
 ChangeLog
+
+21 November 2017 (v.1.100) Alexei Vanyashin
+
+— Moved sources to .glyphs
+— Reoganised repo structure as per GF standards
+— Added …∕ for GF Latin Core support
+— Fixes `post` table issue on Mac OS 10.11
 
 15 December 2011 (v.1.001) Oleg Frolov
 — Initial release
@@ -41,12 +44,12 @@ This list is in alphabetical order.
 N: Haley Fiege
 E: haley@bighuman.com
 W: kingdomofawesome.com
-D: Designer
+D: Designer of Bold
 
 N: Oleg Frolov
 E: olegf73@gmail.com
 W: www.cyreal.org
-D: Designer
+D: Original Designer
 
 N: Alexei Vanyashin
 E: a (at) cyreal.org

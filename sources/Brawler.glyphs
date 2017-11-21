@@ -29648,6 +29648,46 @@ width = 277;
 unicode = 002C;
 },
 {
+glyphname = ellipsis;
+layers = (
+{
+components = (
+{
+name = period;
+},
+{
+name = period;
+},
+{
+name = period;
+}
+);
+layerId = UUID0;
+width = 285;
+},
+{
+components = (
+{
+name = period;
+},
+{
+name = period;
+transform = "{1, 0, 0, 1, 250, 0}";
+},
+{
+name = period;
+transform = "{1, 0, 0, 1, 501, 1}";
+}
+);
+layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
+width = 786;
+}
+);
+leftMetricsKey = period;
+rightMetricsKey = period;
+unicode = 2026;
+},
+{
 glyphname = exclam;
 layers = (
 {
@@ -37261,50 +37301,22 @@ unicode = 00A5;
 glyphname = divisionslash;
 layers = (
 {
-background = {
-paths = (
+components = (
 {
-closed = 1;
-nodes = (
-"392 681 LINE",
-"55 -30 LINE",
-"-20 -30 LINE",
-"316 681 LINE"
-);
+name = slash;
 }
 );
-};
-hints = (
-{
-horizontal = 1;
-place = "{681, -20}";
-target = down;
-type = TopGhost;
+layerId = UUID0;
+width = 598;
 },
 {
-horizontal = 1;
-place = "{-30, 21}";
-target = up;
-type = BottomGhost;
+components = (
+{
+name = slash;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
-paths = (
-{
-closed = 1;
-nodes = (
-"316 681 LINE",
-"-20 -30 LINE",
-"95 -30 LINE",
-"431 681 LINE"
-);
-}
-);
-width = 375;
-},
-{
-layerId = UUID0;
-width = 600;
+width = 598;
 }
 );
 unicode = 2215;
@@ -37434,7 +37446,7 @@ nodes = (
 );
 }
 );
-width = 834;
+width = 658;
 }
 );
 unicode = 002B;

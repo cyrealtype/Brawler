@@ -31842,6 +31842,30 @@ width = 559;
 unicode = 00A4;
 },
 {
+glyphname = mu;
+layers = (
+{
+components = (
+{
+name = micro;
+}
+);
+layerId = UUID0;
+width = 622;
+},
+{
+components = (
+{
+name = micro;
+}
+);
+layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
+width = 663;
+}
+);
+unicode = 03BC;
+},
+{
 glyphname = twosuperior;
 lastChange = "2017-11-21 14:35:46 +0000";
 layers = (

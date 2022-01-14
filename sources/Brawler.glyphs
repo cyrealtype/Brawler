@@ -36,7 +36,7 @@ name = vendorID;
 value = CYRE;
 }
 );
-date = "2017-11-21 14:42:06 +0000";
+date = "2022-01-14 09:50:26 +0000";
 designer = "Oleg Frolov, Haley Fiege";
 designerURL = "http://cyreal.org";
 disablesAutomaticAlignment = 1;
@@ -50308,5 +50308,5 @@ manufacturer = "Oleg Frolov, Haley Fiege";
 manufacturerURL = "http://cyreal.org";
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 100;
+versionMinor = 101;
 }

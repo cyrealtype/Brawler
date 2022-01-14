@@ -7,10 +7,6 @@ name = licenseURL;
 value = "http://scripts.sil.org/OFL";
 },
 {
-name = description;
-value = "Copyright (c) 2011 by Oleg Frolov | Cyreal. All rights reserved.";
-},
-{
 name = trademark;
 value = "Brawler is a trademark of Oleg Frolov | Cyreal.";
 },
@@ -30987,13 +30983,15 @@ name = period;
 },
 {
 name = period;
+transform = "{1, 0, 0, 1, 184, 0}";
 },
 {
 name = period;
+transform = "{1, 0, 0, 1, 368, 0}";
 }
 );
 layerId = UUID0;
-width = 285;
+width = 653;
 },
 {
 components = (

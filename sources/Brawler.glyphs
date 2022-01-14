@@ -1,5 +1,5 @@
 {
-.appVersion = "1075";
+.appVersion = "1352";
 copyright = "Copyright 2011 The Brawler Project Authors (https://github.com/cyrealtype/Brawler)";
 customParameters = (
 {
@@ -100,7 +100,7 @@ capHeight = 700;
 customParameters = (
 {
 name = typoDescender;
-value = 248;
+value = -248;
 },
 {
 name = typoLineGap;
@@ -120,7 +120,7 @@ value = 971;
 },
 {
 name = hheaDescender;
-value = -247;
+value = -248;
 },
 {
 name = winDescent;
@@ -158,7 +158,7 @@ capHeight = 710;
 customParameters = (
 {
 name = typoDescender;
-value = 248;
+value = -248;
 },
 {
 name = typoLineGap;
@@ -178,7 +178,7 @@ value = 971;
 },
 {
 name = hheaDescender;
-value = -247;
+value = -248;
 },
 {
 name = winDescent;
@@ -248,6 +248,7 @@ hints = (
 {
 horizontal = 1;
 place = "{205, 80}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -333,14 +334,17 @@ nodes = (
 hints = (
 {
 place = "{-15, 699}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{220, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -450,14 +454,17 @@ nodes = (
 hints = (
 {
 place = "{-15, 699}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{220, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -468,6 +475,7 @@ type = TopGhost;
 {
 horizontal = 1;
 place = "{745, 183}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -585,14 +593,17 @@ nodes = (
 hints = (
 {
 place = "{-15, 699}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{220, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -603,6 +614,7 @@ type = TopGhost;
 {
 horizontal = 1;
 place = "{881, 49}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -737,14 +749,17 @@ nodes = (
 hints = (
 {
 place = "{-15, 699}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{220, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -888,14 +903,17 @@ nodes = (
 hints = (
 {
 place = "{-15, 699}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{220, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -906,6 +924,7 @@ type = TopGhost;
 {
 horizontal = 1;
 place = "{762, 168}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -1051,17 +1070,21 @@ nodes = (
 hints = (
 {
 place = "{217, 49}";
+type = Stem;
 },
 {
 place = "{401, 49}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{220, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -1072,10 +1095,12 @@ type = TopGhost;
 {
 horizontal = 1;
 place = "{738, 39}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{932, 39}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -1252,14 +1277,17 @@ nodes = (
 hints = (
 {
 place = "{-15, 699}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{220, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -1270,6 +1298,7 @@ type = TopGhost;
 {
 horizontal = 1;
 place = "{770, 139}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -1400,18 +1429,22 @@ nodes = (
 hints = (
 {
 place = "{544, 145}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 75}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{316, 79}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{635, 75}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -1517,31 +1550,39 @@ nodes = (
 hints = (
 {
 place = "{483, 100}";
+type = Stem;
 },
 {
 place = "{756, 28}";
+type = Stem;
 },
 {
 place = "{829, 50}";
+type = Stem;
 },
 {
 place = "{848, 52}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{316, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{645, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{333, 59}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -1675,31 +1716,39 @@ nodes = (
 hints = (
 {
 place = "{128, 146}";
+type = Stem;
 },
 {
 place = "{481, 156}";
+type = Stem;
 },
 {
 place = "{514, 123}";
+type = Stem;
 },
 {
 place = "{514, 155}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 80}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{330, 45}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{630, 80}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{330, 75}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -1833,24 +1882,30 @@ nodes = (
 hints = (
 {
 place = "{131, 100}";
+type = Stem;
 },
 {
 place = "{490, 105}";
+type = Stem;
 },
 {
 place = "{457, 105}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{335, 50}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{645, 55}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -1970,14 +2025,17 @@ nodes = (
 hints = (
 {
 place = "{51, 152}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-14, 71}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{652, 72}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -2071,20 +2129,25 @@ nodes = (
 hints = (
 {
 place = "{43, 105}";
+type = Stem;
 },
 {
 place = "{550, 51}";
+type = Stem;
 },
 {
 place = "{558, 51}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-14, 56}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{658, 55}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -2220,18 +2283,23 @@ nodes = (
 hints = (
 {
 place = "{44, 105}";
+type = Stem;
 },
 {
 place = "{334, 55}";
+type = Stem;
 },
 {
 place = "{551, 50}";
+type = Stem;
 },
 {
 place = "{559, 51}";
+type = Stem;
 },
 {
 place = "{376, 85}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -2242,14 +2310,17 @@ type = BottomGhost;
 {
 horizontal = 1;
 place = "{-9, 24}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{656, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-9, 56}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -2369,17 +2440,21 @@ nodes = (
 hints = (
 {
 place = "{120, 145}";
+type = Stem;
 },
 {
 place = "{579, 155}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 80}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{630, 80}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -2467,17 +2542,21 @@ nodes = (
 hints = (
 {
 place = "{131, 100}";
+type = Stem;
 },
 {
 place = "{575, 105}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{645, 55}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -2581,21 +2660,26 @@ nodes = (
 hints = (
 {
 place = "{127, 145}";
+type = Stem;
 },
 {
 place = "{586, 155}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 80}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{314, 105}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{630, 80}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -2699,21 +2783,26 @@ nodes = (
 hints = (
 {
 place = "{132, 100}";
+type = Stem;
 },
 {
 place = "{576, 105}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{331, 65}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{645, 55}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -2835,18 +2924,22 @@ nodes = (
 hints = (
 {
 place = "{120, 145}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 75}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{326, 74}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{635, 75}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -2920,27 +3013,34 @@ nodes = (
 hints = (
 {
 place = "{131, 100}";
+type = Stem;
 },
 {
 place = "{434, 28}";
+type = Stem;
 },
 {
 place = "{526, 52}";
+type = Stem;
 },
 {
 place = "{507, 50}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{333, 59}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{645, 55}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -3044,31 +3144,39 @@ nodes = (
 hints = (
 {
 place = "{131, 100}";
+type = Stem;
 },
 {
 place = "{434, 28}";
+type = Stem;
 },
 {
 place = "{526, 52}";
+type = Stem;
 },
 {
 place = "{507, 50}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{333, 59}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{645, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{746, 183}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -3186,31 +3294,39 @@ nodes = (
 hints = (
 {
 place = "{131, 100}";
+type = Stem;
 },
 {
 place = "{434, 28}";
+type = Stem;
 },
 {
 place = "{526, 52}";
+type = Stem;
 },
 {
 place = "{507, 50}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{333, 59}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{645, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{881, 49}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -3345,27 +3461,34 @@ nodes = (
 hints = (
 {
 place = "{131, 100}";
+type = Stem;
 },
 {
 place = "{434, 28}";
+type = Stem;
 },
 {
 place = "{526, 52}";
+type = Stem;
 },
 {
 place = "{507, 50}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{333, 59}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{645, 55}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -3503,31 +3626,39 @@ nodes = (
 hints = (
 {
 place = "{131, 100}";
+type = Stem;
 },
 {
 place = "{434, 28}";
+type = Stem;
 },
 {
 place = "{526, 52}";
+type = Stem;
 },
 {
 place = "{507, 50}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{333, 59}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{645, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{762, 168}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -3616,14 +3747,17 @@ nodes = (
 hints = (
 {
 place = "{120, 145}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{325, 75}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{635, 75}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -3699,28 +3833,35 @@ nodes = (
 hints = (
 {
 place = "{131, 100}";
+type = Stem;
 },
 {
 place = "{507, 50}";
+type = Stem;
 },
 {
 place = "{434, 28}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{333, 59}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{645, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 64}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -3824,17 +3965,21 @@ nodes = (
 hints = (
 {
 place = "{40, 154}";
+type = Stem;
 },
 {
 place = "{510, 135}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-14, 76}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{649, 75}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -3942,21 +4087,26 @@ nodes = (
 hints = (
 {
 place = "{44, 105}";
+type = Stem;
 },
 {
 place = "{529, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-14, 59}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{271, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{659, 55}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -4085,13 +4235,16 @@ nodes = (
 hints = (
 {
 place = "{124, 135}";
+type = Stem;
 },
 {
 place = "{569, 135}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{309, 75}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -4185,33 +4338,41 @@ nodes = (
 hints = (
 {
 place = "{131, 100}";
+type = Stem;
 },
 {
 place = "{571, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 64}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{329, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{636, 64}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{665, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{655, 45}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -4285,6 +4446,7 @@ nodes = (
 hints = (
 {
 place = "{135, 145}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -4346,26 +4508,32 @@ nodes = (
 hints = (
 {
 place = "{131, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{665, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{655, 45}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 64}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{636, 64}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -4446,30 +4614,37 @@ nodes = (
 hints = (
 {
 place = "{131, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{665, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{745, 183}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{655, 45}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 64}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{636, 64}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -4564,30 +4739,37 @@ nodes = (
 hints = (
 {
 place = "{131, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{665, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{881, 49}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{655, 45}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 64}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{636, 64}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -4699,26 +4881,32 @@ nodes = (
 hints = (
 {
 place = "{131, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{665, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{655, 45}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 64}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{636, 64}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -4833,30 +5021,37 @@ nodes = (
 hints = (
 {
 place = "{130, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{665, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{762, 168}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{655, 45}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 64}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{636, 64}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -4940,10 +5135,12 @@ nodes = (
 hints = (
 {
 place = "{252, 145}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-13, 69}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -5030,22 +5227,27 @@ nodes = (
 hints = (
 {
 place = "{272, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-13, 56}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{665, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{636, 64}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{655, 45}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -5132,10 +5334,12 @@ nodes = (
 hints = (
 {
 place = "{120, 145}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{313, 80}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -5227,34 +5431,42 @@ nodes = (
 hints = (
 {
 place = "{131, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{328, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{665, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{655, 45}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{645, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 64}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{636, 64}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -5329,10 +5541,12 @@ nodes = (
 hints = (
 {
 place = "{120, 145}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 80}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -5392,25 +5606,31 @@ nodes = (
 hints = (
 {
 place = "{131, 100}";
+type = Stem;
 },
 {
 place = "{493, 50}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{665, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{636, 64}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{655, 45}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -5483,9 +5703,11 @@ nodes = (
 hints = (
 {
 place = "{124, 85}";
+type = Stem;
 },
 {
 place = "{714, 145}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -5573,25 +5795,31 @@ nodes = (
 hints = (
 {
 place = "{131, 60}";
+type = Stem;
 },
 {
 place = "{721, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{665, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{655, 45}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{636, 64}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -5670,9 +5898,11 @@ nodes = (
 hints = (
 {
 place = "{120, 85}";
+type = Stem;
 },
 {
 place = "{601, 85}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -5752,29 +5982,36 @@ nodes = (
 hints = (
 {
 place = "{131, 60}";
+type = Stem;
 },
 {
 place = "{600, 60}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{665, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{655, 45}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 64}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{636, 64}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -5909,33 +6146,41 @@ nodes = (
 hints = (
 {
 place = "{131, 60}";
+type = Stem;
 },
 {
 place = "{600, 60}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{665, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{770, 139}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{655, 45}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 64}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{636, 64}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -6067,17 +6312,21 @@ nodes = (
 hints = (
 {
 place = "{36, 152}";
+type = Stem;
 },
 {
 place = "{610, 153}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-14, 70}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{654, 70}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -6177,17 +6426,21 @@ nodes = (
 hints = (
 {
 place = "{44, 105}";
+type = Stem;
 },
 {
 place = "{616, 105}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-14, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{659, 55}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -6318,21 +6571,26 @@ nodes = (
 hints = (
 {
 place = "{44, 105}";
+type = Stem;
 },
 {
 place = "{616, 105}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-14, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{659, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{745, 183}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -6477,21 +6735,26 @@ nodes = (
 hints = (
 {
 place = "{44, 105}";
+type = Stem;
 },
 {
 place = "{616, 105}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-14, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{659, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{881, 49}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -6653,17 +6916,21 @@ nodes = (
 hints = (
 {
 place = "{44, 105}";
+type = Stem;
 },
 {
 place = "{616, 105}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-14, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{659, 55}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -6828,21 +7095,26 @@ nodes = (
 hints = (
 {
 place = "{44, 105}";
+type = Stem;
 },
 {
 place = "{616, 105}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-14, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{659, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{762, 168}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -6976,17 +7248,21 @@ nodes = (
 hints = (
 {
 place = "{36, 152}";
+type = Stem;
 },
 {
 place = "{610, 153}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-14, 70}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{654, 70}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -7140,17 +7416,21 @@ nodes = (
 hints = (
 {
 place = "{43, 105}";
+type = Stem;
 },
 {
 place = "{615, 105}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-14, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{659, 55}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -7345,21 +7625,26 @@ nodes = (
 hints = (
 {
 place = "{44, 105}";
+type = Stem;
 },
 {
 place = "{616, 105}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-14, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{659, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{770, 139}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -7511,29 +7796,36 @@ nodes = (
 hints = (
 {
 place = "{42, 155}";
+type = Stem;
 },
 {
 place = "{507, 145}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-14, 89}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 75}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{326, 74}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{644, 66}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{644, 80}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -7664,38 +7956,48 @@ nodes = (
 hints = (
 {
 place = "{44, 105}";
+type = Stem;
 },
 {
 place = "{485, 101}";
+type = Stem;
 },
 {
 place = "{789, 28}";
+type = Stem;
 },
 {
 place = "{881, 52}";
+type = Stem;
 },
 {
 place = "{862, 50}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{336, 59}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{645, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-14, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{659, 55}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -7817,17 +8119,21 @@ nodes = (
 hints = (
 {
 place = "{120, 145}";
+type = Stem;
 },
 {
 place = "{480, 155}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{262, 80}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{630, 80}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -7929,25 +8235,31 @@ nodes = (
 hints = (
 {
 place = "{131, 100}";
+type = Stem;
 },
 {
 place = "{466, 105}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{272, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{645, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 64}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -8051,25 +8363,31 @@ nodes = (
 hints = (
 {
 place = "{121, 140}";
+type = Stem;
 },
 {
 place = "{460, 133}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 233}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{148, 85}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{492, 83}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{492, 208}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -8169,37 +8487,46 @@ nodes = (
 hints = (
 {
 place = "{131, 100}";
+type = Stem;
 },
 {
 place = "{453, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 64}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{158, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{510, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{636, 64}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{665, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{655, 45}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -8324,13 +8651,16 @@ nodes = (
 hints = (
 {
 place = "{36, 153}";
+type = Stem;
 },
 {
 place = "{610, 153}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{654, 70}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -8448,21 +8778,26 @@ nodes = (
 hints = (
 {
 place = "{44, 105}";
+type = Stem;
 },
 {
 place = "{616, 105}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-152, 58}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-4, 45}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{659, 55}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -8578,17 +8913,21 @@ nodes = (
 hints = (
 {
 place = "{120, 145}";
+type = Stem;
 },
 {
 place = "{480, 155}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{277, 80}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{630, 80}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -8705,25 +9044,31 @@ nodes = (
 hints = (
 {
 place = "{131, 100}";
+type = Stem;
 },
 {
 place = "{471, 105}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{287, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{645, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 64}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -8864,20 +9209,25 @@ nodes = (
 hints = (
 {
 place = "{44, 155}";
+type = Stem;
 },
 {
 place = "{391, 128}";
+type = Stem;
 },
 {
 place = "{391, 155}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-16, 80}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{643, 80}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -9007,20 +9357,25 @@ nodes = (
 hints = (
 {
 place = "{58, 105}";
+type = Stem;
 },
 {
 place = "{395, 105}";
+type = Stem;
 },
 {
 place = "{423, 50}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-15, 56}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{659, 54}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -9127,10 +9482,12 @@ nodes = (
 hints = (
 {
 place = "{277, 145}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{630, 80}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -9194,24 +9551,30 @@ nodes = (
 hints = (
 {
 place = "{20, 50}";
+type = Stem;
 },
 {
 place = "{265, 100}";
+type = Stem;
 },
 {
 place = "{557, 50}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{645, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 64}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -9291,13 +9654,16 @@ nodes = (
 hints = (
 {
 place = "{124, 145}";
+type = Stem;
 },
 {
 place = "{607, 80}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-15, 77}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -9385,25 +9751,31 @@ nodes = (
 hints = (
 {
 place = "{113, 100}";
+type = Stem;
 },
 {
 place = "{573, 68}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-10, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{665, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{655, 45}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{636, 64}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -9515,29 +9887,36 @@ nodes = (
 hints = (
 {
 place = "{113, 100}";
+type = Stem;
 },
 {
 place = "{573, 68}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-10, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{665, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{655, 45}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{636, 64}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{745, 183}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -9663,29 +10042,36 @@ nodes = (
 hints = (
 {
 place = "{113, 100}";
+type = Stem;
 },
 {
 place = "{573, 68}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-10, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{665, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{655, 45}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{636, 64}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{881, 49}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -9828,25 +10214,31 @@ nodes = (
 hints = (
 {
 place = "{113, 100}";
+type = Stem;
 },
 {
 place = "{573, 68}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-10, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{665, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{655, 45}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{636, 64}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -9992,29 +10384,36 @@ nodes = (
 hints = (
 {
 place = "{113, 100}";
+type = Stem;
 },
 {
 place = "{573, 68}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-10, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{665, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{655, 45}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{636, 64}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{762, 168}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -10162,6 +10561,7 @@ nodes = (
 hints = (
 {
 place = "{-21, 694}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -10172,10 +10572,12 @@ type = BottomGhost;
 {
 horizontal = 1;
 place = "{665, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{655, 45}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -10348,6 +10750,7 @@ nodes = (
 hints = (
 {
 place = "{-8, 1052}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -10358,10 +10761,12 @@ type = BottomGhost;
 {
 horizontal = 1;
 place = "{665, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{655, 45}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -10534,22 +10939,27 @@ nodes = (
 hints = (
 {
 place = "{-3, 666}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{665, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{655, 45}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{644, 56}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -10632,6 +11042,7 @@ nodes = (
 hints = (
 {
 place = "{342, 145}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -10711,26 +11122,32 @@ nodes = (
 hints = (
 {
 place = "{273, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{665, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 64}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{655, 45}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{643, 57}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -10828,30 +11245,37 @@ nodes = (
 hints = (
 {
 place = "{273, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{665, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{745, 183}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 64}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{655, 45}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{643, 57}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -10930,10 +11354,12 @@ hints = (
 {
 horizontal = 1;
 place = "{0, 80}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{630, 80}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -10987,17 +11413,21 @@ nodes = (
 hints = (
 {
 place = "{51, 49}";
+type = Stem;
 },
 {
 place = "{505, 50}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{645, 55}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -11108,17 +11538,21 @@ nodes = (
 hints = (
 {
 place = "{37, 145}";
+type = Stem;
 },
 {
 place = "{362, 140}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 78}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{467, 72}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -11264,32 +11698,40 @@ nodes = (
 hints = (
 {
 place = "{35, 100}";
+type = Stem;
 },
 {
 place = "{345, 90}";
+type = Stem;
 },
 {
 place = "{69, 52}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 63}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{247, 42}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{474, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 46}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 63}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -11459,36 +11901,45 @@ nodes = (
 hints = (
 {
 place = "{35, 100}";
+type = Stem;
 },
 {
 place = "{345, 90}";
+type = Stem;
 },
 {
 place = "{69, 52}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 63}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{247, 42}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{474, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{565, 183}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 46}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 63}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -11672,36 +12123,45 @@ nodes = (
 hints = (
 {
 place = "{35, 100}";
+type = Stem;
 },
 {
 place = "{345, 90}";
+type = Stem;
 },
 {
 place = "{69, 52}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 63}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{247, 42}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{474, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{701, 49}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 46}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 63}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -11902,32 +12362,40 @@ nodes = (
 hints = (
 {
 place = "{35, 100}";
+type = Stem;
 },
 {
 place = "{345, 90}";
+type = Stem;
 },
 {
 place = "{69, 52}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 63}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{247, 42}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{474, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 46}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 63}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -12131,36 +12599,45 @@ nodes = (
 hints = (
 {
 place = "{35, 100}";
+type = Stem;
 },
 {
 place = "{345, 90}";
+type = Stem;
 },
 {
 place = "{69, 52}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 63}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{247, 42}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{474, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{582, 168}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 46}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 63}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -12372,46 +12849,58 @@ nodes = (
 hints = (
 {
 place = "{35, 100}";
+type = Stem;
 },
 {
 place = "{345, 90}";
+type = Stem;
 },
 {
 place = "{69, 52}";
+type = Stem;
 },
 {
 place = "{146, 49}";
+type = Stem;
 },
 {
 place = "{330, 49}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 63}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{474, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{576, 39}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{770, 39}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 46}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{247, 42}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 63}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -12654,36 +13143,45 @@ nodes = (
 hints = (
 {
 place = "{35, 100}";
+type = Stem;
 },
 {
 place = "{345, 90}";
+type = Stem;
 },
 {
 place = "{69, 52}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 63}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{247, 42}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{474, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{590, 139}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 46}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 63}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -12896,24 +13394,30 @@ nodes = (
 hints = (
 {
 place = "{27, 145}";
+type = Stem;
 },
 {
 place = "{352, 145}";
+type = Stem;
 },
 {
 place = "{762, 110}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 80}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{236, 82}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{467, 71}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -13125,39 +13629,49 @@ nodes = (
 hints = (
 {
 place = "{35, 100}";
+type = Stem;
 },
 {
 place = "{345, 77}";
+type = Stem;
 },
 {
 place = "{677, 100}";
+type = Stem;
 },
 {
 place = "{69, 52}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-9, 65}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{268, 54}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{474, 54}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{474, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 63}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{247, 42}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -13308,17 +13822,21 @@ nodes = (
 hints = (
 {
 place = "{93, 140}";
+type = Stem;
 },
 {
 place = "{489, 139}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-15, 71}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{451, 96}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -13424,17 +13942,21 @@ nodes = (
 hints = (
 {
 place = "{78, 90}";
+type = Stem;
 },
 {
 place = "{439, 99}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-13, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{451, 77}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -13538,14 +14060,17 @@ nodes = (
 hints = (
 {
 place = "{37, 138}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-11, 80}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{466, 73}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -13634,17 +14159,21 @@ nodes = (
 hints = (
 {
 place = "{40, 100}";
+type = Stem;
 },
 {
 place = "{415, 50}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-11, 66}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{474, 55}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -13776,15 +14305,19 @@ nodes = (
 hints = (
 {
 place = "{41, 100}";
+type = Stem;
 },
 {
 place = "{250, 55}";
+type = Stem;
 },
 {
 place = "{416, 50}";
+type = Stem;
 },
 {
 place = "{292, 85}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -13795,14 +14328,17 @@ type = BottomGhost;
 {
 horizontal = 1;
 place = "{-11, 20}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{474, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-11, 66}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -13932,17 +14468,21 @@ nodes = (
 hints = (
 {
 place = "{37, 140}";
+type = Stem;
 },
 {
 place = "{425, 140}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 80}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{467, 75}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -14066,25 +14606,31 @@ nodes = (
 hints = (
 {
 place = "{40, 100}";
+type = Stem;
 },
 {
 place = "{413, 89}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 63}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{467, 56}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 46}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 66}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -14232,13 +14778,16 @@ nodes = (
 hints = (
 {
 place = "{40, 130}";
+type = Stem;
 },
 {
 place = "{408, 120}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 65}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -14417,21 +14966,26 @@ nodes = (
 hints = (
 {
 place = "{40, 100}";
+type = Stem;
 },
 {
 place = "{428, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{475, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{742, 48}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -14566,21 +15120,26 @@ nodes = (
 hints = (
 {
 place = "{33, 142}";
+type = Stem;
 },
 {
 place = "{440, 116}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-9, 85}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{236, 82}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{463, 75}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -14681,21 +15240,26 @@ nodes = (
 hints = (
 {
 place = "{41, 100}";
+type = Stem;
 },
 {
 place = "{396, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-9, 65}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{268, 54}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{474, 54}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -14826,25 +15390,31 @@ nodes = (
 hints = (
 {
 place = "{41, 100}";
+type = Stem;
 },
 {
 place = "{396, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-9, 65}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{268, 54}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{474, 54}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{565, 183}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -14989,25 +15559,31 @@ nodes = (
 hints = (
 {
 place = "{41, 100}";
+type = Stem;
 },
 {
 place = "{396, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-9, 65}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{268, 54}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{474, 54}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{701, 49}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -15168,21 +15744,26 @@ nodes = (
 hints = (
 {
 place = "{41, 100}";
+type = Stem;
 },
 {
 place = "{396, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-9, 65}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{268, 54}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{474, 54}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -15347,25 +15928,31 @@ nodes = (
 hints = (
 {
 place = "{41, 100}";
+type = Stem;
 },
 {
 place = "{396, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-9, 65}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{268, 54}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{474, 54}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{582, 168}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -15472,14 +16059,17 @@ nodes = (
 hints = (
 {
 place = "{113, 140}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{436, 75}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{697, 70}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -15573,21 +16163,26 @@ nodes = (
 hints = (
 {
 place = "{120, 90}";
+type = Stem;
 },
 {
 place = "{378, 50}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 30}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{465, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{702, 55}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -15751,35 +16346,44 @@ nodes = (
 hints = (
 {
 place = "{25, 119}";
+type = Stem;
 },
 {
 place = "{70, 100}";
+type = Stem;
 },
 {
 place = "{340, 145}";
+type = Stem;
 },
 {
 place = "{434, 106}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-247, 78}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-47, 118}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{152, 74}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{419, 90}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{465, 75}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -15994,38 +16598,48 @@ nodes = (
 hints = (
 {
 place = "{53, 99}";
+type = Stem;
 },
 {
 place = "{362, 100}";
+type = Stem;
 },
 {
 place = "{82, 79}";
+type = Stem;
 },
 {
 place = "{35, 91}";
+type = Stem;
 },
 {
 place = "{464, 69}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-247, 58}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-24, 85}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{161, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{477, 53}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{431, 57}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -16190,13 +16804,16 @@ nodes = (
 hints = (
 {
 place = "{117, 140}";
+type = Stem;
 },
 {
 place = "{492, 140}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{437, 102}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -16300,17 +16917,21 @@ nodes = (
 hints = (
 {
 place = "{101, 90}";
+type = Stem;
 },
 {
 place = "{426, 89}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 30}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{447, 82}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -16398,6 +17019,7 @@ nodes = (
 hints = (
 {
 place = "{122, 140}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -16486,10 +17108,12 @@ nodes = (
 hints = (
 {
 place = "{116, 90}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 30}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -16566,6 +17190,7 @@ nodes = (
 hints = (
 {
 place = "{122, 140}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -16623,10 +17248,12 @@ nodes = (
 hints = (
 {
 place = "{116, 90}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 30}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -16673,6 +17300,7 @@ transform = "{1, 0, 0, 1, 66, 0}";
 hints = (
 {
 place = "{118, 140}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -16739,10 +17367,12 @@ nodes = (
 hints = (
 {
 place = "{116, 90}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 30}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -16753,6 +17383,7 @@ type = TopGhost;
 {
 horizontal = 1;
 place = "{565, 183}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -16802,6 +17433,7 @@ transform = "{1, 0, 0, 1, -97, 0}";
 hints = (
 {
 place = "{118, 140}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -16873,10 +17505,12 @@ nodes = (
 hints = (
 {
 place = "{115, 90}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 30}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -16887,6 +17521,7 @@ type = TopGhost;
 {
 horizontal = 1;
 place = "{701, 49}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -16941,6 +17576,7 @@ transform = "{1, 0, 0, 1, -27, 0}";
 hints = (
 {
 place = "{118, 140}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -17024,10 +17660,12 @@ nodes = (
 hints = (
 {
 place = "{116, 90}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 30}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -17108,6 +17746,7 @@ transform = "{1, 0, 0, 1, -105, 0}";
 hints = (
 {
 place = "{118, 140}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -17174,10 +17813,12 @@ nodes = (
 hints = (
 {
 place = "{116, 90}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 30}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -17188,6 +17829,7 @@ type = TopGhost;
 {
 horizontal = 1;
 place = "{582, 168}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -17277,10 +17919,12 @@ nodes = (
 hints = (
 {
 place = "{123, 140}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-234, 72}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -17386,10 +18030,12 @@ nodes = (
 hints = (
 {
 place = "{101, 90}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-234, 57}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -17490,6 +18136,7 @@ nodes = (
 hints = (
 {
 place = "{122, 140}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -17581,22 +18228,27 @@ nodes = (
 hints = (
 {
 place = "{101, 90}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 30}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{490, 30}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{472, 48}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{461, 59}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -17664,6 +18316,7 @@ nodes = (
 hints = (
 {
 place = "{123, 140}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -17721,10 +18374,12 @@ nodes = (
 hints = (
 {
 place = "{101, 90}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 30}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -17821,16 +18476,20 @@ nodes = (
 hints = (
 {
 place = "{115, 140}";
+type = Stem;
 },
 {
 place = "{490, 140}";
+type = Stem;
 },
 {
 place = "{863, 140}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{437, 102}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -17973,20 +18632,25 @@ nodes = (
 hints = (
 {
 place = "{117, 89}";
+type = Stem;
 },
 {
 place = "{428, 90}";
+type = Stem;
 },
 {
 place = "{740, 90}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 30}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{447, 82}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -18105,13 +18769,16 @@ nodes = (
 hints = (
 {
 place = "{112, 140}";
+type = Stem;
 },
 {
 place = "{487, 140}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{437, 102}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -18215,17 +18882,21 @@ nodes = (
 hints = (
 {
 place = "{117, 89}";
+type = Stem;
 },
 {
 place = "{441, 90}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 30}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{447, 82}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -18386,21 +19057,26 @@ nodes = (
 hints = (
 {
 place = "{117, 89}";
+type = Stem;
 },
 {
 place = "{441, 89}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 30}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{447, 82}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{590, 139}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -18542,17 +19218,21 @@ nodes = (
 hints = (
 {
 place = "{23, 138}";
+type = Stem;
 },
 {
 place = "{439, 138}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 73}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{469, 71}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -18652,17 +19332,21 @@ nodes = (
 hints = (
 {
 place = "{40, 100}";
+type = Stem;
 },
 {
 place = "{454, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{475, 55}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -18792,21 +19476,26 @@ nodes = (
 hints = (
 {
 place = "{40, 100}";
+type = Stem;
 },
 {
 place = "{454, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{475, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{565, 183}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -18950,21 +19639,26 @@ nodes = (
 hints = (
 {
 place = "{40, 100}";
+type = Stem;
 },
 {
 place = "{454, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{475, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{701, 49}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -19125,17 +19819,21 @@ nodes = (
 hints = (
 {
 place = "{40, 100}";
+type = Stem;
 },
 {
 place = "{454, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{475, 55}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -19299,21 +19997,26 @@ nodes = (
 hints = (
 {
 place = "{40, 100}";
+type = Stem;
 },
 {
 place = "{454, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{475, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{582, 168}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -19446,17 +20149,21 @@ nodes = (
 hints = (
 {
 place = "{23, 138}";
+type = Stem;
 },
 {
 place = "{439, 138}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 73}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{469, 71}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -19609,17 +20316,21 @@ nodes = (
 hints = (
 {
 place = "{40, 100}";
+type = Stem;
 },
 {
 place = "{454, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{475, 55}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -19813,21 +20524,26 @@ nodes = (
 hints = (
 {
 place = "{40, 100}";
+type = Stem;
 },
 {
 place = "{454, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{475, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{590, 139}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -20003,24 +20719,30 @@ nodes = (
 hints = (
 {
 place = "{44, 140}";
+type = Stem;
 },
 {
 place = "{458, 140}";
+type = Stem;
 },
 {
 place = "{863, 110}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 80}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{236, 82}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{465, 73}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -20199,32 +20921,40 @@ nodes = (
 hints = (
 {
 place = "{40, 100}";
+type = Stem;
 },
 {
 place = "{454, 90}";
+type = Stem;
 },
 {
 place = "{796, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{268, 54}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{475, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-9, 65}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{474, 54}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -20365,17 +21095,21 @@ nodes = (
 hints = (
 {
 place = "{114, 140}";
+type = Stem;
 },
 {
 place = "{502, 140}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-11, 75}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{454, 85}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -20500,21 +21234,26 @@ nodes = (
 hints = (
 {
 place = "{102, 90}";
+type = Stem;
 },
 {
 place = "{455, 99}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-225, 30}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-2, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{453, 76}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -20635,17 +21374,21 @@ nodes = (
 hints = (
 {
 place = "{128, 140}";
+type = Stem;
 },
 {
 place = "{521, 139}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-2, 85}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{433, 112}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -20770,21 +21513,26 @@ nodes = (
 hints = (
 {
 place = "{82, 90}";
+type = Stem;
 },
 {
 place = "{435, 99}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-225, 30}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-2, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{453, 76}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -20903,17 +21651,21 @@ nodes = (
 hints = (
 {
 place = "{37, 139}";
+type = Stem;
 },
 {
 place = "{432, 140}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-27, 96}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{464, 71}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -21026,21 +21778,26 @@ nodes = (
 hints = (
 {
 place = "{40, 100}";
+type = Stem;
 },
 {
 place = "{398, 90}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-225, 30}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-11, 68}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{471, 55}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -21136,10 +21893,12 @@ nodes = (
 hints = (
 {
 place = "{120, 140}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{437, 102}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -21225,17 +21984,21 @@ nodes = (
 hints = (
 {
 place = "{117, 89}";
+type = Stem;
 },
 {
 place = "{375, 52}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 30}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{447, 80}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -21345,17 +22108,21 @@ nodes = (
 hints = (
 {
 place = "{52, 136}";
+type = Stem;
 },
 {
 place = "{332, 140}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-12, 69}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{468, 70}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -21467,20 +22234,25 @@ nodes = (
 hints = (
 {
 place = "{55, 93}";
+type = Stem;
 },
 {
 place = "{322, 94}";
+type = Stem;
 },
 {
 place = "{341, 52}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-10, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{472, 55}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -21622,26 +22394,33 @@ nodes = (
 hints = (
 {
 place = "{115, 120}";
+type = Stem;
 },
 {
 place = "{305, 125}";
+type = Stem;
 },
 {
 place = "{325, 105}";
+type = Stem;
 },
 {
 place = "{449, 126}";
+type = Stem;
 },
 {
 place = "{576, 120}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 63}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{684, 73}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -21795,27 +22574,34 @@ nodes = (
 hints = (
 {
 place = "{101, 89}";
+type = Stem;
 },
 {
 place = "{290, 93}";
+type = Stem;
 },
 {
 place = "{426, 94}";
+type = Stem;
 },
 {
 place = "{557, 94}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-10, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{704, 53}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 30}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -21927,14 +22713,17 @@ nodes = (
 hints = (
 {
 place = "{87, 140}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-12, 85}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{455, 65}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -22018,18 +22807,22 @@ nodes = (
 hints = (
 {
 place = "{98, 90}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-12, 70}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{465, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{464, 35}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -22119,13 +22912,16 @@ nodes = (
 hints = (
 {
 place = "{112, 140}";
+type = Stem;
 },
 {
 place = "{487, 140}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-9, 98}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -22221,33 +23017,41 @@ nodes = (
 hints = (
 {
 place = "{94, 90}";
+type = Stem;
 },
 {
 place = "{419, 89}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 82}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{459, 62}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 62}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 44}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{473, 48}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{476, 45}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -22361,37 +23165,46 @@ nodes = (
 hints = (
 {
 place = "{95, 89}";
+type = Stem;
 },
 {
 place = "{419, 89}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 82}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{459, 62}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{565, 183}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 62}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 44}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{473, 48}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{476, 45}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -22519,37 +23332,46 @@ nodes = (
 hints = (
 {
 place = "{95, 89}";
+type = Stem;
 },
 {
 place = "{419, 89}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 82}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{459, 62}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{701, 49}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 62}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 44}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{473, 48}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{476, 45}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -22694,33 +23516,41 @@ nodes = (
 hints = (
 {
 place = "{95, 89}";
+type = Stem;
 },
 {
 place = "{419, 89}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 82}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{459, 62}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 62}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 44}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{473, 48}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{476, 45}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -22868,37 +23698,46 @@ nodes = (
 hints = (
 {
 place = "{95, 89}";
+type = Stem;
 },
 {
 place = "{419, 89}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-8, 82}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{459, 62}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{582, 168}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 62}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 44}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{473, 48}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{476, 45}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -23046,6 +23885,7 @@ nodes = (
 hints = (
 {
 place = "{-6, 569}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -23056,10 +23896,12 @@ type = BottomGhost;
 {
 horizontal = 1;
 place = "{467, 53}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{490, 30}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -23232,6 +24074,7 @@ nodes = (
 hints = (
 {
 place = "{-6, 817}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -23242,10 +24085,12 @@ type = BottomGhost;
 {
 horizontal = 1;
 place = "{467, 53}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{490, 30}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -23418,18 +24263,22 @@ nodes = (
 hints = (
 {
 place = "{7, 556}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 51}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{490, 30}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{468, 52}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -23530,6 +24379,7 @@ hints = (
 {
 horizontal = 1;
 place = "{-230, 116}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -23635,14 +24485,17 @@ nodes = (
 hints = (
 {
 place = "{-6, 559}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-230, 86}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{490, 30}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -23772,18 +24625,22 @@ nodes = (
 hints = (
 {
 place = "{-6, 559}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-230, 86}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{490, 30}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{565, 183}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -23939,18 +24796,22 @@ nodes = (
 hints = (
 {
 place = "{-6, 559}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-229, 86}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{490, 30}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-229, 9}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -24063,10 +24924,12 @@ hints = (
 {
 horizontal = 1;
 place = "{0, 70}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{460, 70}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -24120,17 +24983,21 @@ nodes = (
 hints = (
 {
 place = "{44, 52}";
+type = Stem;
 },
 {
 place = "{408, 52}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{465, 55}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -24233,17 +25100,21 @@ nodes = (
 hints = (
 {
 place = "{29, 90}";
+type = Stem;
 },
 {
 place = "{230, 87}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{411, 48}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{705, 45}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -24375,28 +25246,35 @@ nodes = (
 hints = (
 {
 place = "{67, 35}";
+type = Stem;
 },
 {
 place = "{238, 64}";
+type = Stem;
 },
 {
 place = "{46, 65}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{394, 38}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{543, 26}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{680, 33}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{389, 38}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -24524,17 +25402,21 @@ nodes = (
 hints = (
 {
 place = "{42, 85}";
+type = Stem;
 },
 {
 place = "{293, 85}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{355, 53}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{662, 58}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -24632,17 +25514,21 @@ nodes = (
 hints = (
 {
 place = "{42, 75}";
+type = Stem;
 },
 {
 place = "{306, 72}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{355, 38}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{682, 38}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -24774,17 +25660,21 @@ nodes = (
 hints = (
 {
 place = "{37, 145}";
+type = Stem;
 },
 {
 place = "{414, 141}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-14, 92}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{622, 92}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -24884,17 +25774,21 @@ nodes = (
 hints = (
 {
 place = "{55, 108}";
+type = Stem;
 },
 {
 place = "{449, 108}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-13, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{658, 55}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -24970,6 +25864,7 @@ nodes = (
 hints = (
 {
 place = "{193, 132}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -25033,14 +25928,17 @@ nodes = (
 hints = (
 {
 place = "{192, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 64}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 35}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -25131,14 +26029,17 @@ nodes = (
 hints = (
 {
 place = "{373, 142}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 123}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{629, 85}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -25241,20 +26142,25 @@ nodes = (
 hints = (
 {
 place = "{394, 109}";
+type = Stem;
 },
 {
 place = "{485, 42}";
+type = Stem;
 },
 {
 place = "{62, 50}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 90}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{665, 49}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -25373,21 +26279,26 @@ nodes = (
 hints = (
 {
 place = "{370, 138}";
+type = Stem;
 },
 {
 place = "{383, 143}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-14, 89}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{325, 91}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{626, 88}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -25516,24 +26427,30 @@ nodes = (
 hints = (
 {
 place = "{75, 50}";
+type = Stem;
 },
 {
 place = "{430, 110}";
+type = Stem;
 },
 {
 place = "{416, 106}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-15, 56}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{340, 60}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{660, 55}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -25636,10 +26553,12 @@ hints = (
 {
 horizontal = 1;
 place = "{0, 243}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{159, 84}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -25719,14 +26638,17 @@ nodes = (
 hints = (
 {
 place = "{340, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{168, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -25835,24 +26757,30 @@ nodes = (
 hints = (
 {
 place = "{89, 84}";
+type = Stem;
 },
 {
 place = "{378, 150}";
+type = Stem;
 },
 {
 place = "{89, 97}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-14, 91}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{343, 101}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{578, 122}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -25969,18 +26897,22 @@ nodes = (
 hints = (
 {
 place = "{419, 109}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-14, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{358, 67}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{611, 90}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -26100,17 +27032,21 @@ nodes = (
 hints = (
 {
 place = "{35, 143}";
+type = Stem;
 },
 {
 place = "{409, 143}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-13, 88}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{341, 93}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -26220,21 +27156,26 @@ nodes = (
 hints = (
 {
 place = "{50, 110}";
+type = Stem;
 },
 {
 place = "{443, 110}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-14, 54}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{360, 59}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{668, 45}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -26322,6 +27263,7 @@ hints = (
 {
 horizontal = 1;
 place = "{578, 122}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -26383,6 +27325,7 @@ nodes = (
 hints = (
 {
 place = "{38, 52}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -26393,6 +27336,7 @@ type = BottomGhost;
 {
 horizontal = 1;
 place = "{610, 90}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -26520,23 +27464,29 @@ nodes = (
 hints = (
 {
 place = "{33, 135}";
+type = Stem;
 },
 {
 place = "{64, 131}";
+type = Stem;
 },
 {
 place = "{370, 133}";
+type = Stem;
 },
 {
 place = "{402, 136}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-15, 89}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{625, 90}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -26706,23 +27656,29 @@ nodes = (
 hints = (
 {
 place = "{47, 105}";
+type = Stem;
 },
 {
 place = "{433, 104}";
+type = Stem;
 },
 {
 place = "{79, 103}";
+type = Stem;
 },
 {
 place = "{399, 105}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-15, 56}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{659, 56}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -26865,17 +27821,21 @@ nodes = (
 hints = (
 {
 place = "{18, 142}";
+type = Stem;
 },
 {
 place = "{390, 144}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{266, 93}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{624, 89}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -26991,21 +27951,26 @@ nodes = (
 hints = (
 {
 place = "{31, 110}";
+type = Stem;
 },
 {
 place = "{424, 110}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-14, 45}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{281, 59}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{660, 54}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -27088,6 +28053,7 @@ nodes = (
 hints = (
 {
 place = "{118, 74}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -27151,10 +28117,12 @@ nodes = (
 hints = (
 {
 place = "{127, 65}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{355, 23}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -27236,17 +28204,21 @@ nodes = (
 hints = (
 {
 place = "{57, 248}";
+type = Stem;
 },
 {
 place = "{223, 82}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{354, 61}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{675, 56}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -27334,20 +28306,25 @@ nodes = (
 hints = (
 {
 place = "{66, 25}";
+type = Stem;
 },
 {
 place = "{237, 70}";
+type = Stem;
 },
 {
 place = "{267, 36}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{354, 50}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{676, 45}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -27459,14 +28436,17 @@ nodes = (
 hints = (
 {
 place = "{234, 83}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{351, 57}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{676, 56}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -27594,24 +28574,30 @@ nodes = (
 hints = (
 {
 place = "{67, 30}";
+type = Stem;
 },
 {
 place = "{248, 70}";
+type = Stem;
 },
 {
 place = "{239, 70}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{351, 45}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{527, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{676, 45}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -27713,14 +28699,17 @@ nodes = (
 hints = (
 {
 place = "{205, 70}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{354, 129}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{430, 53}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -27798,14 +28787,17 @@ nodes = (
 hints = (
 {
 place = "{205, 60}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{354, 18}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{430, 43}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -27908,10 +28900,12 @@ nodes = (
 hints = (
 {
 place = "{-20, 411}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-30, 711}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -28011,20 +29005,25 @@ nodes = (
 hints = (
 {
 place = "{126, 74}";
+type = Stem;
 },
 {
 place = "{536, 248}";
+type = Stem;
 },
 {
 place = "{702, 82}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 61}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{321, 56}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -28178,27 +29177,34 @@ nodes = (
 hints = (
 {
 place = "{118, 65}";
+type = Stem;
 },
 {
 place = "{532, 25}";
+type = Stem;
 },
 {
 place = "{703, 70}";
+type = Stem;
 },
 {
 place = "{733, 36}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 50}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{322, 45}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{315, 23}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -28336,17 +29342,21 @@ nodes = (
 hints = (
 {
 place = "{127, 74}";
+type = Stem;
 },
 {
 place = "{618, 70}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 129}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{76, 53}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -28484,21 +29494,26 @@ nodes = (
 hints = (
 {
 place = "{118, 65}";
+type = Stem;
 },
 {
 place = "{623, 60}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 18}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{76, 43}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{315, 23}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -28682,24 +29697,30 @@ nodes = (
 hints = (
 {
 place = "{214, 83}";
+type = Stem;
 },
 {
 place = "{529, 248}";
+type = Stem;
 },
 {
 place = "{695, 82}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 61}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{321, 56}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{656, 56}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -28917,45 +29938,57 @@ nodes = (
 hints = (
 {
 place = "{51, 30}";
+type = Stem;
 },
 {
 place = "{232, 70}";
+type = Stem;
 },
 {
 place = "{529, 25}";
+type = Stem;
 },
 {
 place = "{700, 70}";
+type = Stem;
 },
 {
 place = "{730, 36}";
+type = Stem;
 },
 {
 place = "{223, 70}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 50}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{316, 45}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{492, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{641, 45}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{322, 45}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{492, 18}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -29229,10 +30262,12 @@ nodes = (
 hints = (
 {
 place = "{36, 399}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{569, 152}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -29352,6 +30387,7 @@ nodes = (
 hints = (
 {
 place = "{20, 543}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -29457,10 +30493,12 @@ nodes = (
 hints = (
 {
 place = "{48, 145}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{232, 144}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -29592,10 +30630,12 @@ nodes = (
 hints = (
 {
 place = "{41, 321}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{234, 321}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -29746,10 +30786,12 @@ nodes = (
 hints = (
 {
 place = "{62, 145}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-16, 553}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -29896,10 +30938,12 @@ nodes = (
 hints = (
 {
 place = "{40, 148}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-175, 297}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -30013,6 +31057,7 @@ nodes = (
 hints = (
 {
 place = "{84, 116}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -30098,10 +31143,12 @@ nodes = (
 hints = (
 {
 place = "{50, 145}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-16, 735}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -30183,6 +31230,7 @@ nodes = (
 hints = (
 {
 place = "{69, 115}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -30268,6 +31316,7 @@ nodes = (
 hints = (
 {
 place = "{50, 145}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -30371,10 +31420,12 @@ hints = (
 {
 horizontal = 1;
 place = "{210, 80}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{448, 80}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -30480,6 +31531,7 @@ nodes = (
 hints = (
 {
 place = "{32, 702}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -30490,10 +31542,12 @@ type = BottomGhost;
 {
 horizontal = 1;
 place = "{213, 70}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{420, 70}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -30632,10 +31686,12 @@ nodes = (
 hints = (
 {
 place = "{41, 145}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-16, 144}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -30736,13 +31792,16 @@ nodes = (
 hints = (
 {
 place = "{131, 99}";
+type = Stem;
 },
 {
 place = "{301, 121}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{671, 80}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -30880,17 +31939,21 @@ nodes = (
 hints = (
 {
 place = "{123, 74}";
+type = Stem;
 },
 {
 place = "{286, 98}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{213, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{656, 56}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -31030,13 +32093,16 @@ nodes = (
 hints = (
 {
 place = "{128, 99}";
+type = Stem;
 },
 {
 place = "{298, 121}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-18, 80}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -31174,17 +32240,21 @@ nodes = (
 hints = (
 {
 place = "{123, 74}";
+type = Stem;
 },
 {
 place = "{286, 98}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-11, 56}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{433, 56}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -31372,10 +32442,12 @@ nodes = (
 hints = (
 {
 place = "{48, 251}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{461, 268}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -31493,10 +32565,12 @@ nodes = (
 hints = (
 {
 place = "{48, 90}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{461, 268}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -31666,10 +32740,12 @@ nodes = (
 hints = (
 {
 place = "{62, 148}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-175, 711}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -31782,6 +32858,7 @@ nodes = (
 hints = (
 {
 place = "{22, 543}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -31830,6 +32907,7 @@ hints = (
 {
 horizontal = 1;
 place = "{-165, 106}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -31863,10 +32941,12 @@ nodes = (
 hints = (
 {
 place = "{97, 574}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-165, 76}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -31949,21 +33029,26 @@ nodes = (
 hints = (
 {
 place = "{143, 113}";
+type = Stem;
 },
 {
 place = "{143, 195}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-150, 52}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{260, 53}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{671, 52}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -32067,18 +33152,22 @@ nodes = (
 hints = (
 {
 place = "{109, 83}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-150, 32}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{270, 33}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{691, 32}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -32190,21 +33279,26 @@ nodes = (
 hints = (
 {
 place = "{27, 195}";
+type = Stem;
 },
 {
 place = "{109, 113}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-144, 52}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{266, 53}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{677, 52}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -32308,18 +33402,22 @@ nodes = (
 hints = (
 {
 place = "{123, 83}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-150, 32}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{270, 33}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{691, 32}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -32394,17 +33492,21 @@ nodes = (
 hints = (
 {
 place = "{43, 120}";
+type = Stem;
 },
 {
 place = "{43, 200}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-149, 65}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{671, 65}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -32446,14 +33548,17 @@ nodes = (
 hints = (
 {
 place = "{83, 80}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-149, 45}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{691, 45}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -32503,17 +33608,21 @@ nodes = (
 hints = (
 {
 place = "{28, 200}";
+type = Stem;
 },
 {
 place = "{108, 120}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-149, 65}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{671, 65}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -32555,14 +33664,17 @@ nodes = (
 hints = (
 {
 place = "{108, 80}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-149, 45}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{691, 45}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -32626,6 +33738,7 @@ nodes = (
 hints = (
 {
 place = "{35, 120}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -32699,6 +33812,7 @@ nodes = (
 hints = (
 {
 place = "{35, 90}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -32774,6 +33888,7 @@ nodes = (
 hints = (
 {
 place = "{174, 120}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -32847,6 +33962,7 @@ nodes = (
 hints = (
 {
 place = "{147, 90}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -32905,6 +34021,7 @@ hints = (
 {
 horizontal = 1;
 place = "{192, 116}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -32938,10 +34055,12 @@ nodes = (
 hints = (
 {
 place = "{64, 1044}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{192, 76}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -32984,6 +34103,7 @@ hints = (
 {
 horizontal = 1;
 place = "{192, 116}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -33017,10 +34137,12 @@ nodes = (
 hints = (
 {
 place = "{64, 574}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{192, 76}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -33062,10 +34184,12 @@ nodes = (
 hints = (
 {
 place = "{50, 244}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{195, 105}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -33099,10 +34223,12 @@ nodes = (
 hints = (
 {
 place = "{50, 244}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{195, 75}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -33145,6 +34271,7 @@ hints = (
 {
 horizontal = 1;
 place = "{234, 101}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -33178,10 +34305,12 @@ nodes = (
 hints = (
 {
 place = "{53, 261}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{234, 71}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -33422,10 +34551,12 @@ nodes = (
 hints = (
 {
 place = "{34, 418}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{19, 484}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -33717,10 +34848,12 @@ nodes = (
 hints = (
 {
 place = "{57, 418}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{19, 484}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -33916,10 +35049,12 @@ nodes = (
 hints = (
 {
 place = "{34, 224}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{19, 484}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -34089,10 +35224,12 @@ nodes = (
 hints = (
 {
 place = "{57, 224}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{19, 484}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -34298,10 +35435,12 @@ nodes = (
 hints = (
 {
 place = "{39, 357}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-143, 297}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -34521,6 +35660,7 @@ nodes = (
 hints = (
 {
 place = "{53, 74}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -34746,10 +35886,12 @@ nodes = (
 hints = (
 {
 place = "{40, 358}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{441, 298}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -34904,6 +36046,7 @@ nodes = (
 hints = (
 {
 place = "{53, 148}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -35043,10 +36186,12 @@ nodes = (
 hints = (
 {
 place = "{39, 148}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{442, 297}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -35180,10 +36325,12 @@ nodes = (
 hints = (
 {
 place = "{40, 148}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-175, 297}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -35294,17 +36441,21 @@ nodes = (
 hints = (
 {
 place = "{50, 92}";
+type = Stem;
 },
 {
 place = "{372, 92}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 92}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{429, 92}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -35704,6 +36855,7 @@ nodes = (
 hints = (
 {
 place = "{34, 911}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -35714,6 +36866,7 @@ type = BottomGhost;
 {
 horizontal = 1;
 place = "{37, 12}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -35724,6 +36877,7 @@ type = BottomGhost;
 {
 horizontal = 1;
 place = "{-16, 84}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -35959,12 +37113,15 @@ nodes = (
 hints = (
 {
 place = "{43, 140}";
+type = Stem;
 },
 {
 place = "{284, 83}";
+type = Stem;
 },
 {
 place = "{284, 213}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -36090,17 +37247,21 @@ nodes = (
 hints = (
 {
 place = "{43, 98}";
+type = Stem;
 },
 {
 place = "{267, 50}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-9, 64}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{474, 56}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -36234,17 +37395,21 @@ nodes = (
 hints = (
 {
 place = "{95, 86}";
+type = Stem;
 },
 {
 place = "{371, 87}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{129, 86}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{405, 87}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -36394,17 +37559,21 @@ nodes = (
 hints = (
 {
 place = "{95, 66}";
+type = Stem;
 },
 {
 place = "{392, 66}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{129, 66}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{426, 66}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -36566,16 +37735,20 @@ nodes = (
 hints = (
 {
 place = "{61, 155}";
+type = Stem;
 },
 {
 place = "{281, 83}";
+type = Stem;
 },
 {
 place = "{408, 155}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-15, 78}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -36750,20 +37923,25 @@ nodes = (
 hints = (
 {
 place = "{49, 95}";
+type = Stem;
 },
 {
 place = "{254, 50}";
+type = Stem;
 },
 {
 place = "{401, 95}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-10, 50}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{656, 52}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -36917,18 +38095,22 @@ hints = (
 {
 horizontal = 1;
 place = "{-13, 79}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{232, 75}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{372, 75}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{645, 82}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -37052,22 +38234,27 @@ nodes = (
 hints = (
 {
 place = "{159, 115}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-13, 59}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{242, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{382, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{665, 52}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -37201,21 +38388,26 @@ nodes = (
 hints = (
 {
 place = "{118, 119}";
+type = Stem;
 },
 {
 place = "{159, 106}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 75}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{297, 75}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{624, 78}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -37337,27 +38529,34 @@ nodes = (
 hints = (
 {
 place = "{128, 99}";
+type = Stem;
 },
 {
 place = "{475, 63}";
+type = Stem;
 },
 {
 place = "{169, 86}";
+type = Stem;
 },
 {
 place = "{462, 50}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{307, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{637, 55}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -37474,18 +38673,22 @@ nodes = (
 hints = (
 {
 place = "{340, 145}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 174}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{131, 43}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{213, 43}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -37591,26 +38794,32 @@ nodes = (
 hints = (
 {
 place = "{308, 100}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 187}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{237, 40}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{665, 35}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{147, 40}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{655, 45}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -37719,10 +38928,12 @@ nodes = (
 hints = (
 {
 place = "{290, 114}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{241, 111}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -37784,6 +38995,7 @@ nodes = (
 hints = (
 {
 place = "{292, 74}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -37794,6 +39006,7 @@ type = BottomGhost;
 {
 horizontal = 1;
 place = "{261, 71}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -37844,6 +39057,7 @@ hints = (
 {
 horizontal = 1;
 place = "{259, 106}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -37877,10 +39091,12 @@ nodes = (
 hints = (
 {
 place = "{70, 470}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{259, 76}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -37988,10 +39204,12 @@ nodes = (
 hints = (
 {
 place = "{36, 514}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{43, 506}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -38068,6 +39286,7 @@ hints = (
 {
 horizontal = 1;
 place = "{246, 116}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -38173,18 +39392,22 @@ nodes = (
 hints = (
 {
 place = "{57, 604}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{33, 144}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{263, 77}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{426, 144}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -38270,10 +39493,12 @@ hints = (
 {
 horizontal = 1;
 place = "{143, 101}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{361, 101}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -38325,14 +39550,17 @@ nodes = (
 hints = (
 {
 place = "{70, 594}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{173, 71}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{361, 71}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -38434,10 +39662,12 @@ nodes = (
 hints = (
 {
 place = "{55, 609}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{23, 556}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -38533,10 +39763,12 @@ nodes = (
 hints = (
 {
 place = "{30, 609}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{23, 556}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -38598,14 +39830,17 @@ nodes = (
 hints = (
 {
 place = "{282, 114}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 111}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{389, 111}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -38679,14 +39914,17 @@ nodes = (
 hints = (
 {
 place = "{275, 76}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{22, 71}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{400, 71}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -38883,10 +40121,12 @@ nodes = (
 hints = (
 {
 place = "{51, 503}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{236, 136}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -38954,10 +40194,12 @@ nodes = (
 hints = (
 {
 place = "{515, 101}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{342, 101}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -39001,10 +40243,12 @@ nodes = (
 hints = (
 {
 place = "{569, 71}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{342, 71}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -39074,13 +40318,16 @@ nodes = (
 hints = (
 {
 place = "{49, 130}";
+type = Stem;
 },
 {
 place = "{414, 129}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 114}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -39178,9 +40425,11 @@ nodes = (
 hints = (
 {
 place = "{99, 90}";
+type = Stem;
 },
 {
 place = "{424, 89}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -39191,6 +40440,7 @@ type = BottomGhost;
 {
 horizontal = 1;
 place = "{-8, 82}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -39201,10 +40451,12 @@ type = TopGhost;
 {
 horizontal = 1;
 place = "{0, 62}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 44}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -39358,31 +40610,39 @@ nodes = (
 hints = (
 {
 place = "{35, 85}";
+type = Stem;
 },
 {
 place = "{286, 85}";
+type = Stem;
 },
 {
 place = "{490, 85}";
+type = Stem;
 },
 {
 place = "{741, 85}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-30, 53}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{277, 58}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{375, 53}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{682, 58}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -39588,31 +40848,39 @@ nodes = (
 hints = (
 {
 place = "{33, 65}";
+type = Stem;
 },
 {
 place = "{246, 64}";
+type = Stem;
 },
 {
 place = "{387, 65}";
+type = Stem;
 },
 {
 place = "{600, 64}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-10, 38}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{254, 38}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{412, 38}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{676, 38}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -39842,32 +41110,40 @@ nodes = (
 hints = (
 {
 place = "{42, 92}";
+type = Stem;
 },
 {
 place = "{238, 103}";
+type = Stem;
 },
 {
 place = "{757, 71}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-120, 77}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{57, 109}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{70, 96}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{474, 76}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{656, 72}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -40078,32 +41354,40 @@ nodes = (
 hints = (
 {
 place = "{42, 72}";
+type = Stem;
 },
 {
 place = "{238, 88}";
+type = Stem;
 },
 {
 place = "{777, 51}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-120, 52}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{57, 87}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{494, 56}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{676, 52}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{70, 58}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -40280,17 +41564,21 @@ nodes = (
 hints = (
 {
 place = "{33, 119}";
+type = Stem;
 },
 {
 place = "{112, 124}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-9, 85}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{638, 86}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -40464,17 +41752,21 @@ nodes = (
 hints = (
 {
 place = "{117, 93}";
+type = Stem;
 },
 {
 place = "{35, 96}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-9, 62}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{348, 53}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -40485,6 +41777,7 @@ type = TopGhost;
 {
 horizontal = 1;
 place = "{657, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -40495,6 +41788,7 @@ type = BottomGhost;
 {
 horizontal = 1;
 place = "{0, 35}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -40611,10 +41905,12 @@ nodes = (
 hints = (
 {
 place = "{394, 85}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{628, 60}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -40678,13 +41974,16 @@ nodes = (
 hints = (
 {
 place = "{31, 237}";
+type = Stem;
 },
 {
 place = "{341, 55}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{648, 40}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -40823,27 +42122,34 @@ nodes = (
 hints = (
 {
 place = "{36, 102}";
+type = Stem;
 },
 {
 place = "{73, 111}";
+type = Stem;
 },
 {
 place = "{337, 111}";
+type = Stem;
 },
 {
 place = "{382, 102}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-188, 65}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{571, 156}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{664, 63}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -41031,26 +42337,33 @@ nodes = (
 hints = (
 {
 place = "{64, 91}";
+type = Stem;
 },
 {
 place = "{379, 77}";
+type = Stem;
 },
 {
 place = "{370, 52}";
+type = Stem;
 },
 {
 place = "{47, 77}";
+type = Stem;
 },
 {
 place = "{348, 91}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-188, 51}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{676, 51}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -41241,28 +42554,35 @@ nodes = (
 hints = (
 {
 place = "{42, 85}";
+type = Stem;
 },
 {
 place = "{227, 93}";
+type = Stem;
 },
 {
 place = "{729, 83}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-24, 74}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{152, 47}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{533, 49}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{675, 73}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -41438,34 +42758,43 @@ nodes = (
 hints = (
 {
 place = "{42, 63}";
+type = Stem;
 },
 {
 place = "{227, 93}";
+type = Stem;
 },
 {
 place = "{536, 30}";
+type = Stem;
 },
 {
 place = "{748, 64}";
+type = Stem;
 },
 {
 place = "{530, 30}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-24, 52}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{152, 47}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{533, 49}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{696, 52}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -41655,35 +42984,44 @@ nodes = (
 hints = (
 {
 place = "{42, 85}";
+type = Stem;
 },
 {
 place = "{301, 71}";
+type = Stem;
 },
 {
 place = "{507, 77}";
+type = Stem;
 },
 {
 place = "{729, 83}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-24, 74}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{159, 230}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{343, 46}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{525, 50}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{675, 73}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -41871,35 +43209,44 @@ nodes = (
 hints = (
 {
 place = "{42, 63}";
+type = Stem;
 },
 {
 place = "{301, 71}";
+type = Stem;
 },
 {
 place = "{507, 77}";
+type = Stem;
 },
 {
 place = "{748, 64}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-24, 52}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{159, 25}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{343, 46}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{525, 50}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{696, 52}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -42040,17 +43387,21 @@ nodes = (
 hints = (
 {
 place = "{40, 65}";
+type = Stem;
 },
 {
 place = "{251, 65}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{444, 65}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{655, 65}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -42142,17 +43493,21 @@ nodes = (
 hints = (
 {
 place = "{40, 52}";
+type = Stem;
 },
 {
 place = "{264, 52}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{444, 52}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{668, 52}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -42219,6 +43574,7 @@ nodes = (
 hints = (
 {
 place = "{53, 103}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -42264,6 +43620,7 @@ nodes = (
 hints = (
 {
 place = "{81, 71}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -42320,6 +43677,7 @@ nodes = (
 hints = (
 {
 place = "{64, 103}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -42383,10 +43741,12 @@ nodes = (
 hints = (
 {
 place = "{87, 71}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{-194, 880}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -42488,10 +43848,12 @@ nodes = (
 hints = (
 {
 place = "{200, 592}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{652, 64}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -42611,10 +43973,12 @@ name = dieresis;
 hints = (
 {
 place = "{19, 338}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{596, 126}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -42740,10 +44104,12 @@ name = grave;
 hints = (
 {
 place = "{113, 205}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{582, 168}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -42778,6 +44144,7 @@ hints = (
 {
 horizontal = 1;
 place = "{581, 183}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -42805,10 +44172,12 @@ name = acute;
 hints = (
 {
 place = "{15, 185}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{565, 183}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -42852,6 +44221,7 @@ hints = (
 {
 horizontal = 1;
 place = "{595, 183}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -42940,10 +44310,12 @@ name = circumflex;
 hints = (
 {
 place = "{110, 303}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{701, 49}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -43023,10 +44395,12 @@ name = caron;
 hints = (
 {
 place = "{110, 303}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{570, 49}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -43074,17 +44448,21 @@ name = breve;
 hints = (
 {
 place = "{181, 120}";
+type = Stem;
 },
 {
 place = "{527, 120}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{711, 75}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{711, 184}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -43160,17 +44538,21 @@ name = ring;
 hints = (
 {
 place = "{126, 70}";
+type = Stem;
 },
 {
 place = "{307, 66}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{576, 59}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{762, 61}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -43231,17 +44613,21 @@ name = ring;
 hints = (
 {
 place = "{135, 49}";
+type = Stem;
 },
 {
 place = "{319, 49}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{576, 39}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{770, 39}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -43375,10 +44761,12 @@ name = tilde;
 hints = (
 {
 place = "{220, 366}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{590, 139}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -43413,6 +44801,7 @@ hints = (
 {
 horizontal = 1;
 place = "{625, 71}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -43440,10 +44829,12 @@ name = macron;
 hints = (
 {
 place = "{105, 314}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{625, 71}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -43493,6 +44884,7 @@ name = cedilla;
 hints = (
 {
 place = "{127, 154}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -43548,9 +44940,11 @@ name = cedilla;
 hints = (
 {
 place = "{127, 55}";
+type = Stem;
 },
 {
 place = "{169, 85}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -43635,6 +45029,7 @@ hints = (
 {
 horizontal = 1;
 place = "{581, 183}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -43668,10 +45063,12 @@ nodes = (
 hints = (
 {
 place = "{15, 185}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{565, 183}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -43727,17 +45124,21 @@ nodes = (
 hints = (
 {
 place = "{181, 120}";
+type = Stem;
 },
 {
 place = "{527, 120}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{711, 75}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{711, 184}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -43848,10 +45249,12 @@ nodes = (
 hints = (
 {
 place = "{110, 303}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{570, 49}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -43912,6 +45315,7 @@ nodes = (
 hints = (
 {
 place = "{127, 154}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -43985,9 +45389,11 @@ nodes = (
 hints = (
 {
 place = "{127, 55}";
+type = Stem;
 },
 {
 place = "{169, 85}";
+type = Stem;
 },
 {
 horizontal = 1;
@@ -44104,10 +45510,12 @@ nodes = (
 hints = (
 {
 place = "{110, 303}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{701, 49}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -44255,10 +45663,12 @@ nodes = (
 hints = (
 {
 place = "{19, 338}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{596, 126}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -44432,10 +45842,12 @@ nodes = (
 hints = (
 {
 place = "{113, 205}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{582, 168}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -44487,6 +45899,7 @@ hints = (
 {
 horizontal = 1;
 place = "{595, 183}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -44540,6 +45953,7 @@ hints = (
 {
 horizontal = 1;
 place = "{625, 71}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -44573,10 +45987,12 @@ nodes = (
 hints = (
 {
 place = "{105, 314}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{625, 71}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -44707,17 +46123,21 @@ nodes = (
 hints = (
 {
 place = "{126, 70}";
+type = Stem;
 },
 {
 place = "{307, 66}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{576, 59}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{762, 61}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -44809,17 +46229,21 @@ nodes = (
 hints = (
 {
 place = "{135, 49}";
+type = Stem;
 },
 {
 place = "{319, 49}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{576, 39}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{770, 39}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -45016,10 +46440,12 @@ nodes = (
 hints = (
 {
 place = "{220, 366}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{590, 139}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -45406,56 +46832,72 @@ nodes = (
 hints = (
 {
 place = "{51, 38}";
+type = Stem;
 },
 {
 place = "{294, 170}";
+type = Stem;
 },
 {
 place = "{371, 93}";
+type = Stem;
 },
 {
 place = "{476, 90}";
+type = Stem;
 },
 {
 place = "{589, 35}";
+type = Stem;
 },
 {
 place = "{699, 36}";
+type = Stem;
 },
 {
 place = "{763, 36}";
+type = Stem;
 },
 {
 place = "{822, 170}";
+type = Stem;
 },
 {
 place = "{903, 89}";
+type = Stem;
 },
 {
 place = "{959, 33}";
+type = Stem;
 },
 {
 place = "{51, 107}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{138, 59}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{179, 33}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{211, 29}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{251, 33}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{285, 31}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -46126,6 +47568,7 @@ hints = (
 {
 horizontal = 1;
 place = "{741, 183}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -46159,10 +47602,12 @@ nodes = (
 hints = (
 {
 place = "{218, 180}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{741, 151}";
+type = Stem;
 }
 );
 layerId = UUID0;
@@ -46203,17 +47648,21 @@ layers = (
 hints = (
 {
 place = "{50, 92}";
+type = Stem;
 },
 {
 place = "{372, 92}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{0, 92}";
+type = Stem;
 },
 {
 horizontal = 1;
 place = "{429, 92}";
+type = Stem;
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -46281,202 +47730,8 @@ weightClass = Bold;
 );
 kerning = {
 UUID0 = {
-D = {
-AE = -49;
-"@MMK_R_A" = -10;
-"@MMK_R_V" = -20;
-"@MMK_R_Y" = -28;
-};
-H = {
-"@MMK_R_y" = -7;
-};
-J = {
-"@MMK_R_A" = -45;
-"@MMK_R_o" = -14;
-"@MMK_R_g" = -10;
-"@MMK_R_n" = -54;
-"@MMK_R_x" = -15;
-"@MMK_R_z" = -10;
-};
-N = {
-e = -10;
-eacute = -30;
-ecircumflex = -30;
-edieresis = -30;
-egrave = -30;
-eth = -25;
-"@MMK_R_a" = -10;
-"@MMK_R_o" = -15;
-"@MMK_R_six" = -16;
-};
-Ntilde = {
-e = -30;
-eacute = -30;
-ecircumflex = -30;
-edieresis = -30;
-egrave = -30;
-eth = -25;
-"@MMK_R_a" = -10;
-"@MMK_R_o" = -15;
-"@MMK_R_six" = -16;
-};
-Thorn = {
-AE = -46;
-"@MMK_R_A" = -29;
-"@MMK_R_J" = -16;
-"@MMK_R_X" = -55;
-"@MMK_R_I" = -11;
-"@MMK_R_parenright" = -14;
-};
-Uacute = {
-"@MMK_R_A" = -10;
-"@MMK_R_guilsinglright" = -21;
-"@MMK_R_z" = -11;
-};
-W = {
-AE = -74;
-aacute = -113;
-acircumflex = -113;
-adieresis = -28;
-agrave = -113;
-aring = -113;
-atilde = -113;
-e = -137;
-eacute = -137;
-ecircumflex = -137;
-edieresis = -137;
-egrave = -137;
-eth = -41;
-igrave = 25;
-oacute = -101;
-ocircumflex = -101;
-odieresis = -101;
-ograve = -101;
-oslash = -101;
-otilde = -101;
-thorn = 58;
-"@MMK_R_A" = -51;
-"@MMK_R_J" = -41;
-"@MMK_R_a" = -49;
-"@MMK_R_at" = -25;
-"@MMK_R_backslash" = 42;
-"@MMK_R_o" = -49;
-"@MMK_R_g" = -49;
-"@MMK_R_idotless" = 65;
-"@MMK_R_n" = -65;
-"@MMK_R_quoteright" = 25;
-"@MMK_R_seven" = 22;
-"@MMK_R_six" = -26;
-"@MMK_R_z" = -34;
-"@MMK_R_O" = -15;
-"@MMK_R_parenright" = 29;
-"@MMK_R_I" = 34;
-};
-a = {
-W = -49;
-"@MMK_R_U" = -12;
-"@MMK_R_V" = -53;
-"@MMK_R_Y" = -59;
-"@MMK_R_v" = -15;
-"@MMK_R_y" = -10;
-};
-agrave = {
-W = -49;
-w = -15;
-"@MMK_R_U" = -12;
-"@MMK_R_V" = -53;
-"@MMK_R_Y" = -59;
-"@MMK_R_v" = -72;
-"@MMK_R_y" = -30;
-};
-b = {
-W = -29;
-"@MMK_R_T" = -35;
-"@MMK_R_V" = -44;
-"@MMK_R_Y" = -64;
-"@MMK_R_x" = -10;
-"@MMK_R_y" = -10;
-};
-bar = {
-"@MMK_R_o" = -12;
-"@MMK_R_jdotless" = 47;
-};
-bracketleft = {
-W = 6;
-"@MMK_R_O" = -17;
-"@MMK_R_J" = -17;
-"@MMK_R_V" = 19;
-"@MMK_R_Y" = 18;
-"@MMK_R_eight" = -12;
-"@MMK_R_four" = -12;
-"@MMK_R_six" = -16;
-"@MMK_R_o" = -15;
-"@MMK_R_I" = 11;
-};
-eth = {
-"@MMK_R_backslash" = -10;
-"@MMK_R_parenright" = -17;
-};
-h = {
-w = -15;
-"@MMK_R_T" = -59;
-"@MMK_R_V" = -44;
-"@MMK_R_Y" = -53;
-"@MMK_R_t" = -35;
-"@MMK_R_v" = -23;
-};
-idieresis = {
-"@MMK_R_quoteright" = 20;
-"@MMK_R_parenright" = 17;
-};
-m = {
-w = -10;
-"@MMK_R_v" = -15;
-"@MMK_R_y" = -10;
-};
-minus = {
-"@MMK_R_seven" = -51;
-};
-ntilde = {
-"@MMK_R_v" = -66;
-};
-p = {
-"@MMK_R_T" = -35;
-"@MMK_R_V" = -15;
-"@MMK_R_Y" = -39;
-"@MMK_R_parenright" = -10;
-"@MMK_R_I" = -18;
-};
-registered = {
-"@MMK_R_A" = -23;
-"@MMK_R_J" = -13;
-};
-w = {
-"@MMK_R_J" = -49;
-"@MMK_R_T" = 5;
-"@MMK_R_guilsinglleft" = -14;
-};
-yacute = {
-e = -77;
-"@MMK_R_o" = -60;
-"@MMK_R_t" = 6;
-};
-ydieresis = {
-oacute = -10;
-ocircumflex = -10;
-odieresis = -7;
-"@MMK_R_o" = -70;
-"@MMK_R_u" = -54;
-};
 "@MMK_L_A" = {
-C = -10;
-Ccedilla = -10;
-W = -52;
-b = -15;
-d = -6;
-eth = -6;
-k = -5;
-registered = -21;
+"@MMK_R_I" = -57;
 "@MMK_R_J" = 15;
 "@MMK_R_O" = -16;
 "@MMK_R_T" = -44;
@@ -46486,7 +47741,12 @@ registered = -21;
 "@MMK_R_backslash" = -50;
 "@MMK_R_five" = 11;
 "@MMK_R_guilsinglleft" = -14;
+"@MMK_R_jdotless" = 41;
 "@MMK_R_nine" = -11;
+"@MMK_R_o" = -18;
+"@MMK_R_parenright" = -12;
+"@MMK_R_period" = 16;
+"@MMK_R_quesion" = -18;
 "@MMK_R_quoteleft" = -56;
 "@MMK_R_quoteright" = -55;
 "@MMK_R_t" = -10;
@@ -46494,17 +47754,16 @@ registered = -21;
 "@MMK_R_u" = -10;
 "@MMK_R_v" = -39;
 "@MMK_R_y" = -24;
-"@MMK_R_I" = -57;
-"@MMK_R_o" = -18;
-"@MMK_R_parenright" = -12;
-"@MMK_R_jdotless" = 41;
-"@MMK_R_quesion" = -18;
-"@MMK_R_period" = 16;
+C = -10;
+Ccedilla = -10;
+W = -52;
+b = -15;
+d = -6;
+eth = -6;
+k = -5;
+registered = -21;
 };
 "@MMK_L_B" = {
-AE = -14;
-W = -14;
-bracketright = -13;
 "@MMK_R_A" = -10;
 "@MMK_R_I" = -6;
 "@MMK_R_U" = -7;
@@ -46513,14 +47772,17 @@ bracketright = -13;
 "@MMK_R_Y" = -16;
 "@MMK_R_backslash" = -11;
 "@MMK_R_parenright" = -20;
+AE = -14;
+W = -14;
+bracketright = -13;
 };
 "@MMK_L_C" = {
-"@MMK_R_four" = -30;
-"@MMK_R_six" = -13;
-"@MMK_R_colon" = -10;
-"@MMK_R_jdotless" = 23;
 "@MMK_R_I" = -5;
+"@MMK_R_colon" = -10;
+"@MMK_R_four" = -30;
+"@MMK_R_jdotless" = 23;
 "@MMK_R_n" = -6;
+"@MMK_R_six" = -13;
 };
 "@MMK_L_E" = {
 "@MMK_R_O" = -6;
@@ -46528,6 +47790,21 @@ bracketright = -13;
 "@MMK_R_jdotless" = 29;
 };
 "@MMK_L_F" = {
+"@MMK_R_A" = -41;
+"@MMK_R_I" = 22;
+"@MMK_R_J" = -48;
+"@MMK_R_V" = 9;
+"@MMK_R_Y" = 9;
+"@MMK_R_colon" = -15;
+"@MMK_R_four" = -30;
+"@MMK_R_g" = -10;
+"@MMK_R_guilsinglleft" = -23;
+"@MMK_R_idotless" = 20;
+"@MMK_R_jdotless" = 41;
+"@MMK_R_n" = -6;
+"@MMK_R_o" = -29;
+"@MMK_R_s" = -10;
+"@MMK_R_t" = -10;
 AE = -78;
 c = -32;
 d = -15;
@@ -46540,59 +47817,56 @@ eth = -32;
 germandbls = -12;
 q = -5;
 thorn = 15;
-"@MMK_R_A" = -41;
-"@MMK_R_J" = -48;
-"@MMK_R_V" = 9;
-"@MMK_R_Y" = 9;
-"@MMK_R_colon" = -15;
-"@MMK_R_four" = -30;
-"@MMK_R_g" = -10;
-"@MMK_R_guilsinglleft" = -23;
-"@MMK_R_o" = -29;
-"@MMK_R_s" = -10;
-"@MMK_R_t" = -10;
-"@MMK_R_I" = 22;
-"@MMK_R_idotless" = 20;
-"@MMK_R_jdotless" = 41;
-"@MMK_R_n" = -6;
 };
 "@MMK_L_I" = {
-eth = -20;
-idieresis = 6;
-j = 15;
+"@MMK_R_A" = -11;
+"@MMK_R_I" = 29;
+"@MMK_R_J" = -14;
+"@MMK_R_O" = -11;
+"@MMK_R_a" = -15;
+"@MMK_R_at" = -13;
+"@MMK_R_colon" = -21;
+"@MMK_R_eight" = -10;
+"@MMK_R_f" = -16;
+"@MMK_R_four" = -13;
+"@MMK_R_g" = -15;
+"@MMK_R_guilsinglleft" = -21;
+"@MMK_R_guilsinglright" = -17;
+"@MMK_R_idotless" = 16;
+"@MMK_R_jdotless" = -6;
+"@MMK_R_n" = -22;
+"@MMK_R_o" = -30;
+"@MMK_R_quoteright" = -10;
+"@MMK_R_six" = -12;
+"@MMK_R_v" = -5;
+"@MMK_R_y" = -10;
 e = -37;
 eacute = -37;
 ecircumflex = -37;
 edieresis = -37;
 egrave = -37;
+eth = -20;
 germandbls = -18;
-thorn = 8;
+idieresis = 6;
+j = 15;
 q = -13;
-"@MMK_R_O" = -11;
-"@MMK_R_four" = -13;
-"@MMK_R_guilsinglleft" = -21;
-"@MMK_R_six" = -12;
-"@MMK_R_v" = -5;
-"@MMK_R_y" = -10;
-"@MMK_R_a" = -15;
-"@MMK_R_o" = -30;
-"@MMK_R_A" = -11;
-"@MMK_R_J" = -14;
-"@MMK_R_at" = -13;
-"@MMK_R_colon" = -21;
-"@MMK_R_eight" = -10;
-"@MMK_R_f" = -16;
-"@MMK_R_g" = -15;
-"@MMK_R_guilsinglright" = -17;
-"@MMK_R_quoteright" = -10;
-"@MMK_R_jdotless" = -6;
-"@MMK_R_idotless" = 16;
-"@MMK_R_I" = 29;
-"@MMK_R_n" = -22;
+thorn = 8;
 yacute = -18;
 ydieresis = -18;
 };
 "@MMK_L_K" = {
+"@MMK_R_I" = 11;
+"@MMK_R_O" = -31;
+"@MMK_R_five" = 8;
+"@MMK_R_guilsinglleft" = -17;
+"@MMK_R_idotless" = 15;
+"@MMK_R_o" = -15;
+"@MMK_R_period" = 14;
+"@MMK_R_t" = -15;
+"@MMK_R_two" = 11;
+"@MMK_R_u" = -15;
+"@MMK_R_v" = -44;
+"@MMK_R_y" = -39;
 e = -10;
 eacute = -24;
 ecircumflex = -24;
@@ -46611,22 +47885,8 @@ ucircumflex = -66;
 udieresis = -66;
 ugrave = -66;
 w = -39;
-"@MMK_R_O" = -31;
-"@MMK_R_five" = 8;
-"@MMK_R_guilsinglleft" = -17;
-"@MMK_R_o" = -15;
-"@MMK_R_t" = -15;
-"@MMK_R_two" = 11;
-"@MMK_R_u" = -15;
-"@MMK_R_v" = -44;
-"@MMK_R_y" = -39;
-"@MMK_R_I" = 11;
-"@MMK_R_idotless" = 15;
-"@MMK_R_period" = 14;
 };
 "@MMK_L_L" = {
-W = -46;
-w = -29;
 "@MMK_R_A" = 20;
 "@MMK_R_T" = -39;
 "@MMK_R_U" = -16;
@@ -46634,24 +47894,21 @@ w = -29;
 "@MMK_R_Y" = -39;
 "@MMK_R_backslash" = -46;
 "@MMK_R_four" = 16;
+"@MMK_R_hyphen" = -29;
+"@MMK_R_jdotless" = 35;
 "@MMK_R_nine" = -21;
+"@MMK_R_parenright" = -14;
+"@MMK_R_quesion" = -21;
 "@MMK_R_quoteleft" = -65;
 "@MMK_R_quoteright" = -63;
 "@MMK_R_seven" = -10;
 "@MMK_R_v" = -24;
 "@MMK_R_x" = 20;
 "@MMK_R_y" = -44;
-"@MMK_R_parenright" = -14;
-"@MMK_R_jdotless" = 35;
-"@MMK_R_hyphen" = -29;
-"@MMK_R_quesion" = -21;
+W = -46;
+w = -29;
 };
 "@MMK_L_O" = {
-AE = -42;
-braceright = -22;
-bracketright = -16;
-l = -30;
-thorn = -5;
 "@MMK_R_A" = -18;
 "@MMK_R_I" = -11;
 "@MMK_R_J" = -6;
@@ -46659,45 +47916,45 @@ thorn = -5;
 "@MMK_R_V" = -15;
 "@MMK_R_X" = -25;
 "@MMK_R_Y" = -23;
+"@MMK_R_Z" = -6;
 "@MMK_R_a" = -12;
 "@MMK_R_backslash" = -12;
-"@MMK_R_Z" = -6;
+"@MMK_R_jdotless" = 88;
+"@MMK_R_n" = -12;
 "@MMK_R_parenright" = -5;
 "@MMK_R_v" = 29;
-"@MMK_R_n" = -12;
-"@MMK_R_jdotless" = 88;
+AE = -42;
+braceright = -22;
+bracketright = -16;
+l = -30;
+thorn = -5;
 };
 "@MMK_L_P" = {
+"@MMK_R_A" = -39;
+"@MMK_R_I" = -15;
+"@MMK_R_J" = -78;
+"@MMK_R_U" = -9;
+"@MMK_R_V" = -21;
+"@MMK_R_X" = -12;
+"@MMK_R_Y" = -39;
+"@MMK_R_Z" = -7;
+"@MMK_R_backslash" = -13;
+"@MMK_R_four" = -26;
+"@MMK_R_guilsinglleft" = -18;
+"@MMK_R_jdotless" = 20;
+"@MMK_R_o" = -10;
+"@MMK_R_parenright" = -22;
+"@MMK_R_quoteleft" = -11;
+"@MMK_R_v" = 2;
+"@MMK_R_x" = -11;
+"@MMK_R_y" = 2;
 AE = -76;
 braceright = -11;
 bracketright = -10;
 h = -5;
 l = -11;
-"@MMK_R_A" = -39;
-"@MMK_R_J" = -78;
-"@MMK_R_X" = -12;
-"@MMK_R_four" = -26;
-"@MMK_R_guilsinglleft" = -18;
-"@MMK_R_v" = 2;
-"@MMK_R_y" = 2;
-"@MMK_R_I" = -15;
-"@MMK_R_U" = -9;
-"@MMK_R_V" = -21;
-"@MMK_R_Y" = -39;
-"@MMK_R_Z" = -7;
-"@MMK_R_backslash" = -13;
-"@MMK_R_quoteleft" = -11;
-"@MMK_R_x" = -11;
-"@MMK_R_parenright" = -22;
-"@MMK_R_o" = -10;
-"@MMK_R_jdotless" = 20;
 };
 "@MMK_L_R" = {
-e = -30;
-eacute = -30;
-ecircumflex = -30;
-edieresis = -30;
-egrave = -30;
 "@MMK_R_T" = -7;
 "@MMK_R_U" = -11;
 "@MMK_R_V" = -20;
@@ -46706,6 +47963,8 @@ egrave = -30;
 "@MMK_R_five" = 16;
 "@MMK_R_four" = -12;
 "@MMK_R_guilsinglleft" = -15;
+"@MMK_R_o" = -24;
+"@MMK_R_period" = 23;
 "@MMK_R_quoteright" = -8;
 "@MMK_R_t" = -18;
 "@MMK_R_two" = 16;
@@ -46713,18 +47972,18 @@ egrave = -30;
 "@MMK_R_v" = -60;
 "@MMK_R_x" = 41;
 "@MMK_R_y" = -5;
-"@MMK_R_o" = -24;
-"@MMK_R_period" = 23;
+e = -30;
+eacute = -30;
+ecircumflex = -30;
+edieresis = -30;
+egrave = -30;
 };
 "@MMK_L_S" = {
 "@MMK_R_I" = -6;
 };
 "@MMK_L_T" = {
-AE = -52;
-eth = -41;
-germandbls = -9;
-thorn = 15;
 "@MMK_R_A" = -45;
+"@MMK_R_I" = 35;
 "@MMK_R_J" = -44;
 "@MMK_R_V" = 9;
 "@MMK_R_Y" = 23;
@@ -46734,6 +47993,7 @@ thorn = 15;
 "@MMK_R_four" = -45;
 "@MMK_R_g" = -49;
 "@MMK_R_guilsinglleft" = -45;
+"@MMK_R_idotless" = 20;
 "@MMK_R_n" = -15;
 "@MMK_R_o" = -49;
 "@MMK_R_s" = -49;
@@ -46743,16 +48003,35 @@ thorn = 15;
 "@MMK_R_x" = -15;
 "@MMK_R_y" = 5;
 "@MMK_R_z" = -15;
-"@MMK_R_I" = 35;
-"@MMK_R_idotless" = 20;
+AE = -52;
+eth = -41;
+germandbls = -9;
+thorn = 15;
 };
 "@MMK_L_U" = {
-eth = -21;
-germandbls = -21;
-m = -24;
-p = -15;
-q = -10;
-thorn = 12;
+"@MMK_R_A" = -32;
+"@MMK_R_I" = -12;
+"@MMK_R_J" = -17;
+"@MMK_R_O" = -8;
+"@MMK_R_a" = -20;
+"@MMK_R_at" = -10;
+"@MMK_R_colon" = -21;
+"@MMK_R_f" = -20;
+"@MMK_R_four" = -11;
+"@MMK_R_g" = -24;
+"@MMK_R_guilsinglleft" = -15;
+"@MMK_R_guilsinglright" = -17;
+"@MMK_R_idotless" = 20;
+"@MMK_R_n" = -20;
+"@MMK_R_o" = -24;
+"@MMK_R_s" = -15;
+"@MMK_R_six" = -12;
+"@MMK_R_u" = -36;
+"@MMK_R_v" = -10;
+"@MMK_R_x" = -10;
+"@MMK_R_y" = -7;
+"@MMK_R_z" = -20;
+AE = -23;
 aacute = -48;
 acircumflex = -48;
 adieresis = -48;
@@ -46765,41 +48044,57 @@ eacute = -60;
 ecircumflex = -60;
 edieresis = -60;
 egrave = -60;
-"@MMK_R_A" = -32;
-"@MMK_R_J" = -17;
-"@MMK_R_O" = -8;
-"@MMK_R_at" = -10;
-"@MMK_R_colon" = -21;
-"@MMK_R_f" = -20;
-"@MMK_R_four" = -11;
-"@MMK_R_g" = -24;
-"@MMK_R_guilsinglleft" = -15;
-"@MMK_R_guilsinglright" = -17;
-"@MMK_R_n" = -20;
-"@MMK_R_o" = -24;
-"@MMK_R_s" = -15;
-"@MMK_R_six" = -12;
-"@MMK_R_v" = -10;
-"@MMK_R_x" = -10;
-"@MMK_R_z" = -20;
-"@MMK_R_a" = -20;
-"@MMK_R_u" = -36;
-"@MMK_R_y" = -7;
+eth = -21;
+germandbls = -21;
+m = -24;
 o = -10;
-"@MMK_R_I" = -12;
-"@MMK_R_idotless" = 20;
-AE = -23;
 oacute = -36;
 ocircumflex = -36;
 odieresis = -36;
 ograve = -36;
 oslash = -36;
 otilde = -36;
+p = -15;
+q = -10;
+thorn = 12;
 };
 "@MMK_L_V" = {
+"@MMK_R_A" = -55;
+"@MMK_R_I" = -12;
+"@MMK_R_J" = -48;
+"@MMK_R_O" = -19;
+"@MMK_R_S" = -6;
+"@MMK_R_T" = 12;
+"@MMK_R_a" = -59;
+"@MMK_R_at" = -28;
+"@MMK_R_backslash" = 36;
+"@MMK_R_colon" = -34;
+"@MMK_R_eight" = -12;
+"@MMK_R_f" = -11;
+"@MMK_R_five" = -10;
+"@MMK_R_four" = -42;
+"@MMK_R_g" = -59;
+"@MMK_R_guilsinglleft" = -42;
+"@MMK_R_guilsinglright" = -30;
+"@MMK_R_idotless" = -18;
+"@MMK_R_n" = -49;
+"@MMK_R_o" = -63;
+"@MMK_R_parenright" = 47;
+"@MMK_R_quesion" = 26;
+"@MMK_R_quoteright" = 11;
+"@MMK_R_s" = -49;
+"@MMK_R_seven" = 17;
+"@MMK_R_six" = -29;
+"@MMK_R_t" = -65;
+"@MMK_R_u" = -29;
+"@MMK_R_v" = -29;
+"@MMK_R_x" = -29;
+"@MMK_R_y" = -29;
+"@MMK_R_z" = -29;
 AE = -79;
 C = -22;
 Ccedilla = -22;
+O = -15;
 aacute = -102;
 acircumflex = -102;
 adieresis = -39;
@@ -46823,58 +48118,35 @@ idieresis = 55;
 igrave = 15;
 l = 24;
 m = -36;
+n = -34;
+ntilde = -34;
 oacute = -108;
 ocircumflex = -108;
 odieresis = -108;
 ograve = -108;
 oslash = -108;
 otilde = -108;
+p = -29;
 q = -59;
 question = 20;
+r = -42;
 thorn = 48;
 uacute = -66;
 ucircumflex = -66;
 udieresis = -66;
 ugrave = -66;
-"@MMK_R_A" = -55;
-"@MMK_R_J" = -48;
-"@MMK_R_O" = -19;
-"@MMK_R_S" = -6;
-"@MMK_R_a" = -59;
-"@MMK_R_at" = -28;
-"@MMK_R_backslash" = 36;
-"@MMK_R_colon" = -34;
-"@MMK_R_idotless" = -18;
-"@MMK_R_eight" = -12;
-"@MMK_R_five" = -10;
-"@MMK_R_four" = -42;
-"@MMK_R_g" = -59;
-"@MMK_R_guilsinglleft" = -42;
-"@MMK_R_guilsinglright" = -30;
-"@MMK_R_n" = -49;
-"@MMK_R_o" = -63;
-"@MMK_R_quoteright" = 11;
-"@MMK_R_s" = -49;
-"@MMK_R_seven" = 17;
-"@MMK_R_six" = -29;
-"@MMK_R_u" = -29;
-"@MMK_R_v" = -29;
-"@MMK_R_x" = -29;
-"@MMK_R_y" = -29;
-"@MMK_R_z" = -29;
-"@MMK_R_T" = 12;
-"@MMK_R_f" = -11;
-"@MMK_R_t" = -65;
-O = -15;
-n = -34;
-"@MMK_R_parenright" = 47;
-"@MMK_R_I" = -12;
-"@MMK_R_quesion" = 26;
-ntilde = -34;
-p = -29;
-r = -42;
 };
 "@MMK_L_X" = {
+"@MMK_R_I" = 24;
+"@MMK_R_O" = -22;
+"@MMK_R_backslash" = 21;
+"@MMK_R_guilsinglleft" = -18;
+"@MMK_R_idotless" = 41;
+"@MMK_R_jdotless" = 20;
+"@MMK_R_o" = -20;
+"@MMK_R_parenright" = 24;
+"@MMK_R_v" = -29;
+"@MMK_R_y" = -46;
 bracketright = 7;
 d = -15;
 e = -30;
@@ -46886,18 +48158,38 @@ eth = -32;
 h = 10;
 l = 27;
 thorn = 33;
-"@MMK_R_O" = -22;
-"@MMK_R_backslash" = 21;
-"@MMK_R_guilsinglleft" = -18;
-"@MMK_R_o" = -20;
-"@MMK_R_v" = -29;
-"@MMK_R_y" = -46;
-"@MMK_R_I" = 24;
-"@MMK_R_parenright" = 24;
-"@MMK_R_idotless" = 41;
-"@MMK_R_jdotless" = 20;
 };
 "@MMK_L_Y" = {
+"@MMK_R_A" = -44;
+"@MMK_R_I" = 39;
+"@MMK_R_J" = -42;
+"@MMK_R_O" = -30;
+"@MMK_R_S" = -6;
+"@MMK_R_T" = 35;
+"@MMK_R_a" = -59;
+"@MMK_R_at" = -34;
+"@MMK_R_backslash" = 37;
+"@MMK_R_colon" = -39;
+"@MMK_R_eight" = -13;
+"@MMK_R_four" = -51;
+"@MMK_R_g" = -73;
+"@MMK_R_guilsinglleft" = -57;
+"@MMK_R_guilsinglright" = -36;
+"@MMK_R_idotless" = -5;
+"@MMK_R_n" = -49;
+"@MMK_R_o" = -83;
+"@MMK_R_parenright" = 37;
+"@MMK_R_quesion" = 20;
+"@MMK_R_quoteright" = 11;
+"@MMK_R_s" = -68;
+"@MMK_R_seven" = 18;
+"@MMK_R_six" = -36;
+"@MMK_R_t" = -20;
+"@MMK_R_u" = -44;
+"@MMK_R_v" = -44;
+"@MMK_R_x" = -49;
+"@MMK_R_y" = -44;
+"@MMK_R_z" = -44;
 AE = -56;
 C = -37;
 Ccedilla = -37;
@@ -46916,46 +48208,15 @@ r = -39;
 registered = -25;
 thorn = 48;
 w = -39;
-"@MMK_R_A" = -44;
-"@MMK_R_J" = -42;
-"@MMK_R_O" = -30;
-"@MMK_R_S" = -6;
-"@MMK_R_T" = 35;
-"@MMK_R_a" = -59;
-"@MMK_R_at" = -34;
-"@MMK_R_backslash" = 37;
-"@MMK_R_colon" = -39;
-"@MMK_R_idotless" = -5;
-"@MMK_R_eight" = -13;
-"@MMK_R_four" = -51;
-"@MMK_R_g" = -73;
-"@MMK_R_guilsinglleft" = -57;
-"@MMK_R_guilsinglright" = -36;
-"@MMK_R_n" = -49;
-"@MMK_R_o" = -83;
-"@MMK_R_quoteright" = 11;
-"@MMK_R_s" = -68;
-"@MMK_R_seven" = 18;
-"@MMK_R_six" = -36;
-"@MMK_R_t" = -20;
-"@MMK_R_u" = -44;
-"@MMK_R_v" = -44;
-"@MMK_R_x" = -49;
-"@MMK_R_y" = -44;
-"@MMK_R_z" = -44;
-"@MMK_R_I" = 39;
-"@MMK_R_parenright" = 37;
-"@MMK_R_quesion" = 20;
 };
 "@MMK_L_at" = {
 "@MMK_R_A" = -15;
 "@MMK_R_J" = -15;
-"@MMK_R_Y" = -12;
 "@MMK_R_V" = -10;
+"@MMK_R_Y" = -12;
 };
 "@MMK_L_backslash" = {
-W = -69;
-q = -31;
+"@MMK_R_I" = -26;
 "@MMK_R_J" = -11;
 "@MMK_R_O" = -43;
 "@MMK_R_S" = -19;
@@ -46967,6 +48228,7 @@ q = -31;
 "@MMK_R_eight" = -28;
 "@MMK_R_five" = -11;
 "@MMK_R_four" = -27;
+"@MMK_R_jdotless" = 107;
 "@MMK_R_nine" = -35;
 "@MMK_R_o" = -35;
 "@MMK_R_quoteright" = -85;
@@ -46978,12 +48240,10 @@ q = -31;
 "@MMK_R_u" = -40;
 "@MMK_R_v" = -59;
 "@MMK_R_z" = -11;
-"@MMK_R_I" = -26;
-"@MMK_R_jdotless" = 107;
+W = -69;
+q = -31;
 };
 "@MMK_L_c" = {
-W = -34;
-k = -15;
 "@MMK_R_I" = -7;
 "@MMK_R_T" = -10;
 "@MMK_R_V" = -20;
@@ -46991,68 +48251,74 @@ k = -15;
 "@MMK_R_backslash" = -25;
 "@MMK_R_parenright" = -10;
 "@MMK_R_quesion" = -10;
+W = -34;
+k = -15;
 };
 "@MMK_L_colon" = {
 "@MMK_R_jdotless" = 73;
 };
 "@MMK_L_d" = {
-eth = -5;
+"@MMK_R_I" = -5;
+"@MMK_R_O" = -5;
+"@MMK_R_jdotless" = 15;
+"@MMK_R_o" = -18;
 "@MMK_R_v" = -48;
 "@MMK_R_y" = -10;
-"@MMK_R_O" = -5;
-"@MMK_R_o" = -18;
-"@MMK_R_jdotless" = 15;
-"@MMK_R_I" = -5;
-};
-"@MMK_L_idotless" = {
-e = -12;
-eacute = -12;
-ecircumflex = -12;
-edieresis = -12;
-egrave = -12;
 eth = -5;
-thorn = -4;
-b = 24;
-braceright = 15;
-bracketright = 6;
-h = 8;
-k = 6;
-l = 5;
-quotedblright = 14;
-"@MMK_R_quoteleft" = -5;
-"@MMK_R_quoteright" = -5;
-"@MMK_R_u" = -30;
-"@MMK_R_v" = -36;
-"@MMK_R_backslash" = 23;
-"@MMK_R_I" = 33;
-"@MMK_R_parenright" = 33;
-"@MMK_R_O" = -5;
-"@MMK_R_V" = -11;
-"@MMK_R_o" = -18;
-"@MMK_R_quesion" = 22;
 };
 "@MMK_L_e" = {
-W = -39;
-l = -18;
-r = -24;
+"@MMK_R_I" = -29;
 "@MMK_R_T" = -10;
 "@MMK_R_V" = -20;
 "@MMK_R_Y" = -41;
 "@MMK_R_backslash" = -33;
+"@MMK_R_n" = -17;
 "@MMK_R_quoteleft" = -5;
 "@MMK_R_quoteright" = -5;
 "@MMK_R_v" = -42;
 "@MMK_R_x" = -5;
 "@MMK_R_y" = -6;
-"@MMK_R_I" = -29;
-"@MMK_R_n" = -17;
+W = -39;
+l = -18;
+r = -24;
 };
 "@MMK_L_eight" = {
-bracketright = -11;
-"@MMK_R_parenright" = -14;
 "@MMK_R_hyphen" = -10;
+"@MMK_R_parenright" = -14;
+bracketright = -11;
+};
+"@MMK_L_exclam" = {
+"@MMK_R_Y" = 5;
 };
 "@MMK_L_f" = {
+"@MMK_R_I" = 88;
+"@MMK_R_O" = 41;
+"@MMK_R_S" = 5;
+"@MMK_R_V" = 24;
+"@MMK_R_X" = 111;
+"@MMK_R_Y" = 15;
+"@MMK_R_Z" = -5;
+"@MMK_R_a" = 20;
+"@MMK_R_backslash" = 71;
+"@MMK_R_f" = 35;
+"@MMK_R_g" = -59;
+"@MMK_R_guilsinglleft" = -21;
+"@MMK_R_idotless" = 64;
+"@MMK_R_jdotless" = 88;
+"@MMK_R_n" = -6;
+"@MMK_R_o" = -83;
+"@MMK_R_paragraph" = 34;
+"@MMK_R_parenleft" = 32;
+"@MMK_R_parenright" = 88;
+"@MMK_R_quesion" = 68;
+"@MMK_R_quoteleft" = 49;
+"@MMK_R_quoteright" = 111;
+"@MMK_R_s" = 5;
+"@MMK_R_t" = 37;
+"@MMK_R_u" = 35;
+"@MMK_R_v" = 35;
+"@MMK_R_y" = 53;
+"@MMK_R_z" = 41;
 B = -10;
 C = 24;
 Ccedilla = 24;
@@ -47081,40 +48347,11 @@ udieresis = -51;
 ugrave = -51;
 yacute = -18;
 ydieresis = -18;
-"@MMK_R_I" = 88;
-"@MMK_R_O" = 41;
-"@MMK_R_S" = 5;
-"@MMK_R_V" = 24;
-"@MMK_R_X" = 111;
-"@MMK_R_Y" = 15;
-"@MMK_R_Z" = -5;
-"@MMK_R_a" = 20;
-"@MMK_R_backslash" = 71;
-"@MMK_R_idotless" = 64;
-"@MMK_R_f" = 35;
-"@MMK_R_g" = -59;
-"@MMK_R_guilsinglleft" = -21;
-"@MMK_R_n" = -6;
-"@MMK_R_o" = -83;
-"@MMK_R_paragraph" = 34;
-"@MMK_R_quoteleft" = 49;
-"@MMK_R_quoteright" = 111;
-"@MMK_R_s" = 5;
-"@MMK_R_t" = 37;
-"@MMK_R_u" = 35;
-"@MMK_R_v" = 35;
-"@MMK_R_y" = 53;
-"@MMK_R_z" = 41;
-"@MMK_R_parenright" = 88;
-"@MMK_R_parenleft" = 32;
-"@MMK_R_jdotless" = 88;
-"@MMK_R_quesion" = 68;
 };
 "@MMK_L_five" = {
 "@MMK_R_nine" = -12;
 };
 "@MMK_L_four" = {
-W = -18;
 "@MMK_R_A" = 11;
 "@MMK_R_T" = -15;
 "@MMK_R_U" = -12;
@@ -47122,11 +48359,12 @@ W = -18;
 "@MMK_R_Y" = -14;
 "@MMK_R_backslash" = -13;
 "@MMK_R_five" = 6;
-"@MMK_R_nine" = -10;
-"@MMK_R_parenright" = -12;
-"@MMK_R_ordfeminine" = -23;
-"@MMK_R_plus" = -10;
 "@MMK_R_hyphen" = -14;
+"@MMK_R_nine" = -10;
+"@MMK_R_ordfeminine" = -23;
+"@MMK_R_parenright" = -12;
+"@MMK_R_plus" = -10;
+W = -18;
 };
 "@MMK_L_fraction" = {
 "@MMK_R_four" = -39;
@@ -47134,39 +48372,39 @@ W = -18;
 "@MMK_R_six" = -20;
 };
 "@MMK_L_g" = {
-l = -27;
-p = 41;
-"@MMK_R_idotless" = 29;
+"@MMK_R_I" = -24;
 "@MMK_R_f" = 18;
+"@MMK_R_idotless" = 29;
+"@MMK_R_jdotless" = 111;
 "@MMK_R_n" = 29;
 "@MMK_R_u" = 29;
 "@MMK_R_v" = 41;
 "@MMK_R_x" = 29;
 "@MMK_R_y" = 53;
 "@MMK_R_z" = 23;
-"@MMK_R_I" = -24;
-"@MMK_R_jdotless" = 111;
+l = -27;
+p = 41;
 };
 "@MMK_L_germandbls" = {
-bracketright = -14;
 "@MMK_R_backslash" = -29;
 "@MMK_R_g" = -4;
+"@MMK_R_jdotless" = -7;
+"@MMK_R_n" = -7;
+"@MMK_R_parenright" = -19;
+"@MMK_R_quesion" = -18;
 "@MMK_R_quoteleft" = -35;
 "@MMK_R_quoteright" = -38;
 "@MMK_R_t" = -7;
 "@MMK_R_u" = -6;
 "@MMK_R_v" = -37;
 "@MMK_R_y" = -37;
-"@MMK_R_parenright" = -19;
-"@MMK_R_jdotless" = -7;
-"@MMK_R_n" = -7;
-"@MMK_R_quesion" = -18;
+bracketright = -14;
 };
 "@MMK_L_guilsinglleft" = {
+"@MMK_R_A" = 5;
 "@MMK_R_U" = -19;
 "@MMK_R_V" = -29;
 "@MMK_R_Y" = -35;
-"@MMK_R_A" = 5;
 };
 "@MMK_L_guilsinglright" = {
 "@MMK_R_A" = -15;
@@ -47177,8 +48415,8 @@ bracketright = -14;
 "@MMK_R_X" = -19;
 "@MMK_R_Y" = -58;
 "@MMK_R_Z" = -25;
-"@MMK_R_idotless" = -11;
 "@MMK_R_f" = -11;
+"@MMK_R_idotless" = -11;
 "@MMK_R_n" = -11;
 "@MMK_R_quoteright" = -34;
 "@MMK_R_v" = -20;
@@ -47186,7 +48424,56 @@ bracketright = -14;
 "@MMK_R_y" = -19;
 "@MMK_R_z" = -11;
 };
+"@MMK_L_hyphen" = {
+"@MMK_R_I" = -32;
+"@MMK_R_eight" = -12;
+"@MMK_R_five" = -16;
+"@MMK_R_nine" = -14;
+"@MMK_R_seven" = -52;
+"@MMK_R_three" = -27;
+"@MMK_R_two" = -49;
+l = -70;
+};
+"@MMK_L_idotless" = {
+"@MMK_R_I" = 33;
+"@MMK_R_O" = -5;
+"@MMK_R_V" = -11;
+"@MMK_R_backslash" = 23;
+"@MMK_R_o" = -18;
+"@MMK_R_parenright" = 33;
+"@MMK_R_quesion" = 22;
+"@MMK_R_quoteleft" = -5;
+"@MMK_R_quoteright" = -5;
+"@MMK_R_u" = -30;
+"@MMK_R_v" = -36;
+b = 24;
+braceright = 15;
+bracketright = 6;
+e = -12;
+eacute = -12;
+ecircumflex = -12;
+edieresis = -12;
+egrave = -12;
+eth = -5;
+h = 8;
+k = 6;
+l = 5;
+quotedblright = 14;
+thorn = -4;
+};
+"@MMK_L_jdotless" = {
+"@MMK_R_I" = -5;
+"@MMK_R_jdotless" = 73;
+F = -2;
+};
 "@MMK_L_k" = {
+"@MMK_R_O" = -5;
+"@MMK_R_U" = -12;
+"@MMK_R_V" = -10;
+"@MMK_R_g" = -15;
+"@MMK_R_guilsinglleft" = -11;
+"@MMK_R_o" = -20;
+"@MMK_R_v" = -30;
 C = -10;
 Ccedilla = -10;
 G = -10;
@@ -47199,106 +48486,153 @@ edieresis = -42;
 egrave = -42;
 eth = -24;
 q = -10;
-"@MMK_R_O" = -5;
-"@MMK_R_U" = -12;
-"@MMK_R_g" = -15;
-"@MMK_R_guilsinglleft" = -11;
-"@MMK_R_o" = -20;
-"@MMK_R_v" = -30;
-"@MMK_R_V" = -10;
 };
 "@MMK_L_l" = {
+"@MMK_R_I" = -17;
+"@MMK_R_O" = -5;
+"@MMK_R_T" = -7;
+"@MMK_R_V" = -11;
+"@MMK_R_hyphen" = -71;
+"@MMK_R_o" = -18;
+"@MMK_R_u" = -12;
+"@MMK_R_v" = -30;
+"@MMK_R_y" = -12;
 e = -11;
 eacute = -11;
 ecircumflex = -11;
 edieresis = -11;
 egrave = -11;
 eth = -4;
-"@MMK_R_T" = -7;
-"@MMK_R_o" = -18;
-"@MMK_R_u" = -12;
-"@MMK_R_v" = -30;
-"@MMK_R_y" = -12;
-"@MMK_R_O" = -5;
-"@MMK_R_V" = -11;
-"@MMK_R_I" = -17;
-"@MMK_R_hyphen" = -71;
 };
 "@MMK_L_n" = {
-W = -39;
-d = -12;
-eth = -4;
-question = -10;
-w = -5;
-b = -35;
-braceright = -5;
-p = -41;
-q = -18;
+"@MMK_R_I" = -24;
 "@MMK_R_T" = -41;
 "@MMK_R_U" = -24;
 "@MMK_R_V" = -49;
 "@MMK_R_Y" = -39;
 "@MMK_R_backslash" = -43;
+"@MMK_R_jdotless" = 10;
+"@MMK_R_n" = -48;
+"@MMK_R_o" = -23;
+"@MMK_R_parenright" = -10;
+"@MMK_R_quesion" = -17;
 "@MMK_R_quoteleft" = -10;
 "@MMK_R_quoteright" = -10;
+"@MMK_R_t" = -29;
+"@MMK_R_u" = -66;
 "@MMK_R_v" = -10;
 "@MMK_R_y" = -5;
-"@MMK_R_t" = -29;
-"@MMK_R_o" = -23;
-"@MMK_R_u" = -66;
-"@MMK_R_quesion" = -17;
-"@MMK_R_parenright" = -10;
-"@MMK_R_I" = -24;
-"@MMK_R_n" = -48;
-"@MMK_R_jdotless" = 10;
+W = -39;
+b = -35;
+braceright = -5;
+d = -12;
+eth = -4;
+p = -41;
+q = -18;
+question = -10;
+w = -5;
 yacute = -30;
 ydieresis = -30;
 };
 "@MMK_L_nine" = {
-bracketright = -15;
 "@MMK_R_A" = -28;
 "@MMK_R_I" = -13;
 "@MMK_R_J" = -24;
+"@MMK_R_V" = -10;
 "@MMK_R_Y" = -11;
 "@MMK_R_fraction" = -28;
-"@MMK_R_V" = -10;
 "@MMK_R_parenright" = -20;
+bracketright = -15;
 };
 "@MMK_L_o" = {
+"@MMK_R_A" = -10;
+"@MMK_R_I" = -12;
+"@MMK_R_T" = -41;
+"@MMK_R_U" = -10;
+"@MMK_R_V" = -24;
+"@MMK_R_X" = -42;
+"@MMK_R_Y" = -34;
+"@MMK_R_backslash" = -38;
+"@MMK_R_jdotless" = 10;
+"@MMK_R_n" = 6;
+"@MMK_R_o" = 21;
+"@MMK_R_parenright" = -22;
+"@MMK_R_quesion" = -10;
+"@MMK_R_quoteleft" = -10;
+"@MMK_R_quoteright" = -10;
+"@MMK_R_u" = -12;
+"@MMK_R_v" = -10;
+"@MMK_R_x" = -20;
+"@MMK_R_y" = -23;
 B = -5;
+D = -5;
 E = -15;
 Egrave = -15;
 F = -5;
 W = -36;
+braceright = -19;
 d = 12;
 germandbls = -6;
-braceright = -19;
-D = -5;
-"@MMK_R_T" = -41;
-"@MMK_R_U" = -10;
-"@MMK_R_V" = -24;
-"@MMK_R_Y" = -34;
-"@MMK_R_backslash" = -38;
-"@MMK_R_n" = 6;
-"@MMK_R_o" = 21;
-"@MMK_R_quoteleft" = -10;
-"@MMK_R_quoteright" = -10;
-"@MMK_R_x" = -20;
-"@MMK_R_y" = -23;
-"@MMK_R_A" = -10;
-"@MMK_R_I" = -12;
-"@MMK_R_X" = -42;
-"@MMK_R_u" = -12;
-"@MMK_R_v" = -10;
-"@MMK_R_parenright" = -22;
-"@MMK_R_quesion" = -10;
-"@MMK_R_jdotless" = 10;
 };
 "@MMK_L_one" = {
 "@MMK_R_zero" = -35;
 };
+"@MMK_L_ordfeminine" = {
+"@MMK_R_five" = -12;
+"@MMK_R_four" = -56;
+"@MMK_R_six" = -16;
+};
+"@MMK_L_parenleft" = {
+"@MMK_R_A" = -12;
+"@MMK_R_I" = 25;
+"@MMK_R_J" = -25;
+"@MMK_R_O" = -23;
+"@MMK_R_S" = -12;
+"@MMK_R_V" = 36;
+"@MMK_R_Y" = 35;
+"@MMK_R_a" = -5;
+"@MMK_R_eight" = -16;
+"@MMK_R_f" = -11;
+"@MMK_R_five" = -10;
+"@MMK_R_four" = -20;
+"@MMK_R_idotless" = 6;
+"@MMK_R_jdotless" = 122;
+"@MMK_R_n" = -10;
+"@MMK_R_nine" = -11;
+"@MMK_R_o" = -19;
+"@MMK_R_parenleft" = -13;
+"@MMK_R_six" = -24;
+"@MMK_R_u" = -5;
+W = 23;
+b = 35;
+c = -10;
+d = -10;
+eth = -27;
+germandbls = -11;
+h = 15;
+idieresis = 17;
+igrave = 13;
+q = -24;
+};
+"@MMK_L_parenright" = {
+"@MMK_R_jdotless" = 59;
+"@MMK_R_parenright" = -13;
+};
+"@MMK_L_period" = {
+"@MMK_R_A" = 8;
+"@MMK_R_jdotless" = 74;
+AE = 28;
+j = 56;
+};
+"@MMK_L_plus" = {
+"@MMK_R_five" = -13;
+"@MMK_R_nine" = -15;
+"@MMK_R_seven" = -20;
+"@MMK_R_three" = -26;
+"@MMK_R_two" = -52;
+};
 "@MMK_L_q" = {
-W = -29;
+"@MMK_R_I" = -5;
 "@MMK_R_J" = -15;
 "@MMK_R_T" = -21;
 "@MMK_R_U" = -15;
@@ -47306,44 +48640,40 @@ W = -29;
 "@MMK_R_Y" = -47;
 "@MMK_R_backslash" = -31;
 "@MMK_R_g" = 29;
-"@MMK_R_quoteright" = -10;
-"@MMK_R_I" = -5;
 "@MMK_R_jdotless" = 141;
 "@MMK_R_n" = 41;
 "@MMK_R_quesion" = -10;
+"@MMK_R_quoteright" = -10;
+W = -29;
 };
 "@MMK_L_questiondown" = {
-W = -24;
 "@MMK_R_T" = -23;
 "@MMK_R_U" = -15;
 "@MMK_R_V" = -21;
 "@MMK_R_Y" = -21;
 "@MMK_R_v" = -16;
 "@MMK_R_y" = -15;
+W = -24;
 };
 "@MMK_L_quoteleft" = {
+"@MMK_R_A" = -54;
+"@MMK_R_I" = -12;
+"@MMK_R_J" = -64;
+"@MMK_R_T" = 49;
+"@MMK_R_V" = 47;
+"@MMK_R_Y" = 64;
+"@MMK_R_o" = -7;
+"@MMK_R_s" = -10;
+"@MMK_R_v" = 15;
 AE = -73;
 W = 53;
 d = -12;
 eth = -32;
 q = -10;
-"@MMK_R_A" = -54;
-"@MMK_R_J" = -64;
-"@MMK_R_T" = 49;
-"@MMK_R_V" = 47;
-"@MMK_R_Y" = 64;
-"@MMK_R_s" = -10;
-"@MMK_R_v" = 15;
-"@MMK_R_o" = -7;
-"@MMK_R_I" = -12;
 };
 "@MMK_L_quoteright" = {
-AE = -75;
-W = 76;
-d = -12;
-eth = -35;
-q = -10;
 "@MMK_R_A" = -57;
+"@MMK_R_I" = -14;
 "@MMK_R_J" = -55;
 "@MMK_R_O" = -9;
 "@MMK_R_T" = 49;
@@ -47353,15 +48683,18 @@ q = -10;
 "@MMK_R_at" = -19;
 "@MMK_R_g" = -24;
 "@MMK_R_guilsinglleft" = -41;
+"@MMK_R_o" = -7;
 "@MMK_R_s" = -10;
 "@MMK_R_y" = 29;
-"@MMK_R_o" = -7;
-"@MMK_R_I" = -14;
+AE = -75;
+W = 76;
+d = -12;
+eth = -35;
+q = -10;
 };
 "@MMK_L_r" = {
-W = -24;
-germandbls = -6;
 "@MMK_R_A" = -29;
+"@MMK_R_I" = -10;
 "@MMK_R_J" = -49;
 "@MMK_R_T" = 35;
 "@MMK_R_V" = -5;
@@ -47369,26 +48702,24 @@ germandbls = -6;
 "@MMK_R_Y" = -24;
 "@MMK_R_a" = -12;
 "@MMK_R_guilsinglleft" = -13;
+"@MMK_R_jdotless" = 35;
+"@MMK_R_parenright" = -5;
 "@MMK_R_t" = 10;
 "@MMK_R_v" = 29;
 "@MMK_R_y" = 20;
 "@MMK_R_z" = 18;
-"@MMK_R_I" = -10;
-"@MMK_R_parenright" = -5;
-"@MMK_R_jdotless" = 35;
+W = -24;
+germandbls = -6;
 };
 "@MMK_L_s" = {
-W = -29;
+"@MMK_R_I" = -5;
 "@MMK_R_V" = -20;
 "@MMK_R_Y" = -24;
 "@MMK_R_backslash" = -27;
-"@MMK_R_I" = -5;
 "@MMK_R_quesion" = -10;
+W = -29;
 };
 "@MMK_L_seven" = {
-W = 38;
-bracketright = 5;
-minus = -38;
 "@MMK_R_A" = -45;
 "@MMK_R_J" = -43;
 "@MMK_R_O" = -10;
@@ -47401,57 +48732,75 @@ minus = -38;
 "@MMK_R_eight" = -30;
 "@MMK_R_four" = -37;
 "@MMK_R_fraction" = -49;
+"@MMK_R_hyphen" = -38;
+"@MMK_R_o" = -28;
+"@MMK_R_parenright" = 21;
+"@MMK_R_plus" = -19;
 "@MMK_R_seven" = 12;
 "@MMK_R_six" = -18;
-"@MMK_R_parenright" = 21;
-"@MMK_R_o" = -28;
-"@MMK_R_plus" = -19;
-"@MMK_R_hyphen" = -38;
+W = 38;
+bracketright = 5;
+minus = -38;
 };
 "@MMK_L_six" = {
-W = -15;
 "@MMK_R_T" = -21;
 "@MMK_R_V" = -11;
 "@MMK_R_Y" = -12;
-"@MMK_R_seven" = -11;
-"@MMK_R_parenright" = -13;
 "@MMK_R_ordfeminine" = -25;
+"@MMK_R_parenright" = -13;
+"@MMK_R_seven" = -11;
+W = -15;
 };
 "@MMK_L_t" = {
 "@MMK_R_backslash" = -13;
 "@MMK_R_guilsinglleft" = -12;
-"@MMK_R_o" = -20;
 "@MMK_R_jdotless" = 41;
+"@MMK_R_o" = -20;
 };
 "@MMK_L_three" = {
-bracketright = -11;
 "@MMK_R_four" = -30;
 "@MMK_R_parenright" = -14;
+bracketright = -11;
 };
 "@MMK_L_two" = {
-"@MMK_R_three" = 12;
+"@MMK_R_hyphen" = -29;
 "@MMK_R_parenright" = -10;
 "@MMK_R_plus" = -28;
-"@MMK_R_hyphen" = -29;
+"@MMK_R_three" = 12;
 };
 "@MMK_L_u" = {
-W = -32;
-eth = -5;
+"@MMK_R_I" = -4;
 "@MMK_R_T" = -12;
 "@MMK_R_V" = -39;
 "@MMK_R_backslash" = -35;
+"@MMK_R_jdotless" = 35;
+"@MMK_R_o" = -30;
+"@MMK_R_parenright" = -7;
+"@MMK_R_quesion" = -10;
 "@MMK_R_quoteleft" = -7;
 "@MMK_R_quoteright" = -7;
 "@MMK_R_u" = -5;
 "@MMK_R_v" = -65;
 "@MMK_R_y" = -30;
-"@MMK_R_parenright" = -7;
-"@MMK_R_o" = -30;
-"@MMK_R_jdotless" = 35;
-"@MMK_R_quesion" = -10;
-"@MMK_R_I" = -4;
+W = -32;
+eth = -5;
 };
 "@MMK_L_v" = {
+"@MMK_R_A" = -36;
+"@MMK_R_I" = -10;
+"@MMK_R_J" = -39;
+"@MMK_R_T" = 29;
+"@MMK_R_X" = -10;
+"@MMK_R_a" = -18;
+"@MMK_R_f" = 5;
+"@MMK_R_g" = -24;
+"@MMK_R_guilsinglleft" = -20;
+"@MMK_R_idotless" = 24;
+"@MMK_R_o" = -9;
+"@MMK_R_quoteleft" = 20;
+"@MMK_R_quoteright" = 20;
+"@MMK_R_u" = 35;
+"@MMK_R_v" = 101;
 E = -5;
 Egrave = -5;
 c = -12;
@@ -47464,23 +48813,13 @@ egrave = -65;
 eth = -12;
 germandbls = -7;
 l = -35;
-"@MMK_R_J" = -39;
-"@MMK_R_T" = 29;
-"@MMK_R_X" = -10;
-"@MMK_R_a" = -18;
-"@MMK_R_g" = -24;
-"@MMK_R_guilsinglleft" = -20;
-"@MMK_R_quoteleft" = 20;
-"@MMK_R_quoteright" = 20;
-"@MMK_R_u" = 35;
-"@MMK_R_A" = -36;
-"@MMK_R_f" = 5;
-"@MMK_R_o" = -9;
-"@MMK_R_I" = -10;
-"@MMK_R_idotless" = 24;
-"@MMK_R_v" = 101;
 };
 "@MMK_L_x" = {
+"@MMK_R_O" = -19;
+"@MMK_R_V" = -5;
+"@MMK_R_guilsinglleft" = -14;
+"@MMK_R_jdotless" = 35;
+"@MMK_R_o" = -5;
 c = -20;
 e = -15;
 eacute = -15;
@@ -47488,13 +48827,24 @@ ecircumflex = -15;
 edieresis = -15;
 egrave = -15;
 eth = -27;
-"@MMK_R_guilsinglleft" = -14;
-"@MMK_R_o" = -5;
-"@MMK_R_O" = -19;
-"@MMK_R_V" = -5;
-"@MMK_R_jdotless" = 35;
 };
 "@MMK_L_y" = {
+"@MMK_R_A" = -70;
+"@MMK_R_I" = -36;
+"@MMK_R_J" = -54;
+"@MMK_R_T" = 20;
+"@MMK_R_V" = -9;
+"@MMK_R_X" = -43;
+"@MMK_R_guilsinglleft" = -19;
+"@MMK_R_jdotless" = 41;
+"@MMK_R_n" = 18;
+"@MMK_R_o" = -20;
+"@MMK_R_parenright" = -18;
+"@MMK_R_quoteleft" = 15;
+"@MMK_R_s" = -15;
+"@MMK_R_t" = 18;
+"@MMK_R_u" = 23;
+"@MMK_R_y" = 41;
 E = -10;
 Egrave = -10;
 F = -10;
@@ -47511,6 +48861,7 @@ eth = -11;
 germandbls = -8;
 h = -18;
 l = -18;
+o = -65;
 oacute = -65;
 ocircumflex = -65;
 odieresis = -65;
@@ -47519,23 +48870,6 @@ oslash = -65;
 otilde = -65;
 q = -10;
 r = -18;
-"@MMK_R_A" = -70;
-"@MMK_R_J" = -54;
-"@MMK_R_T" = 20;
-"@MMK_R_X" = -43;
-"@MMK_R_guilsinglleft" = -19;
-"@MMK_R_o" = -20;
-"@MMK_R_quoteleft" = 15;
-"@MMK_R_s" = -15;
-"@MMK_R_t" = 18;
-"@MMK_R_u" = 23;
-"@MMK_R_y" = 41;
-o = -65;
-"@MMK_R_I" = -36;
-"@MMK_R_V" = -9;
-"@MMK_R_parenright" = -18;
-"@MMK_R_jdotless" = 41;
-"@MMK_R_n" = 18;
 };
 "@MMK_L_z" = {
 "@MMK_R_U" = -22;
@@ -47549,126 +48883,52 @@ o = -65;
 "@MMK_R_four" = -24;
 "@MMK_R_two" = -12;
 };
-"@MMK_L_parenleft" = {
-W = 23;
-b = 35;
-c = -10;
-eth = -27;
-germandbls = -11;
-h = 15;
-idieresis = 17;
-igrave = 13;
-q = -24;
-d = -10;
-"@MMK_R_A" = -12;
-"@MMK_R_J" = -25;
-"@MMK_R_O" = -23;
-"@MMK_R_S" = -12;
-"@MMK_R_V" = 36;
-"@MMK_R_Y" = 35;
-"@MMK_R_a" = -5;
-"@MMK_R_eight" = -16;
-"@MMK_R_f" = -11;
-"@MMK_R_five" = -10;
-"@MMK_R_four" = -20;
-"@MMK_R_nine" = -11;
-"@MMK_R_six" = -24;
-"@MMK_R_u" = -5;
-"@MMK_R_I" = 25;
-"@MMK_R_o" = -19;
-"@MMK_R_idotless" = 6;
-"@MMK_R_parenleft" = -13;
-"@MMK_R_jdotless" = 122;
-"@MMK_R_n" = -10;
-};
-"@MMK_L_parenright" = {
-"@MMK_R_parenright" = -13;
-"@MMK_R_jdotless" = 59;
-};
-"@MMK_L_ordfeminine" = {
-"@MMK_R_five" = -12;
-"@MMK_R_four" = -56;
-"@MMK_R_six" = -16;
-};
-"@MMK_L_plus" = {
-"@MMK_R_seven" = -20;
-"@MMK_R_five" = -13;
-"@MMK_R_nine" = -15;
-"@MMK_R_three" = -26;
-"@MMK_R_two" = -52;
-};
-"@MMK_L_exclam" = {
-"@MMK_R_Y" = 5;
-};
-"@MMK_L_jdotless" = {
-F = -2;
-"@MMK_R_I" = -5;
-"@MMK_R_jdotless" = 73;
-};
-"@MMK_L_hyphen" = {
-l = -70;
-"@MMK_R_eight" = -12;
-"@MMK_R_five" = -16;
-"@MMK_R_nine" = -14;
-"@MMK_R_seven" = -52;
-"@MMK_R_three" = -27;
-"@MMK_R_two" = -49;
-"@MMK_R_I" = -32;
-};
-"@MMK_L_period" = {
-j = 56;
-AE = 28;
-"@MMK_R_A" = 8;
-"@MMK_R_jdotless" = 74;
-};
-};
-"03739D6D-2A00-4CFA-A48A-FF6A1F8AF183" = {
 D = {
-AE = -49;
 "@MMK_R_A" = -10;
 "@MMK_R_V" = -20;
 "@MMK_R_Y" = -28;
+AE = -49;
 };
 H = {
-"@MMK_R_y" = -18;
+"@MMK_R_y" = -7;
 };
 J = {
 "@MMK_R_A" = -45;
-"@MMK_R_o" = -36;
 "@MMK_R_g" = -10;
 "@MMK_R_n" = -54;
+"@MMK_R_o" = -14;
 "@MMK_R_x" = -15;
 "@MMK_R_z" = -10;
 };
 N = {
-e = -30;
+"@MMK_R_a" = -10;
+"@MMK_R_o" = -15;
+"@MMK_R_six" = -16;
+e = -10;
 eacute = -30;
 ecircumflex = -30;
 edieresis = -30;
 egrave = -30;
 eth = -25;
-"@MMK_R_a" = -10;
-"@MMK_R_o" = -15;
-"@MMK_R_six" = -16;
 };
 Ntilde = {
+"@MMK_R_a" = -10;
+"@MMK_R_o" = -15;
+"@MMK_R_six" = -16;
 e = -30;
 eacute = -30;
 ecircumflex = -30;
 edieresis = -30;
 egrave = -30;
 eth = -25;
-"@MMK_R_a" = -10;
-"@MMK_R_o" = -15;
-"@MMK_R_six" = -16;
 };
 Thorn = {
-AE = -46;
 "@MMK_R_A" = -29;
+"@MMK_R_I" = -11;
 "@MMK_R_J" = -16;
 "@MMK_R_X" = -55;
-"@MMK_R_I" = -11;
 "@MMK_R_parenright" = -14;
+AE = -46;
 };
 Uacute = {
 "@MMK_R_A" = -10;
@@ -47676,100 +48936,118 @@ Uacute = {
 "@MMK_R_z" = -11;
 };
 W = {
+"@MMK_R_A" = -51;
+"@MMK_R_I" = 34;
+"@MMK_R_J" = -41;
+"@MMK_R_O" = -15;
+"@MMK_R_a" = -49;
+"@MMK_R_at" = -25;
+"@MMK_R_backslash" = 42;
+"@MMK_R_g" = -49;
+"@MMK_R_idotless" = 65;
+"@MMK_R_n" = -65;
+"@MMK_R_o" = -49;
+"@MMK_R_parenright" = 29;
+"@MMK_R_quoteright" = 25;
+"@MMK_R_seven" = 22;
+"@MMK_R_six" = -26;
+"@MMK_R_z" = -34;
 AE = -74;
+aacute = -113;
+acircumflex = -113;
+adieresis = -28;
+agrave = -113;
+aring = -113;
+atilde = -113;
 e = -137;
 eacute = -137;
 ecircumflex = -137;
 edieresis = -137;
 egrave = -137;
 eth = -41;
+igrave = 25;
+oacute = -101;
+ocircumflex = -101;
+odieresis = -101;
+ograve = -101;
+oslash = -101;
+otilde = -101;
 thorn = 58;
-"@MMK_R_A" = -51;
-"@MMK_R_J" = -41;
-"@MMK_R_a" = -113;
-"@MMK_R_at" = -25;
-"@MMK_R_backslash" = 42;
-"@MMK_R_o" = -125;
-"@MMK_R_g" = -83;
-"@MMK_R_n" = -65;
-"@MMK_R_quoteright" = 25;
-"@MMK_R_s" = -83;
-"@MMK_R_seven" = 22;
-"@MMK_R_six" = -26;
-"@MMK_R_u" = -29;
-"@MMK_R_z" = -34;
-"@MMK_R_O" = -15;
-"@MMK_R_parenright" = 29;
-"@MMK_R_I" = 34;
 };
 a = {
-W = -49;
-w = -15;
 "@MMK_R_U" = -12;
 "@MMK_R_V" = -53;
 "@MMK_R_Y" = -59;
-"@MMK_R_v" = -72;
-"@MMK_R_y" = -30;
+"@MMK_R_v" = -15;
+"@MMK_R_y" = -10;
+W = -49;
 };
 agrave = {
-W = -49;
-w = -15;
 "@MMK_R_U" = -12;
 "@MMK_R_V" = -53;
 "@MMK_R_Y" = -59;
 "@MMK_R_v" = -72;
 "@MMK_R_y" = -30;
+W = -49;
+w = -15;
 };
 b = {
-W = -29;
 "@MMK_R_T" = -35;
 "@MMK_R_V" = -44;
 "@MMK_R_Y" = -64;
 "@MMK_R_x" = -10;
 "@MMK_R_y" = -10;
+W = -29;
 };
 bar = {
-"@MMK_R_o" = -12;
 "@MMK_R_jdotless" = 47;
+"@MMK_R_o" = -12;
 };
 bracketleft = {
-W = 6;
-"@MMK_R_O" = -17;
+"@MMK_R_I" = 11;
 "@MMK_R_J" = -17;
+"@MMK_R_O" = -17;
 "@MMK_R_V" = 19;
 "@MMK_R_Y" = 18;
 "@MMK_R_eight" = -12;
 "@MMK_R_four" = -12;
-"@MMK_R_six" = -16;
 "@MMK_R_o" = -15;
-"@MMK_R_I" = 11;
+"@MMK_R_six" = -16;
+W = 6;
 };
 eth = {
 "@MMK_R_backslash" = -10;
 "@MMK_R_parenright" = -17;
 };
 h = {
-w = -15;
 "@MMK_R_T" = -59;
 "@MMK_R_V" = -44;
 "@MMK_R_Y" = -53;
 "@MMK_R_t" = -35;
 "@MMK_R_v" = -23;
+w = -15;
+};
+idieresis = {
+"@MMK_R_parenright" = 17;
+"@MMK_R_quoteright" = 20;
 };
 m = {
-w = -10;
 "@MMK_R_v" = -15;
 "@MMK_R_y" = -10;
+w = -10;
 };
 minus = {
 "@MMK_R_seven" = -51;
 };
+ntilde = {
+"@MMK_R_v" = -66;
+};
 p = {
+"@MMK_R_I" = -18;
 "@MMK_R_T" = -35;
 "@MMK_R_V" = -15;
 "@MMK_R_Y" = -39;
 "@MMK_R_parenright" = -10;
-"@MMK_R_I" = -18;
 };
 registered = {
 "@MMK_R_A" = -23;
@@ -47780,17 +49058,22 @@ w = {
 "@MMK_R_T" = 5;
 "@MMK_R_guilsinglleft" = -14;
 };
+yacute = {
+"@MMK_R_o" = -60;
+"@MMK_R_t" = 6;
+e = -77;
+};
 ydieresis = {
 "@MMK_R_o" = -70;
 "@MMK_R_u" = -54;
+oacute = -10;
+ocircumflex = -10;
+odieresis = -7;
 };
+};
+"03739D6D-2A00-4CFA-A48A-FF6A1F8AF183" = {
 "@MMK_L_A" = {
-C = -10;
-Ccedilla = -10;
-W = -52;
-eth = -6;
-k = -5;
-registered = -21;
+"@MMK_R_I" = -57;
 "@MMK_R_J" = 15;
 "@MMK_R_O" = -16;
 "@MMK_R_T" = -44;
@@ -47800,7 +49083,12 @@ registered = -21;
 "@MMK_R_backslash" = -50;
 "@MMK_R_five" = 11;
 "@MMK_R_guilsinglleft" = -14;
+"@MMK_R_jdotless" = 41;
 "@MMK_R_nine" = -11;
+"@MMK_R_o" = -18;
+"@MMK_R_parenright" = -12;
+"@MMK_R_period" = 16;
+"@MMK_R_quesion" = -18;
 "@MMK_R_quoteleft" = -56;
 "@MMK_R_quoteright" = -55;
 "@MMK_R_t" = -10;
@@ -47808,17 +49096,14 @@ registered = -21;
 "@MMK_R_u" = -10;
 "@MMK_R_v" = -39;
 "@MMK_R_y" = -24;
-"@MMK_R_I" = -57;
-"@MMK_R_parenright" = -12;
-"@MMK_R_o" = -18;
-"@MMK_R_jdotless" = 41;
-"@MMK_R_quesion" = -18;
-"@MMK_R_period" = 16;
+C = -10;
+Ccedilla = -10;
+W = -52;
+eth = -6;
+k = -5;
+registered = -21;
 };
 "@MMK_L_B" = {
-AE = -14;
-W = -14;
-bracketright = -13;
 "@MMK_R_A" = -10;
 "@MMK_R_I" = -6;
 "@MMK_R_U" = -7;
@@ -47827,14 +49112,17 @@ bracketright = -13;
 "@MMK_R_Y" = -16;
 "@MMK_R_backslash" = -11;
 "@MMK_R_parenright" = -20;
+AE = -14;
+W = -14;
+bracketright = -13;
 };
 "@MMK_L_C" = {
-"@MMK_R_four" = -30;
-"@MMK_R_six" = -13;
-"@MMK_R_colon" = -10;
-"@MMK_R_jdotless" = 23;
 "@MMK_R_I" = -5;
+"@MMK_R_colon" = -10;
+"@MMK_R_four" = -30;
+"@MMK_R_jdotless" = 23;
 "@MMK_R_n" = -6;
+"@MMK_R_six" = -13;
 };
 "@MMK_L_E" = {
 "@MMK_R_O" = -6;
@@ -47842,6 +49130,20 @@ bracketright = -13;
 "@MMK_R_jdotless" = 29;
 };
 "@MMK_L_F" = {
+"@MMK_R_A" = -41;
+"@MMK_R_I" = 22;
+"@MMK_R_J" = -48;
+"@MMK_R_V" = 9;
+"@MMK_R_Y" = 9;
+"@MMK_R_colon" = -15;
+"@MMK_R_four" = -30;
+"@MMK_R_g" = -10;
+"@MMK_R_guilsinglleft" = -23;
+"@MMK_R_jdotless" = 41;
+"@MMK_R_n" = -6;
+"@MMK_R_o" = -29;
+"@MMK_R_s" = -10;
+"@MMK_R_t" = -10;
 AE = -78;
 c = -32;
 d = -15;
@@ -47854,54 +49156,51 @@ eth = -32;
 germandbls = -12;
 q = -5;
 thorn = 15;
-"@MMK_R_A" = -41;
-"@MMK_R_J" = -48;
-"@MMK_R_V" = 9;
-"@MMK_R_Y" = 9;
-"@MMK_R_colon" = -15;
-"@MMK_R_four" = -30;
-"@MMK_R_g" = -10;
-"@MMK_R_guilsinglleft" = -23;
-"@MMK_R_o" = -29;
-"@MMK_R_s" = -10;
-"@MMK_R_t" = -10;
-"@MMK_R_I" = 22;
-"@MMK_R_jdotless" = 41;
-"@MMK_R_n" = -6;
 };
 "@MMK_L_I" = {
-eth = -20;
-j = 15;
+"@MMK_R_A" = -11;
+"@MMK_R_I" = 29;
+"@MMK_R_J" = -14;
+"@MMK_R_O" = -11;
+"@MMK_R_a" = -15;
+"@MMK_R_at" = -13;
+"@MMK_R_colon" = -21;
+"@MMK_R_eight" = -10;
+"@MMK_R_f" = -16;
+"@MMK_R_four" = -13;
+"@MMK_R_g" = -15;
+"@MMK_R_guilsinglleft" = -21;
+"@MMK_R_guilsinglright" = -17;
+"@MMK_R_jdotless" = -6;
+"@MMK_R_n" = -22;
+"@MMK_R_o" = -30;
+"@MMK_R_quoteright" = -10;
+"@MMK_R_six" = -12;
+"@MMK_R_v" = -5;
+"@MMK_R_y" = -10;
 e = -37;
 eacute = -37;
 ecircumflex = -37;
 edieresis = -37;
 egrave = -37;
+eth = -20;
 germandbls = -18;
-thorn = 8;
+j = 15;
 q = -13;
-"@MMK_R_O" = -11;
-"@MMK_R_four" = -13;
-"@MMK_R_guilsinglleft" = -21;
-"@MMK_R_six" = -12;
-"@MMK_R_v" = -5;
-"@MMK_R_y" = -10;
-"@MMK_R_a" = -15;
-"@MMK_R_o" = -30;
-"@MMK_R_A" = -11;
-"@MMK_R_J" = -14;
-"@MMK_R_at" = -13;
-"@MMK_R_colon" = -21;
-"@MMK_R_eight" = -10;
-"@MMK_R_f" = -16;
-"@MMK_R_g" = -15;
-"@MMK_R_guilsinglright" = -17;
-"@MMK_R_quoteright" = -10;
-"@MMK_R_jdotless" = -6;
-"@MMK_R_I" = 29;
-"@MMK_R_n" = -22;
+thorn = 8;
 };
 "@MMK_L_K" = {
+"@MMK_R_I" = 11;
+"@MMK_R_O" = -31;
+"@MMK_R_five" = 8;
+"@MMK_R_guilsinglleft" = -17;
+"@MMK_R_o" = -36;
+"@MMK_R_period" = 14;
+"@MMK_R_t" = -15;
+"@MMK_R_two" = 11;
+"@MMK_R_u" = -66;
+"@MMK_R_v" = -44;
+"@MMK_R_y" = -39;
 c = -15;
 d = -15;
 e = -24;
@@ -47912,21 +49211,8 @@ egrave = -24;
 eth = -25;
 thorn = 7;
 w = -39;
-"@MMK_R_O" = -31;
-"@MMK_R_five" = 8;
-"@MMK_R_guilsinglleft" = -17;
-"@MMK_R_o" = -36;
-"@MMK_R_t" = -15;
-"@MMK_R_two" = 11;
-"@MMK_R_u" = -66;
-"@MMK_R_v" = -44;
-"@MMK_R_y" = -39;
-"@MMK_R_I" = 11;
-"@MMK_R_period" = 14;
 };
 "@MMK_L_L" = {
-W = -46;
-w = -29;
 "@MMK_R_A" = 20;
 "@MMK_R_T" = -39;
 "@MMK_R_U" = -16;
@@ -47934,24 +49220,21 @@ w = -29;
 "@MMK_R_Y" = -39;
 "@MMK_R_backslash" = -46;
 "@MMK_R_four" = 16;
+"@MMK_R_hyphen" = -29;
+"@MMK_R_jdotless" = 35;
 "@MMK_R_nine" = -21;
+"@MMK_R_parenright" = -14;
+"@MMK_R_quesion" = -21;
 "@MMK_R_quoteleft" = -65;
 "@MMK_R_quoteright" = -63;
 "@MMK_R_seven" = -10;
 "@MMK_R_v" = -24;
 "@MMK_R_x" = 20;
 "@MMK_R_y" = -44;
-"@MMK_R_parenright" = -14;
-"@MMK_R_jdotless" = 35;
-"@MMK_R_hyphen" = -29;
-"@MMK_R_quesion" = -21;
+W = -46;
+w = -29;
 };
 "@MMK_L_O" = {
-AE = -42;
-braceright = -22;
-bracketright = -16;
-l = -30;
-thorn = -5;
 "@MMK_R_A" = -18;
 "@MMK_R_I" = -11;
 "@MMK_R_J" = -6;
@@ -47959,45 +49242,45 @@ thorn = -5;
 "@MMK_R_V" = -15;
 "@MMK_R_X" = -25;
 "@MMK_R_Y" = -23;
+"@MMK_R_Z" = -6;
 "@MMK_R_a" = -12;
 "@MMK_R_backslash" = -12;
-"@MMK_R_Z" = -6;
+"@MMK_R_jdotless" = 88;
+"@MMK_R_n" = -12;
 "@MMK_R_parenright" = -5;
 "@MMK_R_v" = 29;
-"@MMK_R_n" = -12;
-"@MMK_R_jdotless" = 88;
+AE = -42;
+braceright = -22;
+bracketright = -16;
+l = -30;
+thorn = -5;
 };
 "@MMK_L_P" = {
+"@MMK_R_A" = -39;
+"@MMK_R_I" = -15;
+"@MMK_R_J" = -78;
+"@MMK_R_U" = -9;
+"@MMK_R_V" = -21;
+"@MMK_R_X" = -12;
+"@MMK_R_Y" = -39;
+"@MMK_R_Z" = -7;
+"@MMK_R_backslash" = -13;
+"@MMK_R_four" = -26;
+"@MMK_R_guilsinglleft" = -18;
+"@MMK_R_jdotless" = 20;
+"@MMK_R_o" = -10;
+"@MMK_R_parenright" = -22;
+"@MMK_R_quoteleft" = -11;
+"@MMK_R_v" = 2;
+"@MMK_R_x" = -11;
+"@MMK_R_y" = 2;
 AE = -76;
 braceright = -11;
 bracketright = -10;
 h = -5;
 l = -11;
-"@MMK_R_A" = -39;
-"@MMK_R_J" = -78;
-"@MMK_R_X" = -12;
-"@MMK_R_four" = -26;
-"@MMK_R_guilsinglleft" = -18;
-"@MMK_R_v" = 2;
-"@MMK_R_y" = 2;
-"@MMK_R_I" = -15;
-"@MMK_R_U" = -9;
-"@MMK_R_V" = -21;
-"@MMK_R_Y" = -39;
-"@MMK_R_Z" = -7;
-"@MMK_R_backslash" = -13;
-"@MMK_R_quoteleft" = -11;
-"@MMK_R_x" = -11;
-"@MMK_R_parenright" = -22;
-"@MMK_R_o" = -10;
-"@MMK_R_jdotless" = 20;
 };
 "@MMK_L_R" = {
-e = -30;
-eacute = -30;
-ecircumflex = -30;
-edieresis = -30;
-egrave = -30;
 "@MMK_R_T" = -7;
 "@MMK_R_U" = -11;
 "@MMK_R_V" = -20;
@@ -48006,25 +49289,26 @@ egrave = -30;
 "@MMK_R_five" = 16;
 "@MMK_R_four" = -12;
 "@MMK_R_guilsinglleft" = -15;
+"@MMK_R_o" = -24;
+"@MMK_R_period" = 23;
 "@MMK_R_quoteright" = -8;
 "@MMK_R_t" = -18;
 "@MMK_R_two" = 16;
 "@MMK_R_u" = -42;
 "@MMK_R_v" = -60;
 "@MMK_R_y" = -5;
-"@MMK_R_o" = -24;
-"@MMK_R_period" = 23;
+e = -30;
+eacute = -30;
+ecircumflex = -30;
+edieresis = -30;
+egrave = -30;
 };
 "@MMK_L_S" = {
 "@MMK_R_I" = -6;
 };
 "@MMK_L_T" = {
-AE = -52;
-eth = -41;
-germandbls = -9;
-thorn = 15;
-w = 30;
 "@MMK_R_A" = -45;
+"@MMK_R_I" = 35;
 "@MMK_R_J" = -44;
 "@MMK_R_V" = 9;
 "@MMK_R_Y" = 23;
@@ -48043,24 +49327,18 @@ w = 30;
 "@MMK_R_x" = -15;
 "@MMK_R_y" = 5;
 "@MMK_R_z" = -15;
-"@MMK_R_I" = 35;
+AE = -52;
+eth = -41;
+germandbls = -9;
+thorn = 15;
+w = 30;
 };
 "@MMK_L_U" = {
-eth = -21;
-germandbls = -21;
-m = -24;
-p = -15;
-q = -10;
-thorn = 12;
-b = 14;
-e = -60;
-eacute = -60;
-ecircumflex = -60;
-edieresis = -60;
-egrave = -60;
 "@MMK_R_A" = -32;
+"@MMK_R_I" = -12;
 "@MMK_R_J" = -17;
 "@MMK_R_O" = -8;
+"@MMK_R_a" = -48;
 "@MMK_R_at" = -10;
 "@MMK_R_colon" = -21;
 "@MMK_R_f" = -20;
@@ -48072,23 +49350,67 @@ egrave = -60;
 "@MMK_R_o" = -24;
 "@MMK_R_s" = -15;
 "@MMK_R_six" = -12;
+"@MMK_R_u" = -36;
 "@MMK_R_v" = -10;
 "@MMK_R_x" = -10;
-"@MMK_R_z" = -20;
-"@MMK_R_a" = -48;
-"@MMK_R_u" = -36;
 "@MMK_R_y" = -7;
-"@MMK_R_I" = -12;
+"@MMK_R_z" = -20;
 AE = -23;
+b = 14;
+e = -60;
+eacute = -60;
+ecircumflex = -60;
+edieresis = -60;
+egrave = -60;
+eth = -21;
+germandbls = -21;
+m = -24;
+p = -15;
+q = -10;
+thorn = 12;
 };
 "@MMK_L_V" = {
+"@MMK_R_A" = -55;
+"@MMK_R_I" = -12;
+"@MMK_R_J" = -48;
+"@MMK_R_O" = -19;
+"@MMK_R_S" = -6;
+"@MMK_R_T" = 12;
+"@MMK_R_a" = -102;
+"@MMK_R_at" = -28;
+"@MMK_R_backslash" = 36;
+"@MMK_R_colon" = -34;
+"@MMK_R_eight" = -12;
+"@MMK_R_f" = -30;
+"@MMK_R_five" = -10;
+"@MMK_R_four" = -42;
+"@MMK_R_g" = -59;
+"@MMK_R_guilsinglleft" = -42;
+"@MMK_R_guilsinglright" = -30;
+"@MMK_R_idotless" = -18;
+"@MMK_R_n" = -49;
+"@MMK_R_o" = -108;
+"@MMK_R_parenright" = 47;
+"@MMK_R_quesion" = 26;
+"@MMK_R_quoteright" = 11;
+"@MMK_R_s" = -96;
+"@MMK_R_seven" = 17;
+"@MMK_R_six" = -29;
+"@MMK_R_t" = -65;
+"@MMK_R_u" = -66;
+"@MMK_R_v" = -29;
+"@MMK_R_x" = -29;
+"@MMK_R_y" = -29;
+"@MMK_R_z" = -29;
 AE = -79;
 C = -22;
 Ccedilla = -22;
+O = -15;
 b = 49;
 braceright = 37;
 bracketright = 19;
 c = -102;
+d = -89;
 e = -125;
 eacute = -125;
 ecircumflex = -125;
@@ -48099,55 +49421,30 @@ germandbls = -18;
 h = 24;
 l = 24;
 m = -36;
-q = -114;
-question = 20;
-thorn = 48;
-"@MMK_R_A" = -55;
-"@MMK_R_J" = -48;
-"@MMK_R_O" = -19;
-"@MMK_R_S" = -6;
-"@MMK_R_a" = -102;
-"@MMK_R_at" = -28;
-"@MMK_R_backslash" = 36;
-"@MMK_R_colon" = -34;
-"@MMK_R_idotless" = -18;
-"@MMK_R_eight" = -12;
-"@MMK_R_five" = -10;
-"@MMK_R_four" = -42;
-"@MMK_R_g" = -59;
-"@MMK_R_guilsinglleft" = -42;
-"@MMK_R_guilsinglright" = -30;
-"@MMK_R_n" = -49;
-"@MMK_R_o" = -108;
-"@MMK_R_quoteright" = 11;
-"@MMK_R_s" = -96;
-"@MMK_R_seven" = 17;
-"@MMK_R_six" = -29;
-"@MMK_R_u" = -66;
-"@MMK_R_v" = -29;
-"@MMK_R_x" = -29;
-"@MMK_R_y" = -29;
-"@MMK_R_z" = -29;
-"@MMK_R_T" = 12;
-"@MMK_R_f" = -30;
-"@MMK_R_t" = -65;
-O = -15;
 n = -34;
-o = -101;
-"@MMK_R_parenright" = 47;
-"@MMK_R_I" = -12;
-"@MMK_R_quesion" = 26;
-d = -89;
 ntilde = -34;
+o = -101;
 oacute = -101;
 ocircumflex = -101;
 odieresis = -101;
 ograve = -101;
 oslash = -101;
 otilde = -101;
+q = -114;
+question = 20;
 r = -42;
+thorn = 48;
 };
 "@MMK_L_X" = {
+"@MMK_R_I" = 24;
+"@MMK_R_O" = -22;
+"@MMK_R_backslash" = 21;
+"@MMK_R_guilsinglleft" = -18;
+"@MMK_R_jdotless" = 20;
+"@MMK_R_o" = -20;
+"@MMK_R_parenright" = 24;
+"@MMK_R_v" = -29;
+"@MMK_R_y" = -46;
 bracketright = 7;
 d = -15;
 e = -30;
@@ -48159,17 +49456,38 @@ eth = -32;
 h = 10;
 l = 27;
 thorn = 33;
-"@MMK_R_O" = -22;
-"@MMK_R_backslash" = 21;
-"@MMK_R_guilsinglleft" = -18;
-"@MMK_R_o" = -20;
-"@MMK_R_v" = -29;
-"@MMK_R_y" = -46;
-"@MMK_R_I" = 24;
-"@MMK_R_parenright" = 24;
-"@MMK_R_jdotless" = 20;
 };
 "@MMK_L_Y" = {
+"@MMK_R_A" = -44;
+"@MMK_R_I" = 39;
+"@MMK_R_J" = -42;
+"@MMK_R_O" = -30;
+"@MMK_R_S" = -6;
+"@MMK_R_T" = 35;
+"@MMK_R_a" = -59;
+"@MMK_R_at" = -34;
+"@MMK_R_backslash" = 37;
+"@MMK_R_colon" = -39;
+"@MMK_R_eight" = -13;
+"@MMK_R_four" = -51;
+"@MMK_R_g" = -73;
+"@MMK_R_guilsinglleft" = -57;
+"@MMK_R_guilsinglright" = -36;
+"@MMK_R_idotless" = -5;
+"@MMK_R_n" = -49;
+"@MMK_R_o" = -83;
+"@MMK_R_parenright" = 37;
+"@MMK_R_quesion" = 20;
+"@MMK_R_quoteright" = 11;
+"@MMK_R_s" = -68;
+"@MMK_R_seven" = 18;
+"@MMK_R_six" = -36;
+"@MMK_R_t" = -20;
+"@MMK_R_u" = -44;
+"@MMK_R_v" = -44;
+"@MMK_R_x" = -49;
+"@MMK_R_y" = -44;
+"@MMK_R_z" = -44;
 AE = -56;
 C = -37;
 Ccedilla = -37;
@@ -48184,46 +49502,15 @@ r = -39;
 registered = -25;
 thorn = 48;
 w = -39;
-"@MMK_R_A" = -44;
-"@MMK_R_J" = -42;
-"@MMK_R_O" = -30;
-"@MMK_R_S" = -6;
-"@MMK_R_T" = 35;
-"@MMK_R_a" = -59;
-"@MMK_R_at" = -34;
-"@MMK_R_backslash" = 37;
-"@MMK_R_colon" = -39;
-"@MMK_R_idotless" = -5;
-"@MMK_R_eight" = -13;
-"@MMK_R_four" = -51;
-"@MMK_R_g" = -73;
-"@MMK_R_guilsinglleft" = -57;
-"@MMK_R_guilsinglright" = -36;
-"@MMK_R_n" = -49;
-"@MMK_R_o" = -83;
-"@MMK_R_quoteright" = 11;
-"@MMK_R_s" = -68;
-"@MMK_R_seven" = 18;
-"@MMK_R_six" = -36;
-"@MMK_R_t" = -20;
-"@MMK_R_u" = -44;
-"@MMK_R_v" = -44;
-"@MMK_R_x" = -49;
-"@MMK_R_y" = -44;
-"@MMK_R_z" = -44;
-"@MMK_R_I" = 39;
-"@MMK_R_parenright" = 37;
-"@MMK_R_quesion" = 20;
 };
 "@MMK_L_at" = {
 "@MMK_R_A" = -15;
 "@MMK_R_J" = -15;
-"@MMK_R_Y" = -12;
 "@MMK_R_V" = -10;
+"@MMK_R_Y" = -12;
 };
 "@MMK_L_backslash" = {
-W = -69;
-q = -31;
+"@MMK_R_I" = -26;
 "@MMK_R_J" = -11;
 "@MMK_R_O" = -43;
 "@MMK_R_S" = -19;
@@ -48235,6 +49522,7 @@ q = -31;
 "@MMK_R_eight" = -28;
 "@MMK_R_five" = -11;
 "@MMK_R_four" = -27;
+"@MMK_R_jdotless" = 107;
 "@MMK_R_nine" = -35;
 "@MMK_R_o" = -35;
 "@MMK_R_quoteright" = -85;
@@ -48246,12 +49534,10 @@ q = -31;
 "@MMK_R_u" = -40;
 "@MMK_R_v" = -59;
 "@MMK_R_z" = -11;
-"@MMK_R_I" = -26;
-"@MMK_R_jdotless" = 107;
+W = -69;
+q = -31;
 };
 "@MMK_L_c" = {
-W = -34;
-k = -15;
 "@MMK_R_I" = -7;
 "@MMK_R_T" = -10;
 "@MMK_R_V" = -20;
@@ -48259,57 +49545,74 @@ k = -15;
 "@MMK_R_backslash" = -25;
 "@MMK_R_parenright" = -10;
 "@MMK_R_quesion" = -10;
+W = -34;
+k = -15;
 };
 "@MMK_L_colon" = {
 "@MMK_R_jdotless" = 73;
 };
 "@MMK_L_d" = {
-eth = -5;
+"@MMK_R_I" = -5;
+"@MMK_R_O" = -5;
+"@MMK_R_jdotless" = 24;
+"@MMK_R_o" = -18;
 "@MMK_R_v" = -48;
 "@MMK_R_y" = -10;
-"@MMK_R_O" = -5;
-"@MMK_R_o" = -18;
-"@MMK_R_jdotless" = 24;
-"@MMK_R_I" = -5;
-};
-"@MMK_L_idotless" = {
-e = -12;
-eacute = -12;
-ecircumflex = -12;
-edieresis = -12;
-egrave = -12;
 eth = -5;
-"@MMK_R_quoteleft" = -5;
-"@MMK_R_quoteright" = -5;
-"@MMK_R_u" = -30;
-"@MMK_R_v" = -36;
-"@MMK_R_O" = -5;
-"@MMK_R_V" = -11;
-"@MMK_R_o" = -18;
-"@MMK_R_I" = -4;
 };
 "@MMK_L_e" = {
-W = -39;
-l = -18;
-r = -24;
+"@MMK_R_I" = -29;
 "@MMK_R_T" = -10;
 "@MMK_R_V" = -20;
 "@MMK_R_Y" = -41;
 "@MMK_R_backslash" = -33;
+"@MMK_R_n" = -17;
 "@MMK_R_quoteleft" = -5;
 "@MMK_R_quoteright" = -5;
 "@MMK_R_v" = -42;
 "@MMK_R_x" = -5;
 "@MMK_R_y" = -6;
-"@MMK_R_I" = -29;
-"@MMK_R_n" = -17;
+W = -39;
+l = -18;
+r = -24;
 };
 "@MMK_L_eight" = {
-bracketright = -11;
-"@MMK_R_parenright" = -14;
 "@MMK_R_hyphen" = -10;
+"@MMK_R_parenright" = -14;
+bracketright = -11;
+};
+"@MMK_L_exclam" = {
+"@MMK_R_Y" = 5;
 };
 "@MMK_L_f" = {
+"@MMK_R_I" = 88;
+"@MMK_R_O" = 41;
+"@MMK_R_S" = 5;
+"@MMK_R_V" = 24;
+"@MMK_R_X" = 111;
+"@MMK_R_Y" = 15;
+"@MMK_R_Z" = -5;
+"@MMK_R_a" = 20;
+"@MMK_R_backslash" = 71;
+"@MMK_R_f" = -30;
+"@MMK_R_g" = -59;
+"@MMK_R_guilsinglleft" = -21;
+"@MMK_R_idotless" = 64;
+"@MMK_R_jdotless" = 88;
+"@MMK_R_n" = -6;
+"@MMK_R_o" = -83;
+"@MMK_R_paragraph" = 34;
+"@MMK_R_parenleft" = 32;
+"@MMK_R_parenright" = 88;
+"@MMK_R_quesion" = 68;
+"@MMK_R_quoteleft" = 49;
+"@MMK_R_quoteright" = 111;
+"@MMK_R_s" = 5;
+"@MMK_R_t" = -15;
+"@MMK_R_u" = -51;
+"@MMK_R_v" = 35;
+"@MMK_R_y" = -18;
+"@MMK_R_z" = 41;
 B = -10;
 C = 24;
 Ccedilla = 24;
@@ -48329,40 +49632,11 @@ k = 105;
 l = 100;
 quotedblright = 49;
 r = -72;
-"@MMK_R_I" = 88;
-"@MMK_R_O" = 41;
-"@MMK_R_S" = 5;
-"@MMK_R_V" = 24;
-"@MMK_R_X" = 111;
-"@MMK_R_Y" = 15;
-"@MMK_R_Z" = -5;
-"@MMK_R_a" = 20;
-"@MMK_R_backslash" = 71;
-"@MMK_R_idotless" = 64;
-"@MMK_R_f" = -30;
-"@MMK_R_g" = -59;
-"@MMK_R_guilsinglleft" = -21;
-"@MMK_R_n" = -6;
-"@MMK_R_o" = -83;
-"@MMK_R_paragraph" = 34;
-"@MMK_R_quoteleft" = 49;
-"@MMK_R_quoteright" = 111;
-"@MMK_R_s" = 5;
-"@MMK_R_t" = -15;
-"@MMK_R_u" = -51;
-"@MMK_R_v" = 35;
-"@MMK_R_y" = -18;
-"@MMK_R_z" = 41;
-"@MMK_R_parenright" = 88;
-"@MMK_R_parenleft" = 32;
-"@MMK_R_jdotless" = 88;
-"@MMK_R_quesion" = 68;
 };
 "@MMK_L_five" = {
 "@MMK_R_nine" = -12;
 };
 "@MMK_L_four" = {
-W = -18;
 "@MMK_R_A" = 11;
 "@MMK_R_T" = -15;
 "@MMK_R_U" = -12;
@@ -48370,11 +49644,12 @@ W = -18;
 "@MMK_R_Y" = -14;
 "@MMK_R_backslash" = -13;
 "@MMK_R_five" = 6;
-"@MMK_R_nine" = -10;
-"@MMK_R_parenright" = -12;
-"@MMK_R_ordfeminine" = -23;
-"@MMK_R_plus" = -10;
 "@MMK_R_hyphen" = -14;
+"@MMK_R_nine" = -10;
+"@MMK_R_ordfeminine" = -23;
+"@MMK_R_parenright" = -12;
+"@MMK_R_plus" = -10;
+W = -18;
 };
 "@MMK_L_fraction" = {
 "@MMK_R_four" = -39;
@@ -48382,39 +49657,39 @@ W = -18;
 "@MMK_R_six" = -20;
 };
 "@MMK_L_g" = {
-l = -27;
-p = 41;
-"@MMK_R_idotless" = 29;
+"@MMK_R_I" = -24;
 "@MMK_R_f" = 18;
+"@MMK_R_idotless" = 29;
+"@MMK_R_jdotless" = 111;
 "@MMK_R_n" = 29;
 "@MMK_R_u" = 29;
 "@MMK_R_v" = 41;
 "@MMK_R_x" = 29;
 "@MMK_R_y" = 53;
 "@MMK_R_z" = 23;
-"@MMK_R_I" = -24;
-"@MMK_R_jdotless" = 111;
+l = -27;
+p = 41;
 };
 "@MMK_L_germandbls" = {
-bracketright = -14;
 "@MMK_R_backslash" = -29;
 "@MMK_R_g" = -4;
+"@MMK_R_jdotless" = -7;
+"@MMK_R_n" = -7;
+"@MMK_R_parenright" = -19;
+"@MMK_R_quesion" = -18;
 "@MMK_R_quoteleft" = -35;
 "@MMK_R_quoteright" = -38;
 "@MMK_R_t" = -7;
 "@MMK_R_u" = -6;
 "@MMK_R_v" = -37;
 "@MMK_R_y" = -37;
-"@MMK_R_parenright" = -19;
-"@MMK_R_jdotless" = -7;
-"@MMK_R_n" = -7;
-"@MMK_R_quesion" = -18;
+bracketright = -14;
 };
 "@MMK_L_guilsinglleft" = {
+"@MMK_R_A" = 5;
 "@MMK_R_U" = -19;
 "@MMK_R_V" = -29;
 "@MMK_R_Y" = -35;
-"@MMK_R_A" = 5;
 };
 "@MMK_L_guilsinglright" = {
 "@MMK_R_A" = -15;
@@ -48425,8 +49700,8 @@ bracketright = -14;
 "@MMK_R_X" = -19;
 "@MMK_R_Y" = -58;
 "@MMK_R_Z" = -25;
-"@MMK_R_idotless" = -11;
 "@MMK_R_f" = -11;
+"@MMK_R_idotless" = -11;
 "@MMK_R_n" = -11;
 "@MMK_R_quoteright" = -34;
 "@MMK_R_v" = -20;
@@ -48434,7 +49709,45 @@ bracketright = -14;
 "@MMK_R_y" = -19;
 "@MMK_R_z" = -11;
 };
+"@MMK_L_hyphen" = {
+"@MMK_R_I" = -32;
+"@MMK_R_eight" = -12;
+"@MMK_R_five" = -16;
+"@MMK_R_nine" = -14;
+"@MMK_R_seven" = -52;
+"@MMK_R_three" = -27;
+"@MMK_R_two" = -49;
+l = -70;
+};
+"@MMK_L_idotless" = {
+"@MMK_R_I" = -4;
+"@MMK_R_O" = -5;
+"@MMK_R_V" = -11;
+"@MMK_R_o" = -18;
+"@MMK_R_quoteleft" = -5;
+"@MMK_R_quoteright" = -5;
+"@MMK_R_u" = -30;
+"@MMK_R_v" = -36;
+e = -12;
+eacute = -12;
+ecircumflex = -12;
+edieresis = -12;
+egrave = -12;
+eth = -5;
+};
+"@MMK_L_jdotless" = {
+"@MMK_R_I" = -5;
+"@MMK_R_jdotless" = 73;
+F = -2;
+};
 "@MMK_L_k" = {
+"@MMK_R_O" = -5;
+"@MMK_R_U" = -12;
+"@MMK_R_V" = -10;
+"@MMK_R_g" = -15;
+"@MMK_R_guilsinglleft" = -11;
+"@MMK_R_o" = -20;
+"@MMK_R_v" = -30;
 C = -10;
 Ccedilla = -10;
 G = -10;
@@ -48447,104 +49760,148 @@ edieresis = -42;
 egrave = -42;
 eth = -24;
 q = -10;
-"@MMK_R_O" = -5;
-"@MMK_R_U" = -12;
-"@MMK_R_g" = -15;
-"@MMK_R_guilsinglleft" = -11;
-"@MMK_R_o" = -20;
-"@MMK_R_v" = -30;
-"@MMK_R_V" = -10;
 };
 "@MMK_L_l" = {
+"@MMK_R_I" = -17;
+"@MMK_R_O" = -5;
+"@MMK_R_T" = -7;
+"@MMK_R_V" = -11;
+"@MMK_R_hyphen" = -71;
+"@MMK_R_o" = -18;
+"@MMK_R_u" = -12;
+"@MMK_R_v" = -30;
+"@MMK_R_y" = -12;
 e = -11;
 eacute = -11;
 ecircumflex = -11;
 edieresis = -11;
 egrave = -11;
 eth = -4;
-"@MMK_R_T" = -7;
-"@MMK_R_o" = -18;
-"@MMK_R_u" = -12;
-"@MMK_R_v" = -30;
-"@MMK_R_y" = -12;
-"@MMK_R_O" = -5;
-"@MMK_R_V" = -11;
-"@MMK_R_I" = -17;
-"@MMK_R_hyphen" = -71;
 };
 "@MMK_L_n" = {
-W = -39;
-d = -12;
-eth = -4;
-question = -10;
-w = -5;
-b = -35;
-braceright = -5;
-p = -41;
-q = -18;
+"@MMK_R_I" = -24;
 "@MMK_R_T" = -41;
 "@MMK_R_U" = -24;
 "@MMK_R_V" = -49;
 "@MMK_R_Y" = -39;
 "@MMK_R_backslash" = -43;
+"@MMK_R_jdotless" = 10;
+"@MMK_R_n" = -48;
+"@MMK_R_o" = -23;
+"@MMK_R_parenright" = -10;
+"@MMK_R_quesion" = -17;
 "@MMK_R_quoteleft" = -10;
 "@MMK_R_quoteright" = -10;
+"@MMK_R_t" = -29;
+"@MMK_R_u" = -66;
 "@MMK_R_v" = -66;
 "@MMK_R_y" = -5;
-"@MMK_R_t" = -29;
-"@MMK_R_o" = -23;
-"@MMK_R_u" = -66;
-"@MMK_R_quesion" = -17;
-"@MMK_R_parenright" = -10;
-"@MMK_R_I" = -24;
-"@MMK_R_n" = -48;
-"@MMK_R_jdotless" = 10;
+W = -39;
+b = -35;
+braceright = -5;
+d = -12;
+eth = -4;
+p = -41;
+q = -18;
+question = -10;
+w = -5;
 };
 "@MMK_L_nine" = {
-bracketright = -15;
 "@MMK_R_A" = -28;
 "@MMK_R_I" = -13;
 "@MMK_R_J" = -24;
+"@MMK_R_V" = -10;
 "@MMK_R_Y" = -11;
 "@MMK_R_fraction" = -28;
-"@MMK_R_V" = -10;
 "@MMK_R_parenright" = -20;
+bracketright = -15;
 };
 "@MMK_L_o" = {
+"@MMK_R_A" = -10;
+"@MMK_R_I" = -12;
+"@MMK_R_T" = -41;
+"@MMK_R_U" = -10;
+"@MMK_R_V" = -24;
+"@MMK_R_X" = -42;
+"@MMK_R_Y" = -34;
+"@MMK_R_backslash" = -38;
+"@MMK_R_jdotless" = 10;
+"@MMK_R_n" = 6;
+"@MMK_R_o" = 21;
+"@MMK_R_parenright" = -22;
+"@MMK_R_quesion" = -10;
+"@MMK_R_quoteleft" = -10;
+"@MMK_R_quoteright" = -10;
+"@MMK_R_u" = -12;
+"@MMK_R_v" = -10;
+"@MMK_R_x" = -20;
+"@MMK_R_y" = -23;
 B = -5;
+D = -5;
 E = -15;
 Egrave = -15;
 F = -5;
 W = -36;
+braceright = -19;
 d = 12;
 germandbls = -6;
-braceright = -19;
-D = -5;
-"@MMK_R_T" = -41;
-"@MMK_R_U" = -10;
-"@MMK_R_V" = -24;
-"@MMK_R_Y" = -34;
-"@MMK_R_backslash" = -38;
-"@MMK_R_n" = 6;
-"@MMK_R_o" = 21;
-"@MMK_R_quoteleft" = -10;
-"@MMK_R_quoteright" = -10;
-"@MMK_R_x" = -20;
-"@MMK_R_y" = -23;
-"@MMK_R_A" = -10;
-"@MMK_R_I" = -12;
-"@MMK_R_X" = -42;
-"@MMK_R_u" = -12;
-"@MMK_R_v" = -10;
-"@MMK_R_parenright" = -22;
-"@MMK_R_quesion" = -10;
-"@MMK_R_jdotless" = 10;
 };
 "@MMK_L_one" = {
 "@MMK_R_zero" = -35;
 };
+"@MMK_L_ordfeminine" = {
+"@MMK_R_five" = -12;
+"@MMK_R_four" = -56;
+"@MMK_R_six" = -16;
+};
+"@MMK_L_parenleft" = {
+"@MMK_R_A" = -12;
+"@MMK_R_I" = 25;
+"@MMK_R_J" = -25;
+"@MMK_R_O" = -23;
+"@MMK_R_S" = -12;
+"@MMK_R_V" = 36;
+"@MMK_R_Y" = 35;
+"@MMK_R_a" = -5;
+"@MMK_R_eight" = -16;
+"@MMK_R_f" = -11;
+"@MMK_R_five" = -10;
+"@MMK_R_four" = -20;
+"@MMK_R_jdotless" = 122;
+"@MMK_R_n" = -10;
+"@MMK_R_nine" = -11;
+"@MMK_R_o" = -19;
+"@MMK_R_parenleft" = -13;
+"@MMK_R_six" = -24;
+"@MMK_R_u" = -5;
+W = 23;
+b = 35;
+c = -10;
+d = -10;
+eth = -27;
+germandbls = -11;
+h = 15;
+q = -24;
+};
+"@MMK_L_parenright" = {
+"@MMK_R_jdotless" = 59;
+"@MMK_R_parenright" = -13;
+};
+"@MMK_L_period" = {
+"@MMK_R_A" = 8;
+"@MMK_R_jdotless" = 74;
+AE = 28;
+j = 56;
+};
+"@MMK_L_plus" = {
+"@MMK_R_five" = -13;
+"@MMK_R_nine" = -15;
+"@MMK_R_seven" = -20;
+"@MMK_R_three" = -26;
+"@MMK_R_two" = -52;
+};
 "@MMK_L_q" = {
-W = -29;
+"@MMK_R_I" = -5;
 "@MMK_R_J" = -15;
 "@MMK_R_T" = -21;
 "@MMK_R_U" = -15;
@@ -48552,44 +49909,40 @@ W = -29;
 "@MMK_R_Y" = -47;
 "@MMK_R_backslash" = -31;
 "@MMK_R_g" = 29;
-"@MMK_R_quoteright" = -10;
-"@MMK_R_I" = -5;
 "@MMK_R_jdotless" = 141;
 "@MMK_R_n" = 41;
 "@MMK_R_quesion" = -10;
+"@MMK_R_quoteright" = -10;
+W = -29;
 };
 "@MMK_L_questiondown" = {
-W = -24;
 "@MMK_R_T" = -23;
 "@MMK_R_U" = -15;
 "@MMK_R_V" = -21;
 "@MMK_R_Y" = -21;
 "@MMK_R_v" = -16;
 "@MMK_R_y" = -15;
+W = -24;
 };
 "@MMK_L_quoteleft" = {
+"@MMK_R_A" = -54;
+"@MMK_R_I" = -12;
+"@MMK_R_J" = -64;
+"@MMK_R_T" = 49;
+"@MMK_R_V" = 47;
+"@MMK_R_Y" = 64;
+"@MMK_R_o" = -7;
+"@MMK_R_s" = -10;
+"@MMK_R_v" = 15;
 AE = -73;
 W = 53;
 d = -12;
 eth = -32;
 q = -10;
-"@MMK_R_A" = -54;
-"@MMK_R_J" = -64;
-"@MMK_R_T" = 49;
-"@MMK_R_V" = 47;
-"@MMK_R_Y" = 64;
-"@MMK_R_s" = -10;
-"@MMK_R_v" = 15;
-"@MMK_R_o" = -7;
-"@MMK_R_I" = -12;
 };
 "@MMK_L_quoteright" = {
-AE = -75;
-W = 76;
-d = -12;
-eth = -35;
-q = -10;
 "@MMK_R_A" = -57;
+"@MMK_R_I" = -14;
 "@MMK_R_J" = -55;
 "@MMK_R_O" = -9;
 "@MMK_R_T" = 49;
@@ -48599,15 +49952,18 @@ q = -10;
 "@MMK_R_at" = -19;
 "@MMK_R_g" = -24;
 "@MMK_R_guilsinglleft" = -41;
+"@MMK_R_o" = -7;
 "@MMK_R_s" = -10;
 "@MMK_R_y" = 29;
-"@MMK_R_o" = -7;
-"@MMK_R_I" = -14;
+AE = -75;
+W = 76;
+d = -12;
+eth = -35;
+q = -10;
 };
 "@MMK_L_r" = {
-W = -24;
-germandbls = -6;
 "@MMK_R_A" = -29;
+"@MMK_R_I" = -10;
 "@MMK_R_J" = -49;
 "@MMK_R_T" = 35;
 "@MMK_R_V" = -5;
@@ -48615,26 +49971,24 @@ germandbls = -6;
 "@MMK_R_Y" = -24;
 "@MMK_R_a" = -12;
 "@MMK_R_guilsinglleft" = -13;
+"@MMK_R_jdotless" = 35;
+"@MMK_R_parenright" = -5;
 "@MMK_R_t" = 17;
 "@MMK_R_v" = 29;
 "@MMK_R_y" = 20;
 "@MMK_R_z" = 18;
-"@MMK_R_I" = -10;
-"@MMK_R_parenright" = -5;
-"@MMK_R_jdotless" = 35;
+W = -24;
+germandbls = -6;
 };
 "@MMK_L_s" = {
-W = -29;
+"@MMK_R_I" = -5;
 "@MMK_R_V" = -20;
 "@MMK_R_Y" = -24;
 "@MMK_R_backslash" = -27;
-"@MMK_R_I" = -5;
 "@MMK_R_quesion" = -10;
+W = -29;
 };
 "@MMK_L_seven" = {
-W = 38;
-bracketright = 5;
-minus = -38;
 "@MMK_R_A" = -45;
 "@MMK_R_J" = -43;
 "@MMK_R_O" = -10;
@@ -48647,57 +50001,74 @@ minus = -38;
 "@MMK_R_eight" = -30;
 "@MMK_R_four" = -37;
 "@MMK_R_fraction" = -49;
+"@MMK_R_hyphen" = -38;
+"@MMK_R_o" = -28;
+"@MMK_R_parenright" = 21;
+"@MMK_R_plus" = -19;
 "@MMK_R_seven" = 12;
 "@MMK_R_six" = -18;
-"@MMK_R_parenright" = 21;
-"@MMK_R_o" = -28;
-"@MMK_R_plus" = -19;
-"@MMK_R_hyphen" = -38;
+W = 38;
+bracketright = 5;
+minus = -38;
 };
 "@MMK_L_six" = {
-W = -15;
 "@MMK_R_T" = -21;
 "@MMK_R_V" = -11;
 "@MMK_R_Y" = -12;
-"@MMK_R_seven" = -11;
-"@MMK_R_parenright" = -13;
 "@MMK_R_ordfeminine" = -25;
+"@MMK_R_parenright" = -13;
+"@MMK_R_seven" = -11;
+W = -15;
 };
 "@MMK_L_t" = {
 "@MMK_R_backslash" = -13;
 "@MMK_R_guilsinglleft" = -12;
-"@MMK_R_o" = -20;
 "@MMK_R_jdotless" = 41;
+"@MMK_R_o" = -20;
 };
 "@MMK_L_three" = {
-bracketright = -11;
 "@MMK_R_four" = -30;
 "@MMK_R_parenright" = -14;
+bracketright = -11;
 };
 "@MMK_L_two" = {
-"@MMK_R_three" = 12;
+"@MMK_R_hyphen" = -29;
 "@MMK_R_parenright" = -10;
 "@MMK_R_plus" = -28;
-"@MMK_R_hyphen" = -29;
+"@MMK_R_three" = 12;
 };
 "@MMK_L_u" = {
-W = -32;
-eth = -5;
+"@MMK_R_I" = -4;
 "@MMK_R_T" = -12;
 "@MMK_R_V" = -39;
 "@MMK_R_backslash" = -35;
+"@MMK_R_jdotless" = 35;
+"@MMK_R_o" = -30;
+"@MMK_R_parenright" = -7;
+"@MMK_R_quesion" = -10;
 "@MMK_R_quoteleft" = -7;
 "@MMK_R_quoteright" = -7;
 "@MMK_R_u" = -5;
 "@MMK_R_v" = -65;
 "@MMK_R_y" = -30;
-"@MMK_R_parenright" = -7;
-"@MMK_R_o" = -30;
-"@MMK_R_jdotless" = 35;
-"@MMK_R_quesion" = -10;
-"@MMK_R_I" = -4;
+W = -32;
+eth = -5;
 };
 "@MMK_L_v" = {
+"@MMK_R_A" = -36;
+"@MMK_R_I" = -10;
+"@MMK_R_J" = -39;
+"@MMK_R_T" = 29;
+"@MMK_R_X" = -10;
+"@MMK_R_a" = -18;
+"@MMK_R_f" = 5;
+"@MMK_R_g" = -24;
+"@MMK_R_guilsinglleft" = -20;
+"@MMK_R_o" = -9;
+"@MMK_R_quoteleft" = 20;
+"@MMK_R_quoteright" = 20;
+"@MMK_R_u" = 35;
+"@MMK_R_v" = 101;
 E = -5;
 Egrave = -5;
 c = -12;
@@ -48710,22 +50081,13 @@ egrave = -65;
 eth = -12;
 germandbls = -7;
 l = -35;
-"@MMK_R_J" = -39;
-"@MMK_R_T" = 29;
-"@MMK_R_X" = -10;
-"@MMK_R_a" = -18;
-"@MMK_R_g" = -24;
-"@MMK_R_guilsinglleft" = -20;
-"@MMK_R_quoteleft" = 20;
-"@MMK_R_quoteright" = 20;
-"@MMK_R_u" = 35;
-"@MMK_R_A" = -36;
-"@MMK_R_f" = 5;
-"@MMK_R_o" = -9;
-"@MMK_R_I" = -10;
-"@MMK_R_v" = 101;
 };
 "@MMK_L_x" = {
+"@MMK_R_O" = -19;
+"@MMK_R_V" = -5;
+"@MMK_R_guilsinglleft" = -14;
+"@MMK_R_jdotless" = 35;
+"@MMK_R_o" = -5;
 c = -20;
 e = -15;
 eacute = -15;
@@ -48733,13 +50095,24 @@ ecircumflex = -15;
 edieresis = -15;
 egrave = -15;
 eth = -27;
-"@MMK_R_guilsinglleft" = -14;
-"@MMK_R_o" = -5;
-"@MMK_R_O" = -19;
-"@MMK_R_V" = -5;
-"@MMK_R_jdotless" = 35;
 };
 "@MMK_L_y" = {
+"@MMK_R_A" = -70;
+"@MMK_R_I" = -10;
+"@MMK_R_J" = -54;
+"@MMK_R_T" = 20;
+"@MMK_R_V" = -9;
+"@MMK_R_X" = -43;
+"@MMK_R_guilsinglleft" = -19;
+"@MMK_R_jdotless" = 41;
+"@MMK_R_n" = 18;
+"@MMK_R_o" = -65;
+"@MMK_R_parenright" = -18;
+"@MMK_R_quoteleft" = 15;
+"@MMK_R_s" = -15;
+"@MMK_R_t" = 6;
+"@MMK_R_u" = 23;
+"@MMK_R_y" = 41;
 H = -7;
 bracketright = -11;
 c = -12;
@@ -48752,27 +50125,11 @@ egrave = -77;
 eth = -11;
 h = -18;
 l = -36;
-q = -10;
-r = -18;
-"@MMK_R_A" = -70;
-"@MMK_R_J" = -54;
-"@MMK_R_T" = 20;
-"@MMK_R_X" = -43;
-"@MMK_R_guilsinglleft" = -19;
-"@MMK_R_o" = -65;
-"@MMK_R_quoteleft" = 15;
-"@MMK_R_s" = -15;
-"@MMK_R_t" = 6;
-"@MMK_R_u" = 23;
-"@MMK_R_y" = 41;
-"@MMK_R_I" = -10;
-"@MMK_R_V" = -9;
-"@MMK_R_parenright" = -18;
-"@MMK_R_jdotless" = 41;
-"@MMK_R_n" = 18;
 oacute = -10;
 ocircumflex = -10;
 odieresis = -7;
+q = -10;
+r = -18;
 };
 "@MMK_L_z" = {
 "@MMK_R_U" = -22;
@@ -48786,78 +50143,169 @@ odieresis = -7;
 "@MMK_R_four" = -24;
 "@MMK_R_two" = -12;
 };
-"@MMK_L_parenleft" = {
-W = 23;
-b = 35;
-c = -10;
-eth = -27;
-germandbls = -11;
-h = 15;
-q = -24;
-d = -10;
-"@MMK_R_A" = -12;
-"@MMK_R_J" = -25;
-"@MMK_R_O" = -23;
-"@MMK_R_S" = -12;
-"@MMK_R_V" = 36;
-"@MMK_R_Y" = 35;
-"@MMK_R_a" = -5;
-"@MMK_R_eight" = -16;
-"@MMK_R_f" = -11;
-"@MMK_R_five" = -10;
-"@MMK_R_four" = -20;
-"@MMK_R_nine" = -11;
-"@MMK_R_six" = -24;
-"@MMK_R_u" = -5;
-"@MMK_R_I" = 25;
-"@MMK_R_o" = -19;
-"@MMK_R_parenleft" = -13;
-"@MMK_R_jdotless" = 122;
-"@MMK_R_n" = -10;
+D = {
+"@MMK_R_A" = -10;
+"@MMK_R_V" = -20;
+"@MMK_R_Y" = -28;
+AE = -49;
 };
-"@MMK_L_parenright" = {
-"@MMK_R_parenright" = -13;
-"@MMK_R_jdotless" = 59;
+H = {
+"@MMK_R_y" = -18;
 };
-"@MMK_L_ordfeminine" = {
-"@MMK_R_five" = -12;
-"@MMK_R_four" = -56;
+J = {
+"@MMK_R_A" = -45;
+"@MMK_R_g" = -10;
+"@MMK_R_n" = -54;
+"@MMK_R_o" = -36;
+"@MMK_R_x" = -15;
+"@MMK_R_z" = -10;
+};
+N = {
+"@MMK_R_a" = -10;
+"@MMK_R_o" = -15;
 "@MMK_R_six" = -16;
+e = -30;
+eacute = -30;
+ecircumflex = -30;
+edieresis = -30;
+egrave = -30;
+eth = -25;
 };
-"@MMK_L_plus" = {
-"@MMK_R_seven" = -20;
-"@MMK_R_five" = -13;
-"@MMK_R_nine" = -15;
-"@MMK_R_three" = -26;
-"@MMK_R_two" = -52;
+Ntilde = {
+"@MMK_R_a" = -10;
+"@MMK_R_o" = -15;
+"@MMK_R_six" = -16;
+e = -30;
+eacute = -30;
+ecircumflex = -30;
+edieresis = -30;
+egrave = -30;
+eth = -25;
 };
-"@MMK_L_exclam" = {
-"@MMK_R_Y" = 5;
+Thorn = {
+"@MMK_R_A" = -29;
+"@MMK_R_I" = -11;
+"@MMK_R_J" = -16;
+"@MMK_R_X" = -55;
+"@MMK_R_parenright" = -14;
+AE = -46;
 };
-"@MMK_L_jdotless" = {
-F = -2;
-"@MMK_R_I" = -5;
-"@MMK_R_jdotless" = 73;
+Uacute = {
+"@MMK_R_A" = -10;
+"@MMK_R_guilsinglright" = -21;
+"@MMK_R_z" = -11;
 };
-"@MMK_L_hyphen" = {
-l = -70;
+W = {
+"@MMK_R_A" = -51;
+"@MMK_R_I" = 34;
+"@MMK_R_J" = -41;
+"@MMK_R_O" = -15;
+"@MMK_R_a" = -113;
+"@MMK_R_at" = -25;
+"@MMK_R_backslash" = 42;
+"@MMK_R_g" = -83;
+"@MMK_R_n" = -65;
+"@MMK_R_o" = -125;
+"@MMK_R_parenright" = 29;
+"@MMK_R_quoteright" = 25;
+"@MMK_R_s" = -83;
+"@MMK_R_seven" = 22;
+"@MMK_R_six" = -26;
+"@MMK_R_u" = -29;
+"@MMK_R_z" = -34;
+AE = -74;
+e = -137;
+eacute = -137;
+ecircumflex = -137;
+edieresis = -137;
+egrave = -137;
+eth = -41;
+thorn = 58;
+};
+a = {
+"@MMK_R_U" = -12;
+"@MMK_R_V" = -53;
+"@MMK_R_Y" = -59;
+"@MMK_R_v" = -72;
+"@MMK_R_y" = -30;
+W = -49;
+w = -15;
+};
+agrave = {
+"@MMK_R_U" = -12;
+"@MMK_R_V" = -53;
+"@MMK_R_Y" = -59;
+"@MMK_R_v" = -72;
+"@MMK_R_y" = -30;
+W = -49;
+w = -15;
+};
+b = {
+"@MMK_R_T" = -35;
+"@MMK_R_V" = -44;
+"@MMK_R_Y" = -64;
+"@MMK_R_x" = -10;
+"@MMK_R_y" = -10;
+W = -29;
+};
+bar = {
+"@MMK_R_jdotless" = 47;
+"@MMK_R_o" = -12;
+};
+bracketleft = {
+"@MMK_R_I" = 11;
+"@MMK_R_J" = -17;
+"@MMK_R_O" = -17;
+"@MMK_R_V" = 19;
+"@MMK_R_Y" = 18;
 "@MMK_R_eight" = -12;
-"@MMK_R_five" = -16;
-"@MMK_R_nine" = -14;
-"@MMK_R_seven" = -52;
-"@MMK_R_three" = -27;
-"@MMK_R_two" = -49;
-"@MMK_R_I" = -32;
+"@MMK_R_four" = -12;
+"@MMK_R_o" = -15;
+"@MMK_R_six" = -16;
+W = 6;
 };
-"@MMK_L_period" = {
-j = 56;
-AE = 28;
-"@MMK_R_A" = 8;
-"@MMK_R_jdotless" = 74;
+eth = {
+"@MMK_R_backslash" = -10;
+"@MMK_R_parenright" = -17;
+};
+h = {
+"@MMK_R_T" = -59;
+"@MMK_R_V" = -44;
+"@MMK_R_Y" = -53;
+"@MMK_R_t" = -35;
+"@MMK_R_v" = -23;
+w = -15;
+};
+m = {
+"@MMK_R_v" = -15;
+"@MMK_R_y" = -10;
+w = -10;
+};
+minus = {
+"@MMK_R_seven" = -51;
+};
+p = {
+"@MMK_R_I" = -18;
+"@MMK_R_T" = -35;
+"@MMK_R_V" = -15;
+"@MMK_R_Y" = -39;
+"@MMK_R_parenright" = -10;
+};
+registered = {
+"@MMK_R_A" = -23;
+"@MMK_R_J" = -13;
+};
+w = {
+"@MMK_R_J" = -49;
+"@MMK_R_T" = 5;
+"@MMK_R_guilsinglleft" = -14;
+};
+ydieresis = {
+"@MMK_R_o" = -70;
+"@MMK_R_u" = -54;
 };
 };
 };
-keyboardIncrement = 0;
 manufacturer = "Oleg Frolov, Haley Fiege";
 manufacturerURL = "http://cyreal.org";
 unitsPerEm = 1000;

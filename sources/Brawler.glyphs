@@ -65,7 +65,7 @@ Tag = wght;
 );
 }
 );
-date = "2022-01-14 09:50:26 +0000";
+date = "2025-02-22 22:01:39 +0000";
 designer = "Oleg Frolov, Haley Fiege";
 designerURL = "http://cyreal.org";
 familyName = Brawler;
@@ -85,6 +85,16 @@ feature frac;
 feature ordn;
 ";
 name = aalt;
+},
+{
+automatic = 1;
+code = "lookup ccmp_DFLT_1 {
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	sub i' @CombiningTopAccents by idotless;
+} ccmp_DFLT_1;
+";
+name = ccmp;
 },
 {
 automatic = 1;
@@ -44217,13 +44227,34 @@ UUID0 = 1;
 name = Regular;
 },
 {
-interpolationWeight = 500;
+customParameters = (
+{
+name = InterpolationWeightY;
+value = 449;
+}
+);
+interpolationWeight = 485;
 instanceInterpolations = {
-"03739D6D-2A00-4CFA-A48A-FF6A1F8AF183" = 0.33333;
-UUID0 = 0.66667;
+"03739D6D-2A00-4CFA-A48A-FF6A1F8AF183" = "{0.28333, 0.16333}";
+UUID0 = "{0.71667, 0.83667}";
 };
 name = Medium;
 weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = InterpolationWeightY;
+value = 546;
+}
+);
+interpolationWeight = 587;
+instanceInterpolations = {
+"03739D6D-2A00-4CFA-A48A-FF6A1F8AF183" = "{0.62333, 0.48667}";
+UUID0 = "{0.37667, 0.51333}";
+};
+name = SemiBold;
+weightClass = SemiBold;
 },
 {
 interpolationWeight = 700;
@@ -46814,5 +46845,5 @@ manufacturer = "Oleg Frolov, Haley Fiege";
 manufacturerURL = "http://cyreal.org";
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 101;
+versionMinor = 500;
 }

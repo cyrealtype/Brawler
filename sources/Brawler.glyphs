@@ -17,7 +17,7 @@ A,
 "nªº/space nªº",
 "/Acute/dieresiscomb/dotaccentcomb/gravecomb/acutecomb/hungarumlautcomb/circumflexcomb/caroncomb/brevecomb/ringcomb/tildecomb/macroncomb/cedillacomb/ogonekcomb ¨/dotaccent `´/hungarumlaut/circumflex/caron/breve/ring/tilde ¯¸/ogonek",
 S,
-"AÁÂÄÀÅÃÆBCÇDÐEÉÊËÈFGHIÍÎÏÌJKLMNÑOÓÔÖÒØÕ/OE PÞQRSTUÚÛÜÙVWXYÝZaáâäàåãæbcçdðeéêëèfghi/idotless íîïìjklmnñoóôöòøõ/oe pþqrsßtuúûüùvwxyý/ydieresis zªº/mu 0123456789/fraction ½¼¾¹²³/foursuperior/space/nbspace/CR/.notdef .,:;/ellipsis !¡?¿·/bullet *#///backslash -­/endash/emdash _(){}[]/quotesinglbase/quotedblbase/quotedblleft/quotedblright/quoteleft/quoteright «»/guilsinglleft/guilsinglright \"'@&¶§©®°|¦¢¤$/euro £¥/divisionslash +/minus ×÷=><±~¬^µ%/Acute/dieresiscomb/dotaccentcomb/gravecomb/acutecomb/hungarumlautcomb/circumflexcomb/caroncomb/brevecomb/ringcomb/tildecomb/macroncomb/cedillacomb/ogonekcomb ¨/dotaccent `´/hungarumlaut/circumflex/caron/breve/ring/tilde ¯¸/ogonek/uniE0FF/uniEFFD/uniF000/foundryicon/noBreak"
+"AÁÂÄÀÅÃÆBCÇDÐEÉÊËÈFGHIÍÎÏÌJKLMNÑOÓÔÖÒØÕ/OE PÞQRSTUÚÛÜÙVWXYÝZaáâäàåãæbcçdðeéêëèfghi/idotless íîïìjklmnñoóôöòøõ/oe pþqrsßtuúûüùvwxyý/ydieresis zªº/mu 0123456789/fraction ½¼¾¹²³/foursuperior/space/nbspace/CR/.notdef .,:;/ellipsis !¡?¿·/bullet *#///backslash -­/endash/emdash _(){}[]/quotesinglbase/quotedblbase/quotedblleft/quotedblright/quoteleft/quoteright «»/guilsinglleft/guilsinglright \"'@&¶§©®°|¦¢¤$/euro £¥/divisionslash +/minus ×÷=><±~¬^µ%/Acute/dieresiscomb/dotaccentcomb/gravecomb/acutecomb/hungarumlautcomb/circumflexcomb/caroncomb/brevecomb/ringcomb/tildecomb/macroncomb/cedillacomb/ogonekcomb ¨/dotaccent `´/hungarumlaut/circumflex/caron/breve/ring/tilde ¯¸/ogonek/uniEFFD/foundryicon/noBreak"
 );
 copyright = "Copyright 2011 The Brawler Project Authors (https://github.com/cyrealtype/Brawler)";
 customParameters = (
@@ -43232,20 +43232,6 @@ width = 324;
 unicode = 02DB;
 },
 {
-glyphname = uniE0FF;
-layers = (
-{
-layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
-width = 372;
-},
-{
-layerId = UUID0;
-width = 600;
-}
-);
-unicode = E0FF;
-},
-{
 glyphname = uniEFFD;
 layers = (
 {
@@ -43318,20 +43304,6 @@ width = 498;
 }
 );
 unicode = EFFD;
-},
-{
-glyphname = uniF000;
-layers = (
-{
-layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
-width = 225;
-},
-{
-layerId = UUID0;
-width = 600;
-}
-);
-unicode = F000;
 },
 {
 glyphname = foundryicon;

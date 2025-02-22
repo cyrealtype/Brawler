@@ -1,8 +1,5 @@
 {
 .appVersion = "3343";
-DisplayStrings = (
-n
-);
 copyright = "Copyright 2011 The Brawler Project Authors (https://github.com/cyrealtype/Brawler)";
 customParameters = (
 {
@@ -72,6 +69,16 @@ name = aalt;
 },
 {
 automatic = 1;
+code = "lookup ccmp_DFLT_1 {
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	sub i' @CombiningTopAccents by idotless;
+} ccmp_DFLT_1;
+";
+name = ccmp;
+},
+{
+automatic = 1;
 code = "sub one by onesuperior;
 sub two by twosuperior;
 sub three by threesuperior;
@@ -97,6 +104,11 @@ name = ordn;
 );
 fontMaster = (
 {
+alignmentZones = (
+"{700, 14}",
+"{520, 14}",
+"{0, -14}"
+);
 ascender = 800;
 capHeight = 700;
 customParameters = (
@@ -136,11 +148,16 @@ value = 998;
 descender = -250;
 id = UUID0;
 weightValue = 89;
-xHeight = 500;
+xHeight = 520;
 },
 {
+alignmentZones = (
+"{710, 14}",
+"{530, 14}",
+"{0, -14}"
+);
 ascender = 800;
-capHeight = 700;
+capHeight = 710;
 customParameters = (
 {
 name = typoDescender;
@@ -44309,13 +44326,41 @@ UUID0 = 1;
 name = Regular;
 },
 {
+customParameters = (
+{
+name = InterpolationWeightY;
+value = 99;
+}
+);
+interpolationWeight = 104;
+instanceInterpolations = {
+"03739D6D-2A00-4CFA-A48A-FF6A1F8AF183" = "{0.29412, 0.19608}";
+UUID0 = "{0.70588, 0.80392}";
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = InterpolationWeightY;
+value = 115;
+}
+);
+interpolationWeight = 121;
+instanceInterpolations = {
+"03739D6D-2A00-4CFA-A48A-FF6A1F8AF183" = "{0.62745, 0.5098}";
+UUID0 = "{0.37255, 0.4902}";
+};
+name = SemiBold;
+weightClass = SemiBold;
+},
+{
 interpolationWeight = 140;
 instanceInterpolations = {
 "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183" = 1;
 };
-isBold = 1;
 name = Bold;
-weightClass = Bold;
 }
 );
 kerning = {

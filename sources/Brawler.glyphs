@@ -749,7 +749,7 @@ name = A;
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, 25, 180}";
+transform = "{1, 0, 0, 1, 57, 180}";
 }
 );
 layerId = UUID0;
@@ -2972,7 +2972,7 @@ name = E;
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, 21, 180}";
+transform = "{1, 0, 0, 1, 53, 180}";
 }
 );
 layerId = UUID0;
@@ -4140,7 +4140,7 @@ name = I;
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, -128, 180}";
+transform = "{1, 0, 0, 1, -96, 180}";
 }
 );
 layerId = UUID0;
@@ -5926,7 +5926,7 @@ name = O;
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, 74, 180}";
+transform = "{1, 0, 0, 1, 106, 180}";
 }
 );
 layerId = UUID0;
@@ -8887,7 +8887,7 @@ name = U;
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, 66, 180}";
+transform = "{1, 0, 0, 1, 98, 180}";
 }
 );
 layerId = UUID0;
@@ -10611,7 +10611,7 @@ name = a;
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, -63, 0}";
+transform = "{1, 0, 0, 1, -31, 0}";
 }
 );
 layerId = UUID0;
@@ -13249,7 +13249,7 @@ name = e;
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, -15, 0}";
+transform = "{1, 0, 0, 1, 17, 0}";
 }
 );
 layerId = UUID0;
@@ -14823,7 +14823,7 @@ name = idotless;
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, -136, 0}";
+transform = "{1, 0, 0, 1, -104, 0}";
 }
 );
 layerId = UUID0;
@@ -16735,7 +16735,7 @@ name = o;
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, -12, 0}";
+transform = "{1, 0, 0, 1, 20, 0}";
 }
 );
 layerId = UUID0;
@@ -20095,7 +20095,7 @@ name = u;
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, -5, 0}";
+transform = "{1, 0, 0, 1, 27, 0}";
 }
 );
 layerId = UUID0;
@@ -40494,7 +40494,7 @@ width = 527;
 anchors = (
 {
 name = _top;
-position = "{309, 520}";
+position = "{277, 520}";
 },
 {
 name = top;

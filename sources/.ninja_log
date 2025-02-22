@@ -1,0 +1,25 @@
+# ninja log v5
+1	1550	1740262064731958306	instance_ufos/Brawler-SemiBold.ufo.json	e598969b5b2cd122
+1	1565	1740262064747763355	instance_ufos/Brawler-Medium.ufo.json	a974edc103fc25cf
+1	1570	1740262064757280676	instance_ufos/Brawler-Regular.ufo.json	e0a4151c424fab09
+2	1583	1740262064762420525	instance_ufos/Brawler-Bold.ufo.json	2573ff44de4d60b9
+1	1881	1740262065105405456	/var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmprxaja8xk	db0eba3c39b5c8c7
+1550	2863	1740262066083291676	/var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpoiv_rjk8	5902eb66331d33ec
+1583	2895	1740262066105538745	/var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpw5qid10b	f425767d674494c6
+1570	2900	1740262066106780124	/var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpmomp7g6x	e7bad162ca343b70
+1565	2900	1740262066112716600	/var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp8_oa5vt2	e847dcb49c90ac9a
+1881	3411	1740262066632069283	../fonts/variable/Brawler[wght].ttf	b476ba5115eabd96
+3411	3839	1740262067205669841	/var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp0rzwwa_x.buildStatstamp	3e0608527f63e110
+2863	4056	1740262067222084600	/var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp7eovljo5	4491f91c1614ba68
+2900	4090	1740262067253513447	/var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpcapei83j	a33b77f257722591
+2895	4100	1740262067253087863	/var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp4c6vi4o6	af60f61b0d048da7
+2900	4114	1740262067256771082	/var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp9u6j76fz	639d62a846afaca
+3411	4202	1740262067473181664	../fonts/webfonts/Brawler[wght].woff2	496c447642de07f9
+4056	5388	1740262068567939202	../fonts/ttf/Brawler-SemiBold.ttf	20c334f0833b4851
+4090	5410	1740262068594717951	../fonts/ttf/Brawler-Medium.ttf	a58f91416f9717d
+4114	5416	1740262068613049633	../fonts/ttf/Brawler-Regular.ttf	479fc9496f5cb7fa
+4100	5419	1740262068598345087	../fonts/ttf/Brawler-Bold.ttf	7f56d916a90faa84
+5388	6143	1740262069395810792	../fonts/webfonts/Brawler-SemiBold.woff2	a33327fcbdee13e8
+5416	6180	1740262069426296636	../fonts/webfonts/Brawler-Regular.woff2	d0a4d81323ca4cb6
+5419	6180	1740262069426342595	../fonts/webfonts/Brawler-Bold.woff2	44b95a3a09765d91
+5411	6182	1740262069426286845	../fonts/webfonts/Brawler-Medium.woff2	835710e9d51a6805

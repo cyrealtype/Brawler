@@ -118,11 +118,13 @@ name = ordn;
 fontMaster = (
 {
 alignmentZones = (
+"{744, 14}",
 "{700, 14}",
 "{520, 14}",
-"{0, -14}"
+"{0, -14}",
+"{-220, -14}"
 );
-ascender = 800;
+ascender = 744;
 capHeight = 700;
 customParameters = (
 {
@@ -158,7 +160,7 @@ name = winAscent;
 value = 998;
 }
 );
-descender = -250;
+descender = -220;
 id = UUID0;
 userData = {
 GSOffsetHorizontal = -12;
@@ -169,11 +171,13 @@ xHeight = 520;
 },
 {
 alignmentZones = (
+"{750, 14}",
 "{710, 14}",
 "{530, 14}",
-"{0, -14}"
+"{0, -14}",
+"{-220, -14}"
 );
-ascender = 800;
+ascender = 750;
 capHeight = 710;
 customParameters = (
 {
@@ -209,7 +213,7 @@ name = winAscent;
 value = 998;
 }
 );
-descender = -250;
+descender = -220;
 id = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
 userData = {
 GSOffsetHorizontal = 10;
@@ -11504,7 +11508,7 @@ nodes = (
 );
 }
 );
-width = 362;
+width = 358;
 },
 {
 anchors = (
@@ -15745,7 +15749,7 @@ position = "{317, 0}";
 },
 {
 name = top;
-position = "{317, 530}";
+position = "{334, 530}";
 }
 );
 hints = (
@@ -15770,11 +15774,9 @@ nodes = (
 "256 -196 OFFCURVE",
 "291 -129 CURVE SMOOTH",
 "318 -77 OFFCURVE",
-"348 -5 OFFCURVE",
+"347 -5 OFFCURVE",
 "384 86 CURVE SMOOTH",
-"423 183 OFFCURVE",
-"476 310 OFFCURVE",
-"539 466 CURVE",
+"539 466 LINE",
 "604 495 LINE",
 "604 530 LINE",
 "408 530 LINE",
@@ -15815,7 +15817,7 @@ position = "{272, 0}";
 },
 {
 name = top;
-position = "{298, 520}";
+position = "{300, 520}";
 }
 );
 hints = (
@@ -15843,11 +15845,9 @@ nodes = (
 "207 -182 OFFCURVE",
 "236 -129 CURVE SMOOTH",
 "265 -78 OFFCURVE",
-"293 -5 OFFCURVE",
+"291 -4 OFFCURVE",
 "329 86 CURVE SMOOTH",
-"368 183 OFFCURVE",
-"425 305 OFFCURVE",
-"488 461 CURVE",
+"488 461 LINE",
 "553 490 LINE",
 "553 520 LINE",
 "375 520 LINE",
@@ -15896,7 +15896,7 @@ name = y;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 234, 0}";
+transform = "{1, 0, 0, 1, 251, 0}";
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -15910,7 +15910,7 @@ name = y;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 237, 0}";
+transform = "{1, 0, 0, 1, 239, 0}";
 }
 );
 layerId = UUID0;
@@ -15932,7 +15932,7 @@ name = y;
 },
 {
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, 55, 0}";
+transform = "{1, 0, 0, 1, 72, 0}";
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -15946,7 +15946,7 @@ name = y;
 },
 {
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, 36, 0}";
+transform = "{1, 0, 0, 1, 38, 0}";
 }
 );
 layerId = UUID0;
@@ -15966,7 +15966,7 @@ name = y;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 131, 0}";
+transform = "{1, 0, 0, 1, 148, 0}";
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -15980,7 +15980,7 @@ name = y;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 110, 0}";
+transform = "{1, 0, 0, 1, 112, 0}";
 }
 );
 layerId = UUID0;
@@ -16002,7 +16002,7 @@ name = y;
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, -21, 0}";
+transform = "{1, 0, 0, 1, -4, 0}";
 }
 );
 layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
@@ -16016,7 +16016,7 @@ name = y;
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, 74, 0}";
+transform = "{1, 0, 0, 1, 76, 0}";
 }
 );
 layerId = UUID0;

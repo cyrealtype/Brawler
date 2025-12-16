@@ -1,7 +1,9 @@
 {
-.appVersion = "3436";
+.appVersion = "3506";
 DisplayStrings = (
-"þ"
+"þ",
+"IÍÎÏ/Idotaccent Ì/Imacron/Iogonek J",
+"E/Eogonek"
 );
 copyright = "Copyright 2011 The Brawler Project Authors (https://github.com/cyrealtype/Brawler)";
 customParameters = (
@@ -59,7 +61,7 @@ Tag = wght;
 );
 }
 );
-date = "2025-11-10 10:49:58 +0000";
+date = "2025-12-16 14:43:09 +0000";
 designer = "Oleg Frolov, Haley Fiege";
 designerURL = "http://cyreal.org";
 familyName = Brawler;
@@ -67,6 +69,16 @@ featurePrefixes = (
 {
 automatic = 1;
 code = "languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn CAT;
 ";
 name = Languagesystems;
 }
@@ -77,18 +89,54 @@ automatic = 1;
 code = "feature sups;
 feature frac;
 feature ordn;
+feature locl;
+feature case;
 ";
 name = aalt;
 },
 {
-automatic = 1;
 code = "lookup ccmp_DFLT_1 {
 	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
 	lookupflag UseMarkFilteringSet @CombiningTopAccents;
 	sub i' @CombiningTopAccents by idotless;
+	sub j' @CombiningTopAccents by jdotless;
 } ccmp_DFLT_1;
 ";
 name = ccmp;
+},
+{
+automatic = 1;
+code = "script latn;
+language AZE;
+lookup locl_latn_0 {
+	sub i by idotaccent;
+} locl_latn_0;
+language CRT;
+lookup locl_latn_0;
+language KAZ;
+lookup locl_latn_0;
+language TAT;
+lookup locl_latn_0;
+language TRK;
+lookup locl_latn_0;
+
+script latn;
+language ROM;
+lookup locl_latn_1 {
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+} locl_latn_1;
+language MOL;
+lookup locl_latn_1;
+
+script latn;
+language CAT;
+lookup locl_latn_2 {
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT.case;
+} locl_latn_2;
+";
+name = locl;
 },
 {
 automatic = 1;
@@ -113,6 +161,12 @@ code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfem
 sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
 ";
 name = ordn;
+},
+{
+automatic = 1;
+code = "sub periodcentered.loclCAT by periodcentered.loclCAT.case;
+";
+name = case;
 }
 );
 fontMaster = (
@@ -157,7 +211,7 @@ value = 275;
 },
 {
 name = winAscent;
-value = 998;
+value = 1028;
 }
 );
 descender = -220;
@@ -210,7 +264,7 @@ value = 275;
 },
 {
 name = winAscent;
-value = 998;
+value = 1028;
 }
 );
 descender = -220;
@@ -227,6 +281,7 @@ xHeight = 530;
 );
 glyphs = (
 {
+color = 4;
 glyphname = A;
 layers = (
 {
@@ -374,6 +429,7 @@ rightKerningGroup = A;
 unicode = 0041;
 },
 {
+color = 4;
 glyphname = Aacute;
 layers = (
 {
@@ -410,6 +466,7 @@ rightKerningGroup = A;
 unicode = 00C1;
 },
 {
+color = 4;
 glyphname = Abreve;
 layers = (
 {
@@ -444,6 +501,7 @@ width = 668;
 unicode = 0102;
 },
 {
+color = 4;
 glyphname = Acircumflex;
 layers = (
 {
@@ -480,6 +538,7 @@ rightKerningGroup = A;
 unicode = 00C2;
 },
 {
+color = 4;
 glyphname = Adieresis;
 layers = (
 {
@@ -516,6 +575,7 @@ rightKerningGroup = A;
 unicode = 00C4;
 },
 {
+color = 4;
 glyphname = Agrave;
 layers = (
 {
@@ -552,6 +612,7 @@ rightKerningGroup = A;
 unicode = 00C0;
 },
 {
+color = 4;
 glyphname = Amacron;
 layers = (
 {
@@ -586,6 +647,7 @@ width = 668;
 unicode = 0100;
 },
 {
+color = 4;
 glyphname = Aogonek;
 layers = (
 {
@@ -620,6 +682,7 @@ width = 668;
 unicode = 0104;
 },
 {
+color = 4;
 glyphname = Aring;
 layers = (
 {
@@ -656,6 +719,7 @@ rightKerningGroup = A;
 unicode = 00C5;
 },
 {
+color = 4;
 glyphname = Atilde;
 layers = (
 {
@@ -692,6 +756,7 @@ rightKerningGroup = A;
 unicode = 00C3;
 },
 {
+color = 4;
 glyphname = AE;
 layers = (
 {
@@ -861,6 +926,7 @@ rightKerningGroup = E;
 unicode = 00C6;
 },
 {
+color = 4;
 glyphname = B;
 layers = (
 {
@@ -1055,6 +1121,7 @@ rightKerningGroup = B;
 unicode = 0042;
 },
 {
+color = 4;
 glyphname = C;
 layers = (
 {
@@ -1206,6 +1273,7 @@ rightKerningGroup = C;
 unicode = 0043;
 },
 {
+color = 4;
 glyphname = Cacute;
 layers = (
 {
@@ -1240,6 +1308,7 @@ width = 660;
 unicode = 0106;
 },
 {
+color = 4;
 glyphname = Ccaron;
 layers = (
 {
@@ -1274,6 +1343,7 @@ width = 660;
 unicode = 010C;
 },
 {
+color = 4;
 glyphname = Ccedilla;
 layers = (
 {
@@ -1310,6 +1380,7 @@ rightKerningGroup = C;
 unicode = 00C7;
 },
 {
+color = 4;
 glyphname = Cdotaccent;
 layers = (
 {
@@ -1344,6 +1415,7 @@ width = 660;
 unicode = 010A;
 },
 {
+color = 4;
 glyphname = D;
 layers = (
 {
@@ -1497,6 +1569,7 @@ rightMetricsKey = O;
 unicode = 0044;
 },
 {
+color = 4;
 glyphname = Dcaron;
 layers = (
 {
@@ -1531,6 +1604,7 @@ width = 724;
 unicode = 010E;
 },
 {
+color = 4;
 glyphname = Dcroat;
 layers = (
 {
@@ -1557,6 +1631,7 @@ width = 725;
 unicode = 0110;
 },
 {
+color = 4;
 glyphname = Eth;
 layers = (
 {
@@ -1708,6 +1783,7 @@ rightMetricsKey = O;
 unicode = 00D0;
 },
 {
+color = 4;
 glyphname = E;
 layers = (
 {
@@ -1877,6 +1953,7 @@ rightKerningGroup = E;
 unicode = 0045;
 },
 {
+color = 4;
 glyphname = Eacute;
 layers = (
 {
@@ -1913,6 +1990,7 @@ rightKerningGroup = E;
 unicode = 00C9;
 },
 {
+color = 4;
 glyphname = Ecaron;
 layers = (
 {
@@ -1947,6 +2025,7 @@ width = 611;
 unicode = 011A;
 },
 {
+color = 4;
 glyphname = Ecircumflex;
 layers = (
 {
@@ -1983,6 +2062,7 @@ rightKerningGroup = E;
 unicode = 00CA;
 },
 {
+color = 4;
 glyphname = Edieresis;
 layers = (
 {
@@ -2019,6 +2099,7 @@ rightKerningGroup = E;
 unicode = 00CB;
 },
 {
+color = 4;
 glyphname = Edotaccent;
 layers = (
 {
@@ -2053,6 +2134,7 @@ width = 611;
 unicode = 0116;
 },
 {
+color = 4;
 glyphname = Egrave;
 layers = (
 {
@@ -2089,6 +2171,7 @@ rightKerningGroup = E;
 unicode = 00C8;
 },
 {
+color = 4;
 glyphname = Emacron;
 layers = (
 {
@@ -2123,6 +2206,7 @@ width = 611;
 unicode = 0112;
 },
 {
+color = 4;
 glyphname = Eogonek;
 layers = (
 {
@@ -2157,6 +2241,39 @@ width = 611;
 unicode = 0118;
 },
 {
+glyphname = Etilde;
+layers = (
+{
+components = (
+{
+name = E;
+},
+{
+name = tildecomb;
+transform = "{1, 0, 0, 1, 93, 180}";
+}
+);
+layerId = UUID0;
+width = 611;
+},
+{
+components = (
+{
+name = E;
+},
+{
+name = tildecomb;
+transform = "{1, 0, 0, 1, 132, 180}";
+}
+);
+layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
+width = 653;
+}
+);
+unicode = 1EBC;
+},
+{
+color = 4;
 glyphname = F;
 layers = (
 {
@@ -2288,6 +2405,7 @@ rightKerningGroup = F;
 unicode = 0046;
 },
 {
+color = 4;
 glyphname = G;
 layers = (
 {
@@ -2452,6 +2570,7 @@ rightKerningGroup = C;
 unicode = 0047;
 },
 {
+color = 4;
 glyphname = Gbreve;
 layers = (
 {
@@ -2486,6 +2605,7 @@ width = 713;
 unicode = 011E;
 },
 {
+color = 4;
 glyphname = Gcommaaccent;
 layers = (
 {
@@ -2520,6 +2640,7 @@ width = 713;
 unicode = 0122;
 },
 {
+color = 4;
 glyphname = Gdotaccent;
 layers = (
 {
@@ -2554,6 +2675,39 @@ width = 713;
 unicode = 0120;
 },
 {
+glyphname = Gmacron;
+layers = (
+{
+components = (
+{
+name = G;
+},
+{
+name = macroncomb;
+transform = "{1, 0, 0, 1, 132, 180}";
+}
+);
+layerId = UUID0;
+width = 713;
+},
+{
+components = (
+{
+name = G;
+},
+{
+name = macroncomb;
+transform = "{1, 0, 0, 1, 148, 180}";
+}
+);
+layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
+width = 723;
+}
+);
+unicode = 1E20;
+},
+{
+color = 4;
 glyphname = H;
 layers = (
 {
@@ -2707,6 +2861,7 @@ rightKerningGroup = I;
 unicode = 0048;
 },
 {
+color = 4;
 glyphname = Hbar;
 layers = (
 {
@@ -2757,6 +2912,7 @@ rightMetricsKey = H;
 unicode = 0126;
 },
 {
+color = 4;
 glyphname = I;
 layers = (
 {
@@ -2898,6 +3054,7 @@ rightMetricsKey = H;
 unicode = 0049;
 },
 {
+color = 4;
 glyphname = Iacute;
 layers = (
 {
@@ -2934,6 +3091,7 @@ rightKerningGroup = I;
 unicode = 00CD;
 },
 {
+color = 4;
 glyphname = Icircumflex;
 layers = (
 {
@@ -2970,6 +3128,7 @@ rightKerningGroup = I;
 unicode = 00CE;
 },
 {
+color = 4;
 glyphname = Idieresis;
 layers = (
 {
@@ -3006,6 +3165,7 @@ rightKerningGroup = I;
 unicode = 00CF;
 },
 {
+color = 4;
 glyphname = Idotaccent;
 layers = (
 {
@@ -3040,6 +3200,7 @@ width = 362;
 unicode = 0130;
 },
 {
+color = 4;
 glyphname = Igrave;
 layers = (
 {
@@ -3076,6 +3237,7 @@ rightKerningGroup = I;
 unicode = 00CC;
 },
 {
+color = 4;
 glyphname = Imacron;
 layers = (
 {
@@ -3110,6 +3272,7 @@ width = 362;
 unicode = 012A;
 },
 {
+color = 4;
 glyphname = Iogonek;
 layers = (
 {
@@ -3144,9 +3307,48 @@ width = 362;
 unicode = 012E;
 },
 {
+glyphname = Itilde;
+layers = (
+{
+components = (
+{
+name = I;
+},
+{
+name = tildecomb;
+transform = "{1, 0, 0, 1, -56, 180}";
+}
+);
+layerId = UUID0;
+width = 362;
+},
+{
+components = (
+{
+name = I;
+},
+{
+name = tildecomb;
+transform = "{1, 0, 0, 1, -23, 180}";
+}
+);
+layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
+width = 407;
+}
+);
+unicode = 0128;
+},
+{
+color = 4;
 glyphname = J;
 layers = (
 {
+anchors = (
+{
+name = top;
+position = "{325, 708}";
+}
+);
 hints = (
 {
 place = "{252, 145}";
@@ -3197,6 +3399,12 @@ nodes = (
 width = 518;
 },
 {
+anchors = (
+{
+name = top;
+position = "{322, 700}";
+}
+);
 hints = (
 {
 place = "{272, 100}";
@@ -3261,6 +3469,7 @@ rightKerningGroup = U;
 unicode = 004A;
 },
 {
+color = 4;
 glyphname = K;
 layers = (
 {
@@ -3430,6 +3639,7 @@ rightKerningGroup = K;
 unicode = 004B;
 },
 {
+color = 4;
 glyphname = Kcommaaccent;
 layers = (
 {
@@ -3464,6 +3674,7 @@ width = 687;
 unicode = 0136;
 },
 {
+color = 4;
 glyphname = L;
 layers = (
 {
@@ -3606,6 +3817,7 @@ rightKerningGroup = L;
 unicode = 004C;
 },
 {
+color = 4;
 glyphname = Lacute;
 layers = (
 {
@@ -3640,6 +3852,7 @@ width = 562;
 unicode = 0139;
 },
 {
+color = 4;
 glyphname = Lcaron;
 layers = (
 {
@@ -3674,6 +3887,7 @@ width = 562;
 unicode = 013D;
 },
 {
+color = 4;
 glyphname = Lcommaaccent;
 layers = (
 {
@@ -3708,6 +3922,7 @@ width = 562;
 unicode = 013B;
 },
 {
+color = 4;
 glyphname = Lslash;
 layers = (
 {
@@ -3766,6 +3981,7 @@ rightMetricsKey = L;
 unicode = 0141;
 },
 {
+color = 4;
 glyphname = M;
 layers = (
 {
@@ -3900,6 +4116,7 @@ rightMetricsKey = "=H-10";
 unicode = 004D;
 },
 {
+color = 4;
 glyphname = N;
 layers = (
 {
@@ -4049,6 +4266,7 @@ rightMetricsKey = "=H-10";
 unicode = 004E;
 },
 {
+color = 4;
 glyphname = Nacute;
 layers = (
 {
@@ -4083,6 +4301,7 @@ width = 771;
 unicode = 0143;
 },
 {
+color = 4;
 glyphname = Ncaron;
 layers = (
 {
@@ -4117,6 +4336,7 @@ width = 771;
 unicode = 0147;
 },
 {
+color = 4;
 glyphname = Ncommaaccent;
 layers = (
 {
@@ -4151,6 +4371,7 @@ width = 771;
 unicode = 0145;
 },
 {
+color = 4;
 glyphname = Ntilde;
 layers = (
 {
@@ -4187,6 +4408,7 @@ rightKerningGroup = I;
 unicode = 00D1;
 },
 {
+color = 4;
 glyphname = O;
 layers = (
 {
@@ -4367,6 +4589,7 @@ rightKerningGroup = O;
 unicode = 004F;
 },
 {
+color = 4;
 glyphname = Oacute;
 layers = (
 {
@@ -4403,6 +4626,7 @@ rightKerningGroup = O;
 unicode = 00D3;
 },
 {
+color = 4;
 glyphname = Ocircumflex;
 layers = (
 {
@@ -4439,6 +4663,7 @@ rightKerningGroup = O;
 unicode = 00D4;
 },
 {
+color = 4;
 glyphname = Odieresis;
 layers = (
 {
@@ -4475,6 +4700,7 @@ rightKerningGroup = O;
 unicode = 00D6;
 },
 {
+color = 4;
 glyphname = Ograve;
 layers = (
 {
@@ -4511,6 +4737,7 @@ rightKerningGroup = O;
 unicode = 00D2;
 },
 {
+color = 4;
 glyphname = Ohungarumlaut;
 layers = (
 {
@@ -4545,6 +4772,39 @@ width = 765;
 unicode = 0150;
 },
 {
+glyphname = Omacron;
+layers = (
+{
+components = (
+{
+name = O;
+},
+{
+name = macroncomb;
+transform = "{1, 0, 0, 1, 121, 180}";
+}
+);
+layerId = UUID0;
+width = 765;
+},
+{
+components = (
+{
+name = O;
+},
+{
+name = macroncomb;
+transform = "{1, 0, 0, 1, 147, 180}";
+}
+);
+layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
+width = 815;
+}
+);
+unicode = 014C;
+},
+{
+color = 4;
 glyphname = Oslash;
 layers = (
 {
@@ -4737,6 +4997,7 @@ rightMetricsKey = O;
 unicode = 00D8;
 },
 {
+color = 4;
 glyphname = Otilde;
 layers = (
 {
@@ -4773,6 +5034,7 @@ rightKerningGroup = O;
 unicode = 00D5;
 },
 {
+color = 4;
 glyphname = OE;
 layers = (
 {
@@ -4985,6 +5247,7 @@ rightMetricsKey = E;
 unicode = 0152;
 },
 {
+color = 4;
 glyphname = P;
 layers = (
 {
@@ -5134,6 +5397,7 @@ rightKerningGroup = P;
 unicode = 0050;
 },
 {
+color = 4;
 glyphname = Thorn;
 layers = (
 {
@@ -5310,6 +5574,7 @@ rightKerningGroup = P;
 unicode = 00DE;
 },
 {
+color = 4;
 glyphname = Q;
 layers = (
 {
@@ -5454,6 +5719,7 @@ rightMetricsKey = O;
 unicode = 0051;
 },
 {
+color = 4;
 glyphname = R;
 layers = (
 {
@@ -5639,6 +5905,7 @@ rightKerningGroup = R;
 unicode = 0052;
 },
 {
+color = 4;
 glyphname = Racute;
 layers = (
 {
@@ -5673,6 +5940,7 @@ width = 663;
 unicode = 0154;
 },
 {
+color = 4;
 glyphname = Rcaron;
 layers = (
 {
@@ -5707,6 +5975,39 @@ width = 663;
 unicode = 0158;
 },
 {
+glyphname = Rcommaaccent;
+layers = (
+{
+components = (
+{
+name = R;
+},
+{
+name = commaaccentcomb;
+transform = "{1, 0, 0, 1, 240, 0}";
+}
+);
+layerId = UUID0;
+width = 663;
+},
+{
+components = (
+{
+name = R;
+},
+{
+name = commaaccentcomb;
+transform = "{1, 0, 0, 1, 278, 0}";
+}
+);
+layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
+width = 730;
+}
+);
+unicode = 0156;
+},
+{
+color = 4;
 glyphname = S;
 layers = (
 {
@@ -5889,6 +6190,7 @@ rightKerningGroup = S;
 unicode = 0053;
 },
 {
+color = 4;
 glyphname = Sacute;
 layers = (
 {
@@ -5923,6 +6225,7 @@ width = 545;
 unicode = 015A;
 },
 {
+color = 4;
 glyphname = Scaron;
 layers = (
 {
@@ -5957,6 +6260,7 @@ width = 545;
 unicode = 0160;
 },
 {
+color = 4;
 glyphname = Scedilla;
 layers = (
 {
@@ -5991,6 +6295,7 @@ width = 545;
 unicode = 015E;
 },
 {
+color = 4;
 glyphname = Scommaaccent;
 layers = (
 {
@@ -6025,6 +6330,7 @@ width = 545;
 unicode = 0218;
 },
 {
+color = 4;
 glyphname = Germandbls;
 layers = (
 {
@@ -6137,6 +6443,7 @@ width = 657;
 unicode = 1E9E;
 },
 {
+color = 4;
 glyphname = T;
 layers = (
 {
@@ -6273,6 +6580,7 @@ rightKerningGroup = T;
 unicode = 0054;
 },
 {
+color = 4;
 glyphname = Tcaron;
 layers = (
 {
@@ -6307,6 +6615,7 @@ width = 627;
 unicode = 0164;
 },
 {
+color = 4;
 glyphname = Tcommaaccent;
 layers = (
 {
@@ -6341,6 +6650,7 @@ width = 627;
 unicode = 021A;
 },
 {
+color = 4;
 glyphname = U;
 layers = (
 {
@@ -6510,6 +6820,7 @@ rightKerningGroup = U;
 unicode = 0055;
 },
 {
+color = 4;
 glyphname = Uacute;
 layers = (
 {
@@ -6546,6 +6857,39 @@ rightKerningGroup = U;
 unicode = 00DA;
 },
 {
+glyphname = Ubreve;
+layers = (
+{
+components = (
+{
+name = U;
+},
+{
+name = brevecomb;
+transform = "{1, 0, 0, 1, 125, 180}";
+}
+);
+layerId = UUID0;
+width = 749;
+},
+{
+components = (
+{
+name = U;
+},
+{
+name = brevecomb;
+transform = "{1, 0, 0, 1, 142, 180}";
+}
+);
+layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
+width = 784;
+}
+);
+unicode = 016C;
+},
+{
+color = 4;
 glyphname = Ucircumflex;
 layers = (
 {
@@ -6582,6 +6926,7 @@ rightKerningGroup = U;
 unicode = 00DB;
 },
 {
+color = 4;
 glyphname = Udieresis;
 layers = (
 {
@@ -6618,6 +6963,7 @@ rightKerningGroup = U;
 unicode = 00DC;
 },
 {
+color = 4;
 glyphname = Ugrave;
 layers = (
 {
@@ -6654,6 +7000,7 @@ rightKerningGroup = U;
 unicode = 00D9;
 },
 {
+color = 4;
 glyphname = Uhungarumlaut;
 layers = (
 {
@@ -6688,6 +7035,7 @@ width = 749;
 unicode = 0170;
 },
 {
+color = 4;
 glyphname = Umacron;
 layers = (
 {
@@ -6722,6 +7070,7 @@ width = 749;
 unicode = 016A;
 },
 {
+color = 4;
 glyphname = Uogonek;
 layers = (
 {
@@ -6756,6 +7105,7 @@ width = 749;
 unicode = 0172;
 },
 {
+color = 4;
 glyphname = Uring;
 layers = (
 {
@@ -6790,6 +7140,39 @@ width = 749;
 unicode = 016E;
 },
 {
+glyphname = Utilde;
+layers = (
+{
+components = (
+{
+name = U;
+},
+{
+name = tildecomb;
+transform = "{1, 0, 0, 1, 151, 180}";
+}
+);
+layerId = UUID0;
+width = 749;
+},
+{
+components = (
+{
+name = U;
+},
+{
+name = tildecomb;
+transform = "{1, 0, 0, 1, 198, 180}";
+}
+);
+layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
+width = 784;
+}
+);
+unicode = 0168;
+},
+{
+color = 4;
 glyphname = V;
 layers = (
 {
@@ -6886,6 +7269,7 @@ rightKerningGroup = V;
 unicode = 0056;
 },
 {
+color = 4;
 glyphname = W;
 layers = (
 {
@@ -7016,6 +7400,7 @@ rightMetricsKey = V;
 unicode = 0057;
 },
 {
+color = 4;
 glyphname = Wacute;
 layers = (
 {
@@ -7050,6 +7435,7 @@ width = 1019;
 unicode = 1E82;
 },
 {
+color = 4;
 glyphname = Wcircumflex;
 layers = (
 {
@@ -7084,6 +7470,7 @@ width = 1019;
 unicode = 0174;
 },
 {
+color = 4;
 glyphname = Wdieresis;
 layers = (
 {
@@ -7118,6 +7505,7 @@ width = 1019;
 unicode = 1E84;
 },
 {
+color = 4;
 glyphname = Wgrave;
 layers = (
 {
@@ -7152,6 +7540,7 @@ width = 1019;
 unicode = 1E80;
 },
 {
+color = 4;
 glyphname = X;
 layers = (
 {
@@ -7278,6 +7667,7 @@ rightKerningGroup = X;
 unicode = 0058;
 },
 {
+color = 4;
 glyphname = Y;
 layers = (
 {
@@ -7427,6 +7817,7 @@ rightKerningGroup = Y;
 unicode = 0059;
 },
 {
+color = 4;
 glyphname = Yacute;
 layers = (
 {
@@ -7463,6 +7854,7 @@ rightKerningGroup = Y;
 unicode = 00DD;
 },
 {
+color = 4;
 glyphname = Ycircumflex;
 layers = (
 {
@@ -7497,6 +7889,7 @@ width = 637;
 unicode = 0176;
 },
 {
+color = 4;
 glyphname = Ydieresis;
 layers = (
 {
@@ -7531,6 +7924,7 @@ width = 637;
 unicode = 0178;
 },
 {
+color = 4;
 glyphname = Ygrave;
 layers = (
 {
@@ -7565,6 +7959,39 @@ width = 637;
 unicode = 1EF2;
 },
 {
+glyphname = Ytilde;
+layers = (
+{
+components = (
+{
+name = Y;
+},
+{
+name = tildecomb;
+transform = "{1, 0, 0, 1, 101, 180}";
+}
+);
+layerId = UUID0;
+width = 637;
+},
+{
+components = (
+{
+name = Y;
+},
+{
+name = tildecomb;
+transform = "{1, 0, 0, 1, 158, 180}";
+}
+);
+layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
+width = 704;
+}
+);
+unicode = 1EF8;
+},
+{
+color = 4;
 glyphname = Z;
 layers = (
 {
@@ -7689,6 +8116,7 @@ rightKerningGroup = Z;
 unicode = 005A;
 },
 {
+color = 4;
 glyphname = Zacute;
 layers = (
 {
@@ -7723,6 +8151,7 @@ width = 597;
 unicode = 0179;
 },
 {
+color = 4;
 glyphname = Zcaron;
 layers = (
 {
@@ -7757,6 +8186,7 @@ width = 597;
 unicode = 017D;
 },
 {
+color = 4;
 glyphname = Zdotaccent;
 layers = (
 {
@@ -7791,6 +8221,7 @@ width = 597;
 unicode = 017B;
 },
 {
+color = 4;
 glyphname = a;
 layers = (
 {
@@ -8016,6 +8447,7 @@ rightKerningGroup = n;
 unicode = 0061;
 },
 {
+color = 4;
 glyphname = aacute;
 layers = (
 {
@@ -8050,6 +8482,7 @@ width = 526;
 unicode = 00E1;
 },
 {
+color = 4;
 glyphname = abreve;
 layers = (
 {
@@ -8084,6 +8517,7 @@ width = 526;
 unicode = 0103;
 },
 {
+color = 4;
 glyphname = acircumflex;
 layers = (
 {
@@ -8120,6 +8554,7 @@ rightKerningGroup = n;
 unicode = 00E2;
 },
 {
+color = 4;
 glyphname = adieresis;
 layers = (
 {
@@ -8156,6 +8591,7 @@ rightKerningGroup = n;
 unicode = 00E4;
 },
 {
+color = 4;
 glyphname = agrave;
 layers = (
 {
@@ -8192,6 +8628,7 @@ rightKerningGroup = n;
 unicode = 00E0;
 },
 {
+color = 4;
 glyphname = amacron;
 layers = (
 {
@@ -8226,6 +8663,7 @@ width = 526;
 unicode = 0101;
 },
 {
+color = 4;
 glyphname = aogonek;
 layers = (
 {
@@ -8260,6 +8698,7 @@ width = 526;
 unicode = 0105;
 },
 {
+color = 4;
 glyphname = aring;
 layers = (
 {
@@ -8296,6 +8735,7 @@ rightKerningGroup = n;
 unicode = 00E5;
 },
 {
+color = 4;
 glyphname = atilde;
 layers = (
 {
@@ -8332,6 +8772,7 @@ rightKerningGroup = n;
 unicode = 00E3;
 },
 {
+color = 4;
 glyphname = ae;
 layers = (
 {
@@ -8609,6 +9050,7 @@ rightMetricsKey = e;
 unicode = 00E6;
 },
 {
+color = 4;
 glyphname = b;
 layers = (
 {
@@ -8755,6 +9197,7 @@ rightKerningGroup = o;
 unicode = 0062;
 },
 {
+color = 4;
 glyphname = c;
 layers = (
 {
@@ -8897,6 +9340,7 @@ rightKerningGroup = c;
 unicode = 0063;
 },
 {
+color = 4;
 glyphname = cacute;
 layers = (
 {
@@ -8931,6 +9375,7 @@ width = 517;
 unicode = 0107;
 },
 {
+color = 4;
 glyphname = ccaron;
 layers = (
 {
@@ -8965,6 +9410,7 @@ width = 517;
 unicode = 010D;
 },
 {
+color = 4;
 glyphname = ccedilla;
 layers = (
 {
@@ -9001,6 +9447,7 @@ rightKerningGroup = c;
 unicode = 00E7;
 },
 {
+color = 4;
 glyphname = cdotaccent;
 layers = (
 {
@@ -9035,6 +9482,7 @@ width = 517;
 unicode = 010B;
 },
 {
+color = 4;
 glyphname = d;
 layers = (
 {
@@ -9241,6 +9689,7 @@ rightKerningGroup = d;
 unicode = 0064;
 },
 {
+color = 4;
 glyphname = dcaron;
 layers = (
 {
@@ -9277,6 +9726,7 @@ width = 694;
 unicode = 010F;
 },
 {
+color = 4;
 glyphname = dcroat;
 layers = (
 {
@@ -9325,6 +9775,7 @@ width = 599;
 unicode = 0111;
 },
 {
+color = 4;
 glyphname = eth;
 layers = (
 {
@@ -9509,6 +9960,7 @@ rightKerningGroup = o;
 unicode = 00F0;
 },
 {
+color = 4;
 glyphname = e;
 layers = (
 {
@@ -9681,6 +10133,7 @@ rightKerningGroup = e;
 unicode = 0065;
 },
 {
+color = 4;
 glyphname = eacute;
 layers = (
 {
@@ -9717,6 +10170,7 @@ rightKerningGroup = e;
 unicode = 00E9;
 },
 {
+color = 4;
 glyphname = ecaron;
 layers = (
 {
@@ -9751,6 +10205,7 @@ width = 535;
 unicode = 011B;
 },
 {
+color = 4;
 glyphname = ecircumflex;
 layers = (
 {
@@ -9787,6 +10242,7 @@ rightKerningGroup = e;
 unicode = 00EA;
 },
 {
+color = 4;
 glyphname = edieresis;
 layers = (
 {
@@ -9823,6 +10279,7 @@ rightKerningGroup = e;
 unicode = 00EB;
 },
 {
+color = 4;
 glyphname = edotaccent;
 layers = (
 {
@@ -9857,6 +10314,7 @@ width = 535;
 unicode = 0117;
 },
 {
+color = 4;
 glyphname = egrave;
 layers = (
 {
@@ -9893,6 +10351,7 @@ rightKerningGroup = e;
 unicode = 00E8;
 },
 {
+color = 4;
 glyphname = emacron;
 layers = (
 {
@@ -9927,6 +10386,7 @@ width = 535;
 unicode = 0113;
 },
 {
+color = 4;
 glyphname = eogonek;
 layers = (
 {
@@ -9961,6 +10421,39 @@ width = 535;
 unicode = 0119;
 },
 {
+glyphname = etilde;
+layers = (
+{
+components = (
+{
+name = e;
+},
+{
+name = tildecomb;
+transform = "{1, 0, 0, 1, 48, 0}";
+}
+);
+layerId = UUID0;
+width = 535;
+},
+{
+components = (
+{
+name = e;
+},
+{
+name = tildecomb;
+transform = "{1, 0, 0, 1, 78, 0}";
+}
+);
+layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
+width = 589;
+}
+);
+unicode = 1EBD;
+},
+{
+color = 4;
 glyphname = f;
 layers = (
 {
@@ -10098,6 +10591,7 @@ rightKerningGroup = f;
 unicode = 0066;
 },
 {
+color = 4;
 glyphname = g;
 layers = (
 {
@@ -10422,6 +10916,7 @@ rightKerningGroup = g;
 unicode = 0067;
 },
 {
+color = 4;
 glyphname = gbreve;
 layers = (
 {
@@ -10448,6 +10943,7 @@ width = 568;
 unicode = 011F;
 },
 {
+color = 4;
 glyphname = gcommaaccent;
 layers = (
 {
@@ -10484,6 +10980,7 @@ width = 568;
 unicode = 0123;
 },
 {
+color = 4;
 glyphname = gdotaccent;
 layers = (
 {
@@ -10518,6 +11015,39 @@ width = 568;
 unicode = 0121;
 },
 {
+glyphname = gmacron;
+layers = (
+{
+components = (
+{
+name = g;
+},
+{
+name = macroncomb;
+transform = "{1, 0, 0, 1, 6, 0}";
+}
+);
+layerId = UUID0;
+width = 568;
+},
+{
+components = (
+{
+name = g;
+},
+{
+name = macroncomb;
+transform = "{1, 0, 0, 1, 1, 0}";
+}
+);
+layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
+width = 598;
+}
+);
+unicode = 1E21;
+},
+{
+color = 4;
 glyphname = h;
 layers = (
 {
@@ -10657,6 +11187,7 @@ rightMetricsKey = n;
 unicode = 0068;
 },
 {
+color = 4;
 glyphname = hbar;
 layers = (
 {
@@ -10706,6 +11237,7 @@ width = 610;
 unicode = 0127;
 },
 {
+color = 4;
 glyphname = i;
 layers = (
 {
@@ -10742,6 +11274,7 @@ rightKerningGroup = idotless;
 unicode = 0069;
 },
 {
+color = 4;
 glyphname = idotless;
 layers = (
 {
@@ -10857,6 +11390,7 @@ rightMetricsKey = n;
 unicode = 0131;
 },
 {
+color = 4;
 glyphname = iacute;
 layers = (
 {
@@ -10893,6 +11427,7 @@ rightKerningGroup = idotless;
 unicode = 00ED;
 },
 {
+color = 4;
 glyphname = icircumflex;
 layers = (
 {
@@ -10929,6 +11464,7 @@ rightKerningGroup = idotless;
 unicode = 00EE;
 },
 {
+color = 4;
 glyphname = idieresis;
 layers = (
 {
@@ -10965,6 +11501,7 @@ rightKerningGroup = idotless;
 unicode = 00EF;
 },
 {
+color = 4;
 glyphname = idotaccent;
 layers = (
 {
@@ -10998,6 +11535,7 @@ width = 296;
 );
 },
 {
+color = 4;
 glyphname = igrave;
 layers = (
 {
@@ -11034,6 +11572,7 @@ rightKerningGroup = idotless;
 unicode = 00EC;
 },
 {
+color = 4;
 glyphname = imacron;
 layers = (
 {
@@ -11068,6 +11607,7 @@ width = 296;
 unicode = 012B;
 },
 {
+color = 4;
 glyphname = iogonek;
 layers = (
 {
@@ -11110,6 +11650,39 @@ width = 296;
 unicode = 012F;
 },
 {
+glyphname = itilde;
+layers = (
+{
+components = (
+{
+name = idotless;
+},
+{
+name = tildecomb;
+transform = "{1, 0, 0, 1, -88, 0}";
+}
+);
+layerId = UUID0;
+width = 296;
+},
+{
+components = (
+{
+name = idotless;
+},
+{
+name = tildecomb;
+transform = "{1, 0, 0, 1, -56, 0}";
+}
+);
+layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
+width = 346;
+}
+);
+unicode = 0129;
+},
+{
+color = 4;
 glyphname = j;
 layers = (
 {
@@ -11146,6 +11719,7 @@ rightKerningGroup = jdotless;
 unicode = 006A;
 },
 {
+color = 4;
 glyphname = jdotless;
 layers = (
 {
@@ -11268,6 +11842,7 @@ width = 273;
 unicode = 0237;
 },
 {
+color = 4;
 glyphname = k;
 layers = (
 {
@@ -11417,6 +11992,7 @@ rightKerningGroup = k;
 unicode = 006B;
 },
 {
+color = 4;
 glyphname = kcommaaccent;
 layers = (
 {
@@ -11451,6 +12027,7 @@ width = 603;
 unicode = 0137;
 },
 {
+color = 4;
 glyphname = l;
 layers = (
 {
@@ -11567,6 +12144,7 @@ rightKerningGroup = l;
 unicode = 006C;
 },
 {
+color = 4;
 glyphname = lacute;
 layers = (
 {
@@ -11601,6 +12179,7 @@ width = 308;
 unicode = 013A;
 },
 {
+color = 4;
 glyphname = lcaron;
 layers = (
 {
@@ -11638,6 +12217,7 @@ width = 374;
 unicode = 013E;
 },
 {
+color = 4;
 glyphname = lcommaaccent;
 layers = (
 {
@@ -11672,6 +12252,7 @@ width = 308;
 unicode = 013C;
 },
 {
+color = 4;
 glyphname = lslash;
 layers = (
 {
@@ -11729,6 +12310,7 @@ width = 292;
 unicode = 0142;
 },
 {
+color = 4;
 glyphname = m;
 layers = (
 {
@@ -11914,6 +12496,7 @@ rightMetricsKey = n;
 unicode = 006D;
 },
 {
+color = 4;
 glyphname = n;
 layers = (
 {
@@ -12071,6 +12654,7 @@ rightKerningGroup = n;
 unicode = 006E;
 },
 {
+color = 4;
 glyphname = nacute;
 layers = (
 {
@@ -12105,6 +12689,7 @@ width = 625;
 unicode = 0144;
 },
 {
+color = 4;
 glyphname = ncaron;
 layers = (
 {
@@ -12139,6 +12724,7 @@ width = 625;
 unicode = 0148;
 },
 {
+color = 4;
 glyphname = ncommaaccent;
 layers = (
 {
@@ -12173,6 +12759,7 @@ width = 625;
 unicode = 0146;
 },
 {
+color = 4;
 glyphname = ntilde;
 layers = (
 {
@@ -12209,6 +12796,7 @@ rightKerningGroup = n;
 unicode = 00F1;
 },
 {
+color = 4;
 glyphname = o;
 layers = (
 {
@@ -12381,6 +12969,7 @@ rightKerningGroup = o;
 unicode = 006F;
 },
 {
+color = 4;
 glyphname = oacute;
 layers = (
 {
@@ -12417,6 +13006,7 @@ rightKerningGroup = o;
 unicode = 00F3;
 },
 {
+color = 4;
 glyphname = ocircumflex;
 layers = (
 {
@@ -12453,6 +13043,7 @@ rightKerningGroup = o;
 unicode = 00F4;
 },
 {
+color = 4;
 glyphname = odieresis;
 layers = (
 {
@@ -12489,6 +13080,7 @@ rightKerningGroup = o;
 unicode = 00F6;
 },
 {
+color = 4;
 glyphname = ograve;
 layers = (
 {
@@ -12525,6 +13117,7 @@ rightKerningGroup = o;
 unicode = 00F2;
 },
 {
+color = 4;
 glyphname = ohungarumlaut;
 layers = (
 {
@@ -12559,6 +13152,39 @@ width = 593;
 unicode = 0151;
 },
 {
+glyphname = omacron;
+layers = (
+{
+components = (
+{
+name = o;
+},
+{
+name = macroncomb;
+transform = "{1, 0, 0, 1, 27, 0}";
+}
+);
+layerId = UUID0;
+width = 593;
+},
+{
+components = (
+{
+name = o;
+},
+{
+name = macroncomb;
+transform = "{1, 0, 0, 1, 48, 0}";
+}
+);
+layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
+width = 634;
+}
+);
+unicode = 014D;
+},
+{
+color = 4;
 glyphname = oslash;
 layers = (
 {
@@ -12771,6 +13397,7 @@ rightMetricsKey = o;
 unicode = 00F8;
 },
 {
+color = 4;
 glyphname = otilde;
 layers = (
 {
@@ -12807,6 +13434,7 @@ rightKerningGroup = o;
 unicode = 00F5;
 },
 {
+color = 4;
 glyphname = oe;
 layers = (
 {
@@ -13039,6 +13667,7 @@ rightKerningGroup = e;
 unicode = 0153;
 },
 {
+color = 4;
 glyphname = p;
 layers = (
 {
@@ -13210,6 +13839,7 @@ rightMetricsKey = o;
 unicode = 0070;
 },
 {
+color = 4;
 glyphname = thorn;
 layers = (
 {
@@ -13381,6 +14011,7 @@ rightMetricsKey = o;
 unicode = 00FE;
 },
 {
+color = 4;
 glyphname = q;
 layers = (
 {
@@ -13537,6 +14168,7 @@ rightKerningGroup = q;
 unicode = 0071;
 },
 {
+color = 4;
 glyphname = r;
 layers = (
 {
@@ -13683,6 +14315,7 @@ rightKerningGroup = r;
 unicode = 0072;
 },
 {
+color = 4;
 glyphname = racute;
 layers = (
 {
@@ -13717,6 +14350,7 @@ width = 448;
 unicode = 0155;
 },
 {
+color = 4;
 glyphname = rcaron;
 layers = (
 {
@@ -13751,6 +14385,39 @@ width = 448;
 unicode = 0159;
 },
 {
+glyphname = rcommaaccent;
+layers = (
+{
+components = (
+{
+name = r;
+},
+{
+name = commaaccentcomb;
+transform = "{1, 0, 0, 1, 42, 0}";
+}
+);
+layerId = UUID0;
+width = 448;
+},
+{
+components = (
+{
+name = r;
+},
+{
+name = commaaccentcomb;
+transform = "{1, 0, 0, 1, 71, 0}";
+}
+);
+layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
+width = 522;
+}
+);
+unicode = 0157;
+},
+{
+color = 4;
 glyphname = s;
 layers = (
 {
@@ -13917,6 +14584,7 @@ rightKerningGroup = s;
 unicode = 0073;
 },
 {
+color = 4;
 glyphname = sacute;
 layers = (
 {
@@ -13951,6 +14619,7 @@ width = 456;
 unicode = 015B;
 },
 {
+color = 4;
 glyphname = scaron;
 layers = (
 {
@@ -13985,6 +14654,7 @@ width = 456;
 unicode = 0161;
 },
 {
+color = 4;
 glyphname = scedilla;
 layers = (
 {
@@ -14019,6 +14689,7 @@ width = 456;
 unicode = 015F;
 },
 {
+color = 4;
 glyphname = scommaaccent;
 layers = (
 {
@@ -14053,6 +14724,7 @@ width = 456;
 unicode = 0219;
 },
 {
+color = 4;
 glyphname = germandbls;
 layers = (
 {
@@ -14254,6 +14926,7 @@ rightKerningGroup = germandbls;
 unicode = 00DF;
 },
 {
+color = 4;
 glyphname = t;
 layers = (
 {
@@ -14411,6 +15084,7 @@ rightKerningGroup = t;
 unicode = 0074;
 },
 {
+color = 4;
 glyphname = tcaron;
 layers = (
 {
@@ -14445,6 +15119,7 @@ width = 377;
 unicode = 0165;
 },
 {
+color = 4;
 glyphname = tcommaaccent;
 layers = (
 {
@@ -14479,6 +15154,7 @@ width = 377;
 unicode = 021B;
 },
 {
+color = 4;
 glyphname = u;
 layers = (
 {
@@ -14666,6 +15342,7 @@ rightMetricsKey = "|n";
 unicode = 0075;
 },
 {
+color = 4;
 glyphname = uacute;
 layers = (
 {
@@ -14702,6 +15379,39 @@ rightKerningGroup = u;
 unicode = 00FA;
 },
 {
+glyphname = ubreve;
+layers = (
+{
+components = (
+{
+name = u;
+},
+{
+name = brevecomb;
+transform = "{1, 0, 0, 1, 27, 0}";
+}
+);
+layerId = UUID0;
+width = 618;
+},
+{
+components = (
+{
+name = u;
+},
+{
+name = brevecomb;
+transform = "{1, 0, 0, 1, 47, 0}";
+}
+);
+layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
+width = 705;
+}
+);
+unicode = 016D;
+},
+{
+color = 4;
 glyphname = ucircumflex;
 layers = (
 {
@@ -14738,6 +15448,7 @@ rightKerningGroup = u;
 unicode = 00FB;
 },
 {
+color = 4;
 glyphname = udieresis;
 layers = (
 {
@@ -14774,6 +15485,7 @@ rightKerningGroup = u;
 unicode = 00FC;
 },
 {
+color = 4;
 glyphname = ugrave;
 layers = (
 {
@@ -14810,6 +15522,7 @@ rightKerningGroup = u;
 unicode = 00F9;
 },
 {
+color = 4;
 glyphname = uhungarumlaut;
 layers = (
 {
@@ -14844,6 +15557,7 @@ width = 618;
 unicode = 0171;
 },
 {
+color = 4;
 glyphname = umacron;
 layers = (
 {
@@ -14878,6 +15592,7 @@ width = 618;
 unicode = 016B;
 },
 {
+color = 4;
 glyphname = uogonek;
 layers = (
 {
@@ -14912,6 +15627,7 @@ width = 618;
 unicode = 0173;
 },
 {
+color = 4;
 glyphname = uring;
 layers = (
 {
@@ -14946,6 +15662,39 @@ width = 618;
 unicode = 016F;
 },
 {
+glyphname = utilde;
+layers = (
+{
+components = (
+{
+name = u;
+},
+{
+name = tildecomb;
+transform = "{1, 0, 0, 1, 53, 0}";
+}
+);
+layerId = UUID0;
+width = 618;
+},
+{
+components = (
+{
+name = u;
+},
+{
+name = tildecomb;
+transform = "{1, 0, 0, 1, 103, 0}";
+}
+);
+layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
+width = 705;
+}
+);
+unicode = 0169;
+},
+{
+color = 4;
 glyphname = v;
 layers = (
 {
@@ -15042,6 +15791,7 @@ rightKerningGroup = v;
 unicode = 0076;
 },
 {
+color = 4;
 glyphname = w;
 layers = (
 {
@@ -15172,6 +15922,7 @@ rightMetricsKey = v;
 unicode = 0077;
 },
 {
+color = 4;
 glyphname = wacute;
 layers = (
 {
@@ -15206,6 +15957,7 @@ width = 801;
 unicode = 1E83;
 },
 {
+color = 4;
 glyphname = wcircumflex;
 layers = (
 {
@@ -15240,6 +15992,7 @@ width = 801;
 unicode = 0175;
 },
 {
+color = 4;
 glyphname = wdieresis;
 layers = (
 {
@@ -15274,6 +16027,7 @@ width = 801;
 unicode = 1E85;
 },
 {
+color = 4;
 glyphname = wgrave;
 layers = (
 {
@@ -15308,6 +16062,7 @@ width = 801;
 unicode = 1E81;
 },
 {
+color = 4;
 glyphname = x;
 layers = (
 {
@@ -15739,6 +16494,7 @@ rightKerningGroup = x;
 unicode = 0078;
 },
 {
+color = 4;
 glyphname = y;
 layers = (
 {
@@ -15886,6 +16642,7 @@ rightKerningGroup = y;
 unicode = 0079;
 },
 {
+color = 4;
 glyphname = yacute;
 layers = (
 {
@@ -15922,6 +16679,7 @@ rightKerningGroup = y;
 unicode = 00FD;
 },
 {
+color = 4;
 glyphname = ycircumflex;
 layers = (
 {
@@ -15956,6 +16714,7 @@ width = 544;
 unicode = 0177;
 },
 {
+color = 4;
 glyphname = ydieresis;
 layers = (
 {
@@ -15992,6 +16751,7 @@ rightKerningGroup = y;
 unicode = 00FF;
 },
 {
+color = 4;
 glyphname = ygrave;
 layers = (
 {
@@ -16026,6 +16786,39 @@ width = 544;
 unicode = 1EF3;
 },
 {
+glyphname = ytilde;
+layers = (
+{
+components = (
+{
+name = y;
+},
+{
+name = tildecomb;
+transform = "{1, 0, 0, 1, 63, 0}";
+}
+);
+layerId = UUID0;
+width = 544;
+},
+{
+components = (
+{
+name = y;
+},
+{
+name = tildecomb;
+transform = "{1, 0, 0, 1, 107, 0}";
+}
+);
+layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
+width = 595;
+}
+);
+unicode = 1EF9;
+},
+{
+color = 4;
 glyphname = z;
 layers = (
 {
@@ -16144,6 +16937,7 @@ rightKerningGroup = z;
 unicode = 007A;
 },
 {
+color = 4;
 glyphname = zacute;
 layers = (
 {
@@ -16178,6 +16972,7 @@ width = 502;
 unicode = 017A;
 },
 {
+color = 4;
 glyphname = zcaron;
 layers = (
 {
@@ -16212,6 +17007,7 @@ width = 502;
 unicode = 017E;
 },
 {
+color = 4;
 glyphname = zdotaccent;
 layers = (
 {
@@ -16246,6 +17042,7 @@ width = 502;
 unicode = 017C;
 },
 {
+color = 4;
 glyphname = ordfeminine;
 layers = (
 {
@@ -16432,6 +17229,7 @@ rightKerningGroup = ordfeminine;
 unicode = 00AA;
 },
 {
+color = 4;
 glyphname = ordmasculine;
 layers = (
 {
@@ -16560,6 +17358,7 @@ rightKerningGroup = ordfeminine;
 unicode = 00BA;
 },
 {
+color = 4;
 glyphname = mu;
 layers = (
 {
@@ -16586,6 +17385,7 @@ width = 622;
 unicode = 03BC;
 },
 {
+color = 4;
 glyphname = zero;
 layers = (
 {
@@ -16714,6 +17514,7 @@ rightKerningGroup = zero;
 unicode = 0030;
 },
 {
+color = 4;
 glyphname = one;
 layers = (
 {
@@ -16804,6 +17605,7 @@ rightKerningGroup = one;
 unicode = 0031;
 },
 {
+color = 4;
 glyphname = two;
 layers = (
 {
@@ -16928,6 +17730,7 @@ rightKerningGroup = two;
 unicode = 0032;
 },
 {
+color = 4;
 glyphname = three;
 layers = (
 {
@@ -17102,6 +17905,7 @@ rightKerningGroup = three;
 unicode = 0033;
 },
 {
+color = 4;
 glyphname = four;
 layers = (
 {
@@ -17218,6 +18022,7 @@ rightKerningGroup = four;
 unicode = 0034;
 },
 {
+color = 4;
 glyphname = five;
 layers = (
 {
@@ -17374,6 +18179,7 @@ rightKerningGroup = five;
 unicode = 0035;
 },
 {
+color = 4;
 glyphname = six;
 layers = (
 {
@@ -17521,6 +18327,7 @@ rightKerningGroup = six;
 unicode = 0036;
 },
 {
+color = 4;
 glyphname = seven;
 layers = (
 {
@@ -17607,6 +18414,7 @@ rightKerningGroup = seven;
 unicode = 0037;
 },
 {
+color = 4;
 glyphname = eight;
 layers = (
 {
@@ -17815,6 +18623,7 @@ rightKerningGroup = eight;
 unicode = 0038;
 },
 {
+color = 4;
 glyphname = nine;
 layers = (
 {
@@ -17968,6 +18777,7 @@ rightKerningGroup = nine;
 unicode = 0039;
 },
 {
+color = 4;
 glyphname = fraction;
 layers = (
 {
@@ -18031,6 +18841,7 @@ rightKerningGroup = fraction;
 unicode = 2044;
 },
 {
+color = 4;
 glyphname = onehalf;
 layers = (
 {
@@ -18238,6 +19049,7 @@ rightKerningGroup = onehalf;
 unicode = 00BD;
 },
 {
+color = 4;
 glyphname = onequarter;
 layers = (
 {
@@ -18426,6 +19238,7 @@ rightKerningGroup = onehalf;
 unicode = 00BC;
 },
 {
+color = 4;
 glyphname = threequarters;
 layers = (
 {
@@ -18719,6 +19532,7 @@ rightKerningGroup = onehalf;
 unicode = 00BE;
 },
 {
+color = 4;
 glyphname = onesuperior;
 layers = (
 {
@@ -18804,6 +19618,7 @@ rightKerningGroup = onesuperior;
 unicode = 00B9;
 },
 {
+color = 4;
 glyphname = twosuperior;
 layers = (
 {
@@ -18932,6 +19747,7 @@ rightKerningGroup = twosuperior;
 unicode = 00B2;
 },
 {
+color = 4;
 glyphname = threesuperior;
 layers = (
 {
@@ -19103,6 +19919,7 @@ rightKerningGroup = threesuperior;
 unicode = 00B3;
 },
 {
+color = 4;
 glyphname = foursuperior;
 layers = (
 {
@@ -19217,6 +20034,7 @@ rightKerningGroup = foursuperior;
 unicode = 2074;
 },
 {
+color = 4;
 glyphname = space;
 layers = (
 {
@@ -19233,6 +20051,7 @@ rightKerningGroup = space;
 unicode = 0020;
 },
 {
+color = 4;
 glyphname = nbspace;
 layers = (
 {
@@ -19249,6 +20068,7 @@ rightKerningGroup = space;
 unicode = 00A0;
 },
 {
+color = 4;
 glyphname = .notdef;
 layers = (
 {
@@ -19622,6 +20442,7 @@ width = 1012;
 );
 },
 {
+color = 4;
 glyphname = CR;
 layers = (
 {
@@ -19638,6 +20459,7 @@ rightKerningGroup = CR;
 unicode = 000D;
 },
 {
+color = 4;
 glyphname = NULL;
 layers = (
 {
@@ -19654,6 +20476,35 @@ rightKerningGroup = NULL;
 unicode = 0000;
 },
 {
+glyphname = lineseparator;
+layers = (
+{
+layerId = UUID0;
+width = 600;
+},
+{
+layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
+width = 600;
+}
+);
+unicode = 2028;
+},
+{
+glyphname = paragraphseparator;
+layers = (
+{
+layerId = UUID0;
+width = 600;
+},
+{
+layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
+width = 600;
+}
+);
+unicode = 2029;
+},
+{
+color = 4;
 glyphname = period;
 layers = (
 {
@@ -19733,6 +20584,7 @@ rightKerningGroup = period;
 unicode = 002E;
 },
 {
+color = 4;
 glyphname = comma;
 layers = (
 {
@@ -19820,6 +20672,7 @@ rightKerningGroup = period;
 unicode = 002C;
 },
 {
+color = 4;
 glyphname = colon;
 layers = (
 {
@@ -19933,6 +20786,7 @@ rightKerningGroup = colon;
 unicode = 003A;
 },
 {
+color = 4;
 glyphname = semicolon;
 layers = (
 {
@@ -20054,6 +20908,7 @@ rightKerningGroup = colon;
 unicode = 003B;
 },
 {
+color = 4;
 glyphname = ellipsis;
 layers = (
 {
@@ -20104,6 +20959,7 @@ rightMetricsKey = period;
 unicode = 2026;
 },
 {
+color = 4;
 glyphname = exclam;
 layers = (
 {
@@ -20215,6 +21071,7 @@ rightKerningGroup = exclam;
 unicode = 0021;
 },
 {
+color = 4;
 glyphname = exclamdown;
 layers = (
 {
@@ -20327,6 +21184,7 @@ rightKerningGroup = exclam;
 unicode = 00A1;
 },
 {
+color = 4;
 glyphname = question;
 layers = (
 {
@@ -20500,6 +21358,7 @@ rightKerningGroup = question;
 unicode = 003F;
 },
 {
+color = 4;
 glyphname = questiondown;
 layers = (
 {
@@ -20573,6 +21432,7 @@ rightMetricsKey = "|question";
 unicode = 00BF;
 },
 {
+color = 4;
 glyphname = periodcentered;
 layers = (
 {
@@ -20652,6 +21512,7 @@ rightKerningGroup = hyphen;
 unicode = 00B7;
 },
 {
+color = 4;
 glyphname = bullet;
 layers = (
 {
@@ -20731,6 +21592,7 @@ rightKerningGroup = hyphen;
 unicode = 2022;
 },
 {
+color = 4;
 glyphname = asterisk;
 layers = (
 {
@@ -20866,6 +21728,7 @@ rightKerningGroup = asterisk;
 unicode = 002A;
 },
 {
+color = 4;
 glyphname = numbersign;
 layers = (
 {
@@ -21022,6 +21885,7 @@ rightKerningGroup = numbersign;
 unicode = 0023;
 },
 {
+color = 4;
 glyphname = slash;
 layers = (
 {
@@ -21086,6 +21950,7 @@ rightKerningGroup = slash;
 unicode = 002F;
 },
 {
+color = 4;
 glyphname = backslash;
 layers = (
 {
@@ -21150,6 +22015,7 @@ rightKerningGroup = backslash;
 unicode = 005C;
 },
 {
+color = 4;
 glyphname = periodcentered.loclCAT;
 layers = (
 {
@@ -21176,6 +22042,7 @@ width = 241;
 rightMetricsKey = "=|";
 },
 {
+color = 4;
 glyphname = periodcentered.loclCAT.case;
 layers = (
 {
@@ -21204,6 +22071,7 @@ width = 241;
 rightMetricsKey = "=|";
 },
 {
+color = 4;
 glyphname = hyphen;
 layers = (
 {
@@ -21264,6 +22132,7 @@ rightKerningGroup = hyphen;
 unicode = 002D;
 },
 {
+color = 4;
 glyphname = softhyphen;
 layers = (
 {
@@ -21320,6 +22189,7 @@ rightKerningGroup = softhyphen;
 unicode = 00AD;
 },
 {
+color = 4;
 glyphname = endash;
 layers = (
 {
@@ -21376,6 +22246,7 @@ rightKerningGroup = hyphen;
 unicode = 2013;
 },
 {
+color = 4;
 glyphname = emdash;
 layers = (
 {
@@ -21432,6 +22303,7 @@ rightKerningGroup = hyphen;
 unicode = 2014;
 },
 {
+color = 4;
 glyphname = underscore;
 layers = (
 {
@@ -21488,6 +22360,7 @@ rightKerningGroup = period;
 unicode = 005F;
 },
 {
+color = 4;
 glyphname = parenleft;
 layers = (
 {
@@ -21576,6 +22449,7 @@ rightKerningGroup = parenleft;
 unicode = 0028;
 },
 {
+color = 4;
 glyphname = parenright;
 layers = (
 {
@@ -21666,6 +22540,7 @@ rightMetricsKey = "|parenleft";
 unicode = 0029;
 },
 {
+color = 4;
 glyphname = braceleft;
 layers = (
 {
@@ -21808,6 +22683,7 @@ rightKerningGroup = parenleft;
 unicode = 007B;
 },
 {
+color = 4;
 glyphname = braceright;
 layers = (
 {
@@ -21952,6 +22828,7 @@ rightMetricsKey = "|braceleft";
 unicode = 007D;
 },
 {
+color = 4;
 glyphname = bracketleft;
 layers = (
 {
@@ -22034,6 +22911,7 @@ rightKerningGroup = parenleft;
 unicode = 005B;
 },
 {
+color = 4;
 glyphname = bracketright;
 layers = (
 {
@@ -22118,6 +22996,7 @@ rightMetricsKey = "|bracketleft";
 unicode = 005D;
 },
 {
+color = 4;
 glyphname = quotesinglbase;
 layers = (
 {
@@ -22205,6 +23084,7 @@ rightKerningGroup = period;
 unicode = 201A;
 },
 {
+color = 4;
 glyphname = quotedblbase;
 layers = (
 {
@@ -22334,6 +23214,7 @@ rightKerningGroup = period;
 unicode = 201E;
 },
 {
+color = 4;
 glyphname = quotedblleft;
 layers = (
 {
@@ -22464,6 +23345,7 @@ rightKerningGroup = quoteleft;
 unicode = 201C;
 },
 {
+color = 4;
 glyphname = quotedblright;
 layers = (
 {
@@ -22595,6 +23477,7 @@ rightMetricsKey = "|quotedblleft";
 unicode = 201D;
 },
 {
+color = 4;
 glyphname = quoteleft;
 layers = (
 {
@@ -22685,6 +23568,7 @@ rightMetricsKey = quotedblleft;
 unicode = 2018;
 },
 {
+color = 4;
 glyphname = quoteright;
 layers = (
 {
@@ -22774,6 +23658,7 @@ rightMetricsKey = "|quotedblleft";
 unicode = 2019;
 },
 {
+color = 4;
 glyphname = guillemetleft;
 layers = (
 {
@@ -22903,6 +23788,7 @@ rightKerningGroup = guilsinglleft;
 unicode = 00AB;
 },
 {
+color = 4;
 glyphname = guillemetright;
 layers = (
 {
@@ -22960,6 +23846,7 @@ rightMetricsKey = "|guillemetleft";
 unicode = 00BB;
 },
 {
+color = 4;
 glyphname = guilsinglleft;
 layers = (
 {
@@ -23059,6 +23946,7 @@ rightMetricsKey = guillemetleft;
 unicode = 2039;
 },
 {
+color = 4;
 glyphname = guilsinglright;
 layers = (
 {
@@ -23148,6 +24036,7 @@ rightMetricsKey = "|guillemetleft";
 unicode = 203A;
 },
 {
+color = 4;
 glyphname = quotedbl;
 layers = (
 {
@@ -23249,6 +24138,7 @@ rightKerningGroup = quotesingle;
 unicode = 0022;
 },
 {
+color = 4;
 glyphname = quotesingle;
 layers = (
 {
@@ -23322,6 +24212,7 @@ rightKerningGroup = quotesingle;
 unicode = 0027;
 },
 {
+color = 4;
 glyphname = at;
 layers = (
 {
@@ -23570,6 +24461,7 @@ rightKerningGroup = at;
 unicode = 0040;
 },
 {
+color = 4;
 glyphname = ampersand;
 layers = (
 {
@@ -23798,6 +24690,7 @@ rightKerningGroup = ampersand;
 unicode = 0026;
 },
 {
+color = 4;
 glyphname = paragraph;
 layers = (
 {
@@ -23888,6 +24781,7 @@ rightKerningGroup = I;
 unicode = 00B6;
 },
 {
+color = 4;
 glyphname = section;
 layers = (
 {
@@ -24125,6 +25019,7 @@ rightKerningGroup = section;
 unicode = 00A7;
 },
 {
+color = 4;
 glyphname = copyright;
 layers = (
 {
@@ -24359,6 +25254,7 @@ rightKerningGroup = O;
 unicode = 00A9;
 },
 {
+color = 4;
 glyphname = registered;
 layers = (
 {
@@ -24615,6 +25511,7 @@ rightKerningGroup = O;
 unicode = 00AE;
 },
 {
+color = 4;
 glyphname = trademark;
 layers = (
 {
@@ -24818,6 +25715,7 @@ width = 923;
 unicode = 2122;
 },
 {
+color = 4;
 glyphname = degree;
 layers = (
 {
@@ -24946,6 +25844,7 @@ rightKerningGroup = ordfeminine;
 unicode = 00B0;
 },
 {
+color = 4;
 glyphname = bar;
 layers = (
 {
@@ -25014,6 +25913,7 @@ rightKerningGroup = I;
 unicode = 007C;
 },
 {
+color = 4;
 glyphname = brokenbar;
 layers = (
 {
@@ -25099,6 +25999,7 @@ rightKerningGroup = I;
 unicode = 00A6;
 },
 {
+color = 4;
 glyphname = cent;
 layers = (
 {
@@ -25257,6 +26158,7 @@ rightKerningGroup = c;
 unicode = 00A2;
 },
 {
+color = 4;
 glyphname = currency;
 layers = (
 {
@@ -25445,6 +26347,7 @@ rightKerningGroup = currency;
 unicode = 00A4;
 },
 {
+color = 4;
 glyphname = dollar;
 layers = (
 {
@@ -25660,6 +26563,7 @@ rightKerningGroup = S;
 unicode = 0024;
 },
 {
+color = 4;
 glyphname = euro;
 layers = (
 {
@@ -25830,6 +26734,7 @@ rightKerningGroup = C;
 unicode = 20AC;
 },
 {
+color = 4;
 glyphname = sterling;
 layers = (
 {
@@ -26010,6 +26915,7 @@ rightKerningGroup = sterling;
 unicode = 00A3;
 },
 {
+color = 4;
 glyphname = yen;
 layers = (
 {
@@ -26172,6 +27078,7 @@ rightKerningGroup = Y;
 unicode = 00A5;
 },
 {
+color = 4;
 glyphname = divisionslash;
 layers = (
 {
@@ -26200,6 +27107,7 @@ rightKerningGroup = slash;
 unicode = 2215;
 },
 {
+color = 4;
 glyphname = plus;
 layers = (
 {
@@ -26294,6 +27202,7 @@ rightKerningGroup = plus;
 unicode = 002B;
 },
 {
+color = 4;
 glyphname = minus;
 layers = (
 {
@@ -26350,6 +27259,7 @@ rightKerningGroup = plus;
 unicode = 2212;
 },
 {
+color = 4;
 glyphname = multiply;
 layers = (
 {
@@ -26429,6 +27339,7 @@ rightKerningGroup = plus;
 unicode = 00D7;
 },
 {
+color = 4;
 glyphname = divide;
 layers = (
 {
@@ -26575,6 +27486,7 @@ rightKerningGroup = plus;
 unicode = 00F7;
 },
 {
+color = 4;
 glyphname = equal;
 layers = (
 {
@@ -26659,6 +27571,7 @@ rightKerningGroup = plus;
 unicode = 003D;
 },
 {
+color = 4;
 glyphname = greater;
 layers = (
 {
@@ -26728,6 +27641,7 @@ rightKerningGroup = plus;
 unicode = 003E;
 },
 {
+color = 4;
 glyphname = less;
 layers = (
 {
@@ -26797,6 +27711,7 @@ rightKerningGroup = plus;
 unicode = 003C;
 },
 {
+color = 4;
 glyphname = plusminus;
 layers = (
 {
@@ -26907,6 +27822,7 @@ rightKerningGroup = plus;
 unicode = 00B1;
 },
 {
+color = 4;
 glyphname = asciitilde;
 layers = (
 {
@@ -26997,6 +27913,7 @@ rightKerningGroup = plus;
 unicode = 007E;
 },
 {
+color = 4;
 glyphname = logicalnot;
 layers = (
 {
@@ -27067,6 +27984,7 @@ rightKerningGroup = plus;
 unicode = 00AC;
 },
 {
+color = 4;
 glyphname = asciicircum;
 layers = (
 {
@@ -27136,6 +28054,7 @@ rightKerningGroup = asterisk;
 unicode = 005E;
 },
 {
+color = 4;
 glyphname = micro;
 layers = (
 {
@@ -27284,6 +28203,7 @@ rightKerningGroup = micro;
 unicode = 00B5;
 },
 {
+color = 4;
 glyphname = percent;
 layers = (
 {
@@ -27558,60 +28478,7 @@ rightKerningGroup = percent;
 unicode = 0025;
 },
 {
-glyphname = Acute;
-layers = (
-{
-hints = (
-{
-horizontal = 1;
-place = "{741, 183}";
-type = Stem;
-}
-);
-layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
-paths = (
-{
-closed = 1;
-nodes = (
-"145 741 LINE",
-"275 924 LINE",
-"137 924 LINE",
-"50 741 LINE"
-);
-}
-);
-width = 325;
-},
-{
-hints = (
-{
-place = "{218, 180}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{741, 151}";
-type = Stem;
-}
-);
-layerId = UUID0;
-paths = (
-{
-closed = 1;
-nodes = (
-"105 741 LINE",
-"230 892 LINE",
-"132 892 LINE",
-"50 741 LINE"
-);
-}
-);
-width = 280;
-}
-);
-unicode = F6C9;
-},
-{
+color = 4;
 glyphname = dieresiscomb;
 layers = (
 {
@@ -27759,6 +28626,7 @@ width = 372;
 unicode = 0308;
 },
 {
+color = 4;
 glyphname = dotaccentcomb;
 layers = (
 {
@@ -27869,6 +28737,7 @@ width = 339;
 unicode = 0307;
 },
 {
+color = 4;
 glyphname = gravecomb;
 layers = (
 {
@@ -27954,6 +28823,7 @@ width = 294;
 unicode = 0300;
 },
 {
+color = 4;
 glyphname = acutecomb;
 layers = (
 {
@@ -28050,6 +28920,7 @@ width = 212;
 unicode = 0301;
 },
 {
+color = 4;
 glyphname = hungarumlautcomb;
 layers = (
 {
@@ -28131,6 +29002,7 @@ width = 389;
 unicode = 030B;
 },
 {
+color = 4;
 glyphname = caroncomb.alt;
 layers = (
 {
@@ -28204,6 +29076,7 @@ width = 199;
 );
 },
 {
+color = 4;
 glyphname = circumflexcomb;
 layers = (
 {
@@ -28291,6 +29164,7 @@ width = 523;
 unicode = 0302;
 },
 {
+color = 4;
 glyphname = caroncomb;
 layers = (
 {
@@ -28378,6 +29252,7 @@ width = 523;
 unicode = 030C;
 },
 {
+color = 4;
 glyphname = brevecomb;
 layers = (
 {
@@ -28482,6 +29357,7 @@ width = 526;
 unicode = 0306;
 },
 {
+color = 4;
 glyphname = ringcomb;
 layers = (
 {
@@ -28654,6 +29530,7 @@ width = 504;
 unicode = 030A;
 },
 {
+color = 4;
 glyphname = tildecomb;
 layers = (
 {
@@ -28757,6 +29634,7 @@ width = 486;
 unicode = 0303;
 },
 {
+color = 4;
 glyphname = macroncomb;
 layers = (
 {
@@ -28847,6 +29725,7 @@ width = 524;
 unicode = 0304;
 },
 {
+color = 4;
 glyphname = commaaccentcomb;
 layers = (
 {
@@ -28952,6 +29831,7 @@ width = 228;
 unicode = 0326;
 },
 {
+color = 4;
 glyphname = cedillacomb;
 layers = (
 {
@@ -29032,6 +29912,7 @@ width = 319;
 unicode = 0327;
 },
 {
+color = 4;
 glyphname = ogonekcomb;
 layers = (
 {
@@ -29070,6 +29951,7 @@ width = 324;
 unicode = 0328;
 },
 {
+color = 4;
 glyphname = dieresis;
 layers = (
 {
@@ -29183,6 +30065,7 @@ rightKerningGroup = dieresis;
 unicode = 00A8;
 },
 {
+color = 4;
 glyphname = dotaccent;
 layers = (
 {
@@ -29249,6 +30132,7 @@ width = 339;
 unicode = 02D9;
 },
 {
+color = 4;
 glyphname = grave;
 layers = (
 {
@@ -29312,6 +30196,7 @@ rightKerningGroup = grave;
 unicode = 0060;
 },
 {
+color = 4;
 glyphname = acute;
 layers = (
 {
@@ -29393,6 +30278,7 @@ rightKerningGroup = acute;
 unicode = 00B4;
 },
 {
+color = 4;
 glyphname = hungarumlaut;
 layers = (
 {
@@ -29454,6 +30340,7 @@ width = 389;
 unicode = 02DD;
 },
 {
+color = 4;
 glyphname = circumflex;
 layers = (
 {
@@ -29523,6 +30410,7 @@ rightKerningGroup = circumflex;
 unicode = 02C6;
 },
 {
+color = 4;
 glyphname = caron;
 layers = (
 {
@@ -29590,6 +30478,7 @@ width = 523;
 unicode = 02C7;
 },
 {
+color = 4;
 glyphname = breve;
 layers = (
 {
@@ -29635,6 +30524,7 @@ rightMetricsKey = "=|";
 unicode = 02D8;
 },
 {
+color = 4;
 glyphname = ring;
 layers = (
 {
@@ -29763,6 +30653,7 @@ rightKerningGroup = ring;
 unicode = 02DA;
 },
 {
+color = 4;
 glyphname = tilde;
 layers = (
 {
@@ -29844,6 +30735,7 @@ rightKerningGroup = tilde;
 unicode = 02DC;
 },
 {
+color = 4;
 glyphname = macron;
 layers = (
 {
@@ -29900,6 +30792,7 @@ rightKerningGroup = macron;
 unicode = 00AF;
 },
 {
+color = 4;
 glyphname = cedilla;
 layers = (
 {
@@ -29996,6 +30889,7 @@ rightKerningGroup = cedilla;
 unicode = 00B8;
 },
 {
+color = 4;
 glyphname = ogonek;
 layers = (
 {
@@ -30044,6 +30938,7 @@ width = 324;
 unicode = 02DB;
 },
 {
+color = 4;
 glyphname = uniEFFD;
 layers = (
 {
@@ -30118,6 +31013,62 @@ width = 498;
 unicode = EFFD;
 },
 {
+color = 4;
+glyphname = Acute;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = "{741, 183}";
+type = Stem;
+}
+);
+layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
+paths = (
+{
+closed = 1;
+nodes = (
+"145 741 LINE",
+"275 924 LINE",
+"137 924 LINE",
+"50 741 LINE"
+);
+}
+);
+width = 325;
+},
+{
+hints = (
+{
+place = "{218, 180}";
+type = Stem;
+},
+{
+horizontal = 1;
+place = "{741, 151}";
+type = Stem;
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"105 741 LINE",
+"230 892 LINE",
+"132 892 LINE",
+"50 741 LINE"
+);
+}
+);
+width = 280;
+}
+);
+unicode = F6C9;
+},
+{
+color = 4;
 glyphname = foundryicon;
 layers = (
 {
@@ -30724,6 +31675,7 @@ width = 1767;
 );
 },
 {
+color = 4;
 glyphname = noBreak;
 layers = (
 {
@@ -32392,6 +33344,9 @@ UUID0 = {
 manufacturer = "Oleg Frolov, Haley Fiege";
 manufacturerURL = "http://cyreal.org";
 unitsPerEm = 1000;
+userData = {
+GSDontShowVersionAlert = 1;
+};
 versionMajor = 1;
 versionMinor = 600;
 }

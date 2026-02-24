@@ -1,7 +1,7 @@
 {
-.appVersion = "3506";
+.appVersion = "3436";
 DisplayStrings = (
-"þ",
+"þpq",
 "IÍÎÏ/Idotaccent Ì/Imacron/Iogonek J",
 "E/Eogonek"
 );
@@ -61,7 +61,7 @@ Tag = wght;
 );
 }
 );
-date = "2025-12-16 14:43:09 +0000";
+date = "2026-02-24 17:53:51 +0000";
 designer = "Oleg Frolov, Haley Fiege";
 designerURL = "http://cyreal.org";
 familyName = Brawler;
@@ -33348,5 +33348,5 @@ userData = {
 GSDontShowVersionAlert = 1;
 };
 versionMajor = 1;
-versionMinor = 600;
+versionMinor = 601;
 }

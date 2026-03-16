@@ -1,5 +1,20 @@
 # Brawler
 
+[![][Fontspector]](https://cyrealtype.github.io/Brawler/fontspector/fontspector-report.html)
+[![][OpenType]](https://cyrealtype.github.io/Brawler/fontspector/fontspector-report.html)
+[![][Universal]](https://cyrealtype.github.io/Brawler/fontspector/fontspector-report.html)
+[![][Google Fonts]](https://cyrealtype.github.io/Brawler/fontspector/fontspector-report.html)
+[![][Glyphset]](https://cyrealtype.github.io/Brawler/fontspector/fontspector-report.html)
+[![][Download]](https://cyreal.org/fonts/brawler)
+
+[Fontspector]: https://img.shields.io/endpoint?url=https%3A%2F%2Fcyrealtype.github.io%2FBrawler%2Fbadges%2FFontspectorQA.json
+[OpenType]: https://img.shields.io/endpoint?url=https%3A%2F%2Fcyrealtype.github.io%2FBrawler%2Fbadges%2FOpentypeSpecificationChecks.json
+[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fcyrealtype.github.io%2FBrawler%2Fbadges%2FUniversalProfileChecks.json
+[Google Fonts]: https://img.shields.io/endpoint?url=https%3A%2F%2Fcyrealtype.github.io%2FBrawler%2Fbadges%2FFontFileChecks.json
+[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fcyrealtype.github.io%2FBrawler%2Fbadges%2FOutlineCorrectnessChecks.json
+[Glyphset]: https://img.shields.io/endpoint?url=https%3A%2F%2Fcyrealtype.github.io%2FBrawler%2Fbadges%2FGlyphsetChecks.json
+[Download]: https://img.shields.io/badge/Download-cyreal%2Eorg-16ccbc
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./documentation/slide1-dark.svg">
@@ -18,6 +33,14 @@ Brawler is a Unicode typeface family that supports
 languages that use the Latin script and its variants, and 
 could be expanded to support other scripts.
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./documentation/slide2-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./documentation/slide2-light.svg">
+    <img alt="Brawler open-source font by Cyreal" src="./documentation/slide2-light.svg">
+  </picture>
+</p>
+
 ## Building
 
 Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
@@ -32,7 +55,10 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Changelog
 
-In December 2013 [Haley Fiege](https://www.haleyfiege.fun/fonts/) has contributed a design of the Bold version.
+- In December 2013 [Haley Fiege](https://www.haleyfiege.fun/fonts/) has contributed a design of the Bold version.
+
+- In 2025 a variable font version was created.
+
 
 ## License
 

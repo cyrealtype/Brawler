@@ -6,6 +6,8 @@
     <source media="(prefers-color-scheme: light)" srcset="./documentation/slide1-light.svg">
     <img alt="Brawler open-source font by Cyreal" src="./documentation/slide1-light.svg">
   </picture>
+  <a href="https://cyreal.org/fonts/brawler">Website</a> |
+  <a href="https://fonts.google.com/specimen/Brawler">Google Fonts</a>
 </p>
 
 ## About 

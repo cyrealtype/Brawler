@@ -1,7 +1,8 @@
 {
 .appVersion = "3436";
 DisplayStrings = (
-"s34/rupee =\012R/euro/rupee 43\012R/euro/rupee 43\012/rupee 43\012/rupee 100\012/rupee 200\012/rupee 350\012/rupee 450\012/rupee 550\012/rupee 660\012/rupee 750\012/rupee 850\012/rupee 950\012"
+"s34/rupee =\012R/euro/rupee 43\012R/euro/rupee 43\012/rupee 43\012/rupee 100\012/rupee 200\012/rupee 350\012/rupee 450\012/rupee 550\012/rupee 660\012/rupee 750\012/rupee 850\012/rupee 950\012",
+"­"
 );
 copyright = "Copyright 2011 The Brawler Project Authors (https://github.com/cyrealtype/Brawler)";
 customParameters = (
@@ -22152,63 +22153,6 @@ unicode = 002D;
 },
 {
 color = 4;
-glyphname = softhyphen;
-layers = (
-{
-hints = (
-{
-horizontal = 1;
-place = "{234, 101}";
-type = Stem;
-}
-);
-layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
-paths = (
-{
-closed = 1;
-nodes = (
-"314 234 LINE",
-"314 335 LINE",
-"53 335 LINE",
-"53 234 LINE"
-);
-}
-);
-width = 367;
-},
-{
-hints = (
-{
-place = "{53, 261}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{234, 71}";
-type = Stem;
-}
-);
-layerId = UUID0;
-paths = (
-{
-closed = 1;
-nodes = (
-"314 234 LINE",
-"314 305 LINE",
-"53 305 LINE",
-"53 234 LINE"
-);
-}
-);
-width = 367;
-}
-);
-leftKerningGroup = softhyphen;
-rightKerningGroup = softhyphen;
-unicode = 00AD;
-},
-{
-color = 4;
 glyphname = endash;
 layers = (
 {
@@ -22377,6 +22321,64 @@ width = 767;
 leftKerningGroup = period;
 rightKerningGroup = period;
 unicode = 005F;
+},
+{
+color = 4;
+export = 0;
+glyphname = softhyphen;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = "{234, 101}";
+type = Stem;
+}
+);
+layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
+paths = (
+{
+closed = 1;
+nodes = (
+"314 234 LINE",
+"314 335 LINE",
+"53 335 LINE",
+"53 234 LINE"
+);
+}
+);
+width = 367;
+},
+{
+hints = (
+{
+place = "{53, 261}";
+type = Stem;
+},
+{
+horizontal = 1;
+place = "{234, 71}";
+type = Stem;
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"314 234 LINE",
+"314 305 LINE",
+"53 305 LINE",
+"53 234 LINE"
+);
+}
+);
+width = 367;
+}
+);
+leftKerningGroup = softhyphen;
+rightKerningGroup = softhyphen;
+unicode = 00AD;
 },
 {
 color = 4;

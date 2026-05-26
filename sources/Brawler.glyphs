@@ -1,5 +1,8 @@
 {
 .appVersion = "3436";
+DisplayStrings = (
+"s34/rupee =\012R/euro/rupee 43\012R/euro/rupee 43\012/rupee 43\012/rupee 100\012/rupee 200\012/rupee 350\012/rupee 450\012/rupee 550\012/rupee 660\012/rupee 750\012/rupee 850\012/rupee 950\012"
+);
 copyright = "Copyright 2011 The Brawler Project Authors (https://github.com/cyrealtype/Brawler)";
 customParameters = (
 {
@@ -27191,6 +27194,34 @@ color = 4;
 glyphname = euro;
 layers = (
 {
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"509 372 LINE",
+"551 447 LINE",
+"108 447 LINE",
+"66 372 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"462 232 LINE",
+"503 307 LINE",
+"68 307 LINE",
+"28 232 LINE"
+);
+}
+);
+};
+guideLines = (
+{
+angle = 90;
+position = "{52, 269}";
+}
+);
 hints = (
 {
 horizontal = 1;
@@ -27270,6 +27301,28 @@ nodes = (
 width = 725;
 },
 {
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"499 382 LINE",
+"529 437 LINE",
+"98 437 LINE",
+"68 382 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"58 297 LINE",
+"28 242 LINE",
+"452 242 LINE",
+"482 297 LINE"
+);
+}
+);
+};
 hints = (
 {
 place = "{159, 115}";
@@ -27356,6 +27409,201 @@ width = 709;
 leftKerningGroup = O;
 rightKerningGroup = C;
 unicode = 20AC;
+},
+{
+glyphname = rupee;
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"405 635 LINE",
+"447 710 LINE",
+"24 710 LINE",
+"-18 635 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"406 475 LINE",
+"447 550 LINE",
+"22 550 LINE",
+"-18 475 LINE"
+);
+}
+);
+};
+guideLines = (
+{
+angle = 90;
+position = "{50, 645}";
+},
+{
+angle = 90;
+position = "{464, 630}";
+},
+{
+angle = 90;
+position = "{434, 575}";
+},
+{
+angle = 90;
+position = "{80, 630}";
+}
+);
+hints = (
+{
+place = "{131, 100}";
+type = Stem;
+},
+{
+place = "{471, 105}";
+type = Stem;
+},
+{
+horizontal = 1;
+place = "{0, 35}";
+type = Stem;
+},
+{
+horizontal = 1;
+place = "{287, 55}";
+type = Stem;
+},
+{
+horizontal = 1;
+place = "{645, 55}";
+type = Stem;
+},
+{
+horizontal = 1;
+place = "{0, 64}";
+type = Stem;
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"435 0 LINE",
+"445 45 LINE",
+"364 61 LINE",
+"174 291 LINE",
+"269 306 OFFCURVE",
+"385 368 OFFCURVE",
+"385 502 CURVE",
+"444 502 LINE",
+"474 557 LINE",
+"380 557 LINE",
+"371 597 OFFCURVE",
+"355 624 OFFCURVE",
+"332 645 CURVE",
+"444 645 LINE",
+"474 700 LINE",
+"80 700 LINE",
+"50 645 LINE",
+"125 645 LINE SMOOTH",
+"193 645 OFFCURVE",
+"254 633 OFFCURVE",
+"274 557 CURVE",
+"80 557 LINE",
+"50 502 LINE",
+"280 502 LINE",
+"280 397 OFFCURVE",
+"190 342 OFFCURVE",
+"116 342 CURVE SMOOTH",
+"60 342 LINE",
+"60 287 LINE",
+"284 0 LINE"
+);
+}
+);
+width = 514;
+},
+{
+guideLines = (
+{
+position = "{252, 635}";
+},
+{
+angle = 90;
+position = "{40, 555}";
+}
+);
+hints = (
+{
+place = "{120, 145}";
+type = Stem;
+},
+{
+place = "{480, 155}";
+type = Stem;
+},
+{
+horizontal = 1;
+place = "{277, 80}";
+type = Stem;
+},
+{
+horizontal = 1;
+place = "{630, 80}";
+type = Stem;
+},
+{
+horizontal = 1;
+place = "{0, 21}";
+target = up;
+type = BottomGhost;
+}
+);
+layerId = "03739D6D-2A00-4CFA-A48A-FF6A1F8AF183";
+paths = (
+{
+closed = 1;
+nodes = (
+"446 0 LINE",
+"460 57 LINE",
+"401 68 LINE",
+"203 291 LINE",
+"304 317 OFFCURVE",
+"405 379 OFFCURVE",
+"417 475 CURVE",
+"464 475 LINE",
+"505 550 LINE",
+"412 550 LINE",
+"404 585 OFFCURVE",
+"388 613 OFFCURVE",
+"366 635 CURVE",
+"463 635 LINE",
+"505 710 LINE",
+"82 710 LINE",
+"40 635 LINE",
+"122 635 LINE SMOOTH",
+"196 635 OFFCURVE",
+"248 610 OFFCURVE",
+"266 550 CURVE",
+"80 550 LINE",
+"40 475 LINE",
+"272 475 LINE",
+"262 387 OFFCURVE",
+"179 357 OFFCURVE",
+"100 357 CURVE SMOOTH",
+"50 357 LINE",
+"50 277 LINE",
+"270 0 LINE"
+);
+}
+);
+width = 555;
+}
+);
+leftKerningGroup = rupee;
+rightKerningGroup = rupee;
+unicode = 20A8;
 },
 {
 color = 4;
@@ -32472,6 +32720,15 @@ UUID0 = {
 "@MMK_R_y" = 20;
 "@MMK_R_z" = 18;
 };
+"@MMK_L_rupee" = {
+"@MMK_R_eight" = -10;
+"@MMK_R_five" = -10;
+"@MMK_R_four" = -35;
+"@MMK_R_nine" = -5;
+"@MMK_R_six" = -35;
+"@MMK_R_three" = -5;
+"@MMK_R_two" = -5;
+};
 "@MMK_L_s" = {
 "@MMK_R_I" = -5;
 "@MMK_R_V" = -20;
@@ -33268,6 +33525,14 @@ percent = 0;
 "@MMK_R_v" = 29;
 "@MMK_R_y" = 20;
 "@MMK_R_z" = 18;
+};
+"@MMK_L_rupee" = {
+"@MMK_R_eight" = -40;
+"@MMK_R_five" = -5;
+"@MMK_R_four" = -50;
+"@MMK_R_nine" = -20;
+"@MMK_R_six" = -60;
+"@MMK_R_three" = -15;
 };
 "@MMK_L_s" = {
 "@MMK_R_I" = -5;

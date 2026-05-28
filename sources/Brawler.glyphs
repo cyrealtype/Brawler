@@ -56,7 +56,7 @@ Tag = wght;
 );
 }
 );
-date = "2026-02-24 17:53:51 +0000";
+date = "2026-05-28 08:12:03 +0000";
 designer = "Oleg Frolov, Haley Fiege";
 designerURL = "http://cyreal.org";
 familyName = Brawler;
@@ -36990,5 +36990,5 @@ userData = {
 GSDontShowVersionAlert = 1;
 };
 versionMajor = 1;
-versionMinor = 601;
+versionMinor = 610;
 }

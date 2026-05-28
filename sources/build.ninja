@@ -58,8 +58,8 @@ rule copy
       gftools.builder.jobrunner cp $in $out $stamp
   description = copy
 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpnphd52fx
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpnphd52fx: $
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpq9_r3pch
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpq9_r3pch: $
     buildVariable Brawler.glyphs
   operation = buildVariable
   args = --filter ...  --filter FlattenComponentsFilter --filter $
@@ -96,13 +96,13 @@ build instance_ufos/Brawler-Bold.ufo.json: instantiateUfo Brawler.glyphs
   args =  --ufo-structure=json --instance-dir instance_ufos
 # Postprocessing  with BuildSTAT
 build $
-    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpgl9xowah.buildStatstamp: $
+    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpik8l3de_.buildStatstamp: $
     buildSTAT-postprocess ../fonts/variable/Brawler[wght].ttf | $
     ../fonts/variable/Brawler[wght].ttf
   stamp =  && touch $
-      /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpgl9xowah.buildStatstamp
+      /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpik8l3de_.buildStatstamp
   postprocess = buildStat
-  args = --src /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpi610_lbp
+  args = --src /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpjt5u9hnj
 # Generating ../fonts/webfonts/Brawler[wght].woff2
 build ../fonts/webfonts/Brawler[wght].woff2: compress $
     ../fonts/variable/Brawler[wght].ttf
@@ -125,135 +125,135 @@ build ../fonts/webfonts/Brawler-Bold.woff2: compress $
   operation = compress
 # Generating ../fonts/variable/Brawler[wght].ttf
 build ../fonts/variable/Brawler[wght].ttf: fix $
-    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpnphd52fx
+    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpq9_r3pch
   operation = fix
   args = 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp45iso9_7
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp45iso9_7: $
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpt3deee_2
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpt3deee_2: $
     buildTTF instance_ufos/Brawler-Regular.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpt9tb0phk
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpt9tb0phk: $
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpm36i_pnx
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpm36i_pnx: $
     buildOTF instance_ufos/Brawler-Regular.ufo.json
   operation = buildOTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp9s10fh8f
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp9s10fh8f: $
-    autohint /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp45iso9_7
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmptu18gq5o
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmptu18gq5o: $
+    autohint /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpt3deee_2
   operation = autohint
-  args = --fail-ok 
+  args = --fail-ok  --auto-script
 # Generating ../fonts/ttf/Brawler-Regular.ttf
 build ../fonts/ttf/Brawler-Regular.ttf: fix $
-    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp9s10fh8f
+    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmptu18gq5o
   operation = fix
   args = 
 # Generating ../fonts/otf/Brawler-Regular.otf
 build ../fonts/otf/Brawler-Regular.otf: fix $
-    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpt9tb0phk
+    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpm36i_pnx
   operation = fix
   args = 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpvtv8xf6q
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpvtv8xf6q: $
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpiu90_lh5
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpiu90_lh5: $
     buildTTF instance_ufos/Brawler-Medium.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpzto12enk
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpzto12enk: $
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpb9n7m24u
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpb9n7m24u: $
     buildOTF instance_ufos/Brawler-Medium.ufo.json
   operation = buildOTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpyd4pm279
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpyd4pm279: $
-    autohint /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpvtv8xf6q
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpi4wmfau0
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpi4wmfau0: $
+    autohint /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpiu90_lh5
   operation = autohint
-  args = --fail-ok 
+  args = --fail-ok  --auto-script
 # Generating ../fonts/ttf/Brawler-Medium.ttf
 build ../fonts/ttf/Brawler-Medium.ttf: fix $
-    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpyd4pm279
+    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpi4wmfau0
   operation = fix
   args = 
 # Generating ../fonts/otf/Brawler-Medium.otf
 build ../fonts/otf/Brawler-Medium.otf: fix $
-    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpzto12enk
+    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpb9n7m24u
   operation = fix
   args = 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpvyy6ybs0
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpvyy6ybs0: $
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpgkdzp2zf
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpgkdzp2zf: $
     buildTTF instance_ufos/Brawler-SemiBold.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmprk2rbvmw
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmprk2rbvmw: $
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpj0xrquuz
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpj0xrquuz: $
     buildOTF instance_ufos/Brawler-SemiBold.ufo.json
   operation = buildOTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpizfkqegk
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpizfkqegk: $
-    autohint /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpvyy6ybs0
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp20ymt98f
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp20ymt98f: $
+    autohint /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpgkdzp2zf
   operation = autohint
-  args = --fail-ok 
+  args = --fail-ok  --auto-script
 # Generating ../fonts/ttf/Brawler-SemiBold.ttf
 build ../fonts/ttf/Brawler-SemiBold.ttf: fix $
-    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpizfkqegk
+    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp20ymt98f
   operation = fix
   args = 
 # Generating ../fonts/otf/Brawler-SemiBold.otf
 build ../fonts/otf/Brawler-SemiBold.otf: fix $
-    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmprk2rbvmw
+    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpj0xrquuz
   operation = fix
   args = 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpenix8ypb
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpenix8ypb: $
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmppp0xnprj
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmppp0xnprj: $
     buildTTF instance_ufos/Brawler-Bold.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp1mz0nmzh
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp1mz0nmzh: $
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmprc24rh0i
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmprc24rh0i: $
     buildOTF instance_ufos/Brawler-Bold.ufo.json
   operation = buildOTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp7_y0worm
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp7_y0worm: $
-    autohint /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpenix8ypb
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpr25coa2t
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpr25coa2t: $
+    autohint /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmppp0xnprj
   operation = autohint
-  args = --fail-ok 
+  args = --fail-ok  --auto-script
 # Generating ../fonts/ttf/Brawler-Bold.ttf
 build ../fonts/ttf/Brawler-Bold.ttf: fix $
-    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp7_y0worm
+    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpr25coa2t
   operation = fix
   args = 
 # Generating ../fonts/otf/Brawler-Bold.otf
 build ../fonts/otf/Brawler-Bold.otf: fix $
-    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp1mz0nmzh
+    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmprc24rh0i
   operation = fix
   args = 
 default $
-    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpgl9xowah.buildStatstamp $
+    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpik8l3de_.buildStatstamp $
     ../fonts/webfonts/Brawler[wght].woff2 $
     ../fonts/webfonts/Brawler-Regular.woff2 $
     ../fonts/webfonts/Brawler-Medium.woff2 $

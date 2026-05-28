@@ -1,5 +1,17 @@
 {
 .appVersion = "3436";
+DisplayStrings = (
+"/gstroke",
+"*",
+"a/ogonekcomb/aogonek"
+);
+classes = (
+{
+code = "acutecomb brevecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb
+";
+name = COMBINING_TOP_MARKS;
+}
+);
 copyright = "Copyright 2011 The Brawler Project Authors (https://github.com/cyrealtype/Brawler)";
 customParameters = (
 {
@@ -90,12 +102,10 @@ feature case;
 name = aalt;
 },
 {
-automatic = 1;
 code = "lookup ccmp_DFLT_1 {
-	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	lookupflag UseMarkFilteringSet @CombiningTopAccents;
-	sub i' @CombiningTopAccents by idotless;
-	sub j' @CombiningTopAccents by jdotless;
+	lookupflag UseMarkFilteringSet @COMBINING_TOP_MARKS;
+	sub [i j]' @COMBINING_TOP_MARKS by [idotless jdotless];
+	sub iogonek' @COMBINING_TOP_MARKS by idotless ogonekcomb;
 } ccmp_DFLT_1;
 
 lookup ccmp_latn_1 {
@@ -27147,11 +27157,10 @@ nodes = (
 "1264 341 OFFCURVE",
 "1311 341 CURVE",
 "1322 341 OFFCURVE",
-"1333 338 OFFCURVE",
-"1344 331 CURVE",
-"1345 334 LINE",
-"1327 123 OFFCURVE",
-"1282 70 OFFCURVE",
+"1334 337 OFFCURVE",
+"1345 330 CURVE",
+"1334 207 OFFCURVE",
+"1290 70 OFFCURVE",
 "1270 70 CURVE"
 );
 },
@@ -27412,11 +27421,10 @@ nodes = (
 "1264 341 OFFCURVE",
 "1311 341 CURVE",
 "1322 341 OFFCURVE",
-"1333 338 OFFCURVE",
-"1344 331 CURVE",
-"1345 334 LINE",
-"1327 123 OFFCURVE",
-"1282 70 OFFCURVE",
+"1334 337 OFFCURVE",
+"1345 330 CURVE",
+"1334 207 OFFCURVE",
+"1290 70 OFFCURVE",
 "1270 70 CURVE"
 );
 },
@@ -37014,5 +37022,5 @@ userData = {
 GSDontShowVersionAlert = 1;
 };
 versionMajor = 1;
-versionMinor = 611;
+versionMinor = 612;
 }
